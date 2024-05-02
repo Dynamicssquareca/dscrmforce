@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
+// import { Inter } from "next/font/google";
+// import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -14,100 +14,52 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+      <main>
+        <section className="hero">
+          <div id="hero"></div>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-8">
+                <div className="hero-content">
+                  <h1>Boost Sales & Earn Customers for life with Leading Salesforce Partner</h1>
+                  <p>Salesforce CRM: Scale Faster, Grow Better</p>
+                  <a href="" className="btn btn-prime">Request a Free Demo</a>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div>
+        </section>
+        <section className="m-mines">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="banner-pic-flot">
+                  <figure className="main-pic">
+                    <img src="/img/banner/home-main-banner.png" className="pc-cenetr" alt="home-main-banner" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-1">
+                    <img src="/img/section/float-left-1.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-2">
+                    <img src="/img/section/float-left-2.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-3">
+                    <img src="/img/section/float-left-3.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-4">
+                    <img src="/img/section/float-left-4.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-5">
+                    <img src="/img/section/float-left-5.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                  <figure className="main-pi-abso main-pic-6">
+                    <img src="/img/section/float-left-6.png" className="pc-cenetr" alt="float-left" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
