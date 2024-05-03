@@ -1,11 +1,21 @@
+import React, { useState } from 'react';
+import ServiceBox from "@/components/ServiceBox";
 import Head from "next/head";
 import Image from "next/image";
 // import { Inter } from "next/font/google";
 // import styles from "@/styles/Home.module.css";
-
+import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+
+  const [activeTab, setActiveTab] = useState('1');
+
+  const toggle = tab => {
+    if (activeTab !== tab) setActiveTab(tab);
+  };
+
+
   return (
     <>
       <Head>
@@ -60,6 +70,183 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="service">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="heading-style-one">
+                  <span>Our Services</span>
+                  <h2>Supercharge your Sales <br />and Customer Service with CRMForce Plus</h2>
+                  <p>Get reliable and extensive services to unlock the full potential of your CRM solution with a trusted Salesforce CRM Implementation Partner</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              {/* <ServiceBox jsonDataUrl="datanew/ne.json" /> */}
+              <div className="col-lg-3">
+                <div className="service-box-one">
+                  <a href="#">
+                    <div className="service-box-head">
+                      <figure>
+                        <img src="/img/icons/icons-1.png" alt="Salesforce Implementation" width={36} height={36} />
+                      </figure>
+                      <div className="service-box-title">
+                        <h3>Salesforce Implementation</h3>
+                      </div>
+                    </div>
+                    <div className="service-box-contant">
+                      <p>Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation.</p>
+                      <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="service-box-one">
+                  <a href="#">
+                    <div className="service-box-head">
+                      <figure>
+                        <img src="/img/icons/icons-2.png" alt="Salesforce Implementation" width={36} height={36} />
+                      </figure>
+                      <div className="service-box-title">
+                        <h3>Customization & Integration</h3>
+                      </div>
+                    </div>
+                    <div className="service-box-contant">
+                      <p>Configure your Salesforce system with a personalized approach to meet the unique requirements of your business. Grow and scale uniformly with ease.</p>
+                      <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="service-box-one">
+                  <a href="#">
+                    <div className="service-box-head">
+                      <figure>
+                        <img src="/img/icons/icons-3.png" alt="Salesforce Implementation" width={36} height={36} />
+                      </figure>
+                      <div className="service-box-title">
+                        <h3>Training & Support</h3>
+                      </div>
+                    </div>
+                    <div className="service-box-contant">
+                      <p>Empower your team with Salesforce experts to utilize powerful functionalities. Get your system back on track with 24x7 support for maximum growth.</p>
+                      <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                <div className="service-box-one">
+                  <a href="#">
+                    <div className="service-box-head">
+                      <figure>
+                        <img src="/img/icons/icons-4.png" alt="Salesforce Implementation" width={36} height={36} />
+                      </figure>
+                      <div className="service-box-title">
+                        <h3>Salesforce Optimization</h3>
+                      </div>
+                    </div>
+                    <div className="service-box-contant">
+                      <p>Optimize and enhance Salesforce performance to meet business requirements based on changing demands with the reliable Salesforce consulting partner.</p>
+                      <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+         <div className='container'>
+         <div className='row'>
+            <div className='col-lg-12'>
+            <div className='service-tab-style-one'>
+            <Nav tabs>
+              <NavItem>
+                <NavLink
+                  className={activeTab === '1' ? 'active' : ''}
+                  onClick={() => { toggle('1'); }}
+                >
+                  Sales Cloud
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className={activeTab === '2' ? 'active' : ''}
+                  onClick={() => { toggle('2'); }}
+                >
+                 Service Cloud
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className={activeTab === '3' ? 'active' : ''}
+                  onClick={() => { toggle('3'); }}
+                >
+                  Marketing Cloud
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className={activeTab === '4' ? 'active' : ''}
+                  onClick={() => { toggle('4'); }}
+                >
+                  Commerce Cloud
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  className={activeTab === '5' ? 'active' : ''}
+                  onClick={() => { toggle('5'); }}
+                >
+                  View all Product
+                </NavLink>
+              </NavItem>
+            </Nav>
+            <TabContent activeTab={activeTab}>
+              <TabPane tabId="1">
+                <div className='row'>
+                  <div className='col-lg-6'>
+                      <div>
+                        <span>Sales Cloud</span>
+                        <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
+                        <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                      </div>
+                  </div>
+                  <div className='col-lg-6'>
+                    <div>
+                      <div>
+                        <p><i class="bi bi-check-lg"></i> <span>Focus on potential leads to close more deals.</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </TabPane>
+              <TabPane tabId="2">
+                Tab 2 Content
+              </TabPane>
+              <TabPane tabId="3">
+                Tab 3 Content
+              </TabPane>
+              <TabPane tabId="4">
+                Tab 4 Content
+              </TabPane>
+              <TabPane tabId="5">
+                Tab 5 Content
+              </TabPane>
+            </TabContent>
+          </div>
+            </div>
+          </div>
+         </div>
+        </section>
+
+
       </main>
     </>
   );

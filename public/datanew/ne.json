@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "title": "Salesforce Implementation",
+      "description": "Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation.",
+      "icon": "/img/icons/icons-1.png",
+      "link": "https://example.com/salesforce"
+    },
+    {
+      "id": 2,
+      "title": "Another Service",
+      "description": "Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation.",
+      "icon": "/img/icons/icons-2.png",
+      "link": "https://example.com/salesforce"
+    },
+    {
+      "id": 3,
+      "title": "Another Servicesss",
+      "description": "Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation.",
+      "icon": "/img/icons/icons-2.png",
+      "link": "https://example.com/salesforce"
+    }
+
+  ]
+  
