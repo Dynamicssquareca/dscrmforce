@@ -1,8 +1,10 @@
 import React from 'react';
+import FooterContactForm from './FooterContactForm';
 
 const Footer = () => {
     return (
         <>
+        <FooterContactForm />
             <footer id="footer" className="footer">
                 <div className='footer-top'>
                     <div className='container'>

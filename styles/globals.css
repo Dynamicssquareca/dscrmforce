@@ -171,6 +171,10 @@ img{
 section{
   padding:60px 0px
 }
+p{
+  font-size: 16px;
+  color: var(--accsend);
+}
 
 
 /*button css*/
@@ -434,6 +438,31 @@ to {
   background-color:var(--color-white)
 }
 
+.box-icon-box{
+  padding: 15px 15px 15px 20px;
+  position: relative;
+}
+.box-icon-box::before{
+  content: "";
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 90px;
+    bottom: 35px;
+    background-color: var(--primary);
+}
+.box-icon-box img{
+  margin-bottom: 20px;
+}
+.box-icon-box h3{
+  font-size: 18px;
+  font-weight: bold;
+  color:var(--secondary)
+}
+.box-icon-box p{
+
+}
+
 
 /*tabs design*/
 .service-tab-style-one{
@@ -633,6 +662,35 @@ color:var(--primary)
 }
 .cloud-images-2 img{}
 
+/*from section design*/
+.form-group {
+  margin-bottom: 1rem;
+}
+.bottom-form{}
+.bottom-form>.row{
+  background-color: var(--bg-grey);
+    border-radius: 8px;
+    padding: 80px 40px;
+    position:relative
+}
+.bottom-form .form-left span{
+  font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 15px;
+    display: block;
+}
+.bottom-form .form-left h3{
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 30px;
+}
+.bottom-form .form-left .cont-info{}
+.bottom-form .form-left .cont-info a{
+  display: block;
+    margin-bottom: 10px;
+}
 
 /*react video model css*/
 @keyframes modal-video {
