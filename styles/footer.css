@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 .footer {
     /* background: #f6f9ff; */
-    padding: 0 0 30px 0;
+    padding: 0 0 0px 0;
     font-size: 14px;
   }
   
@@ -62,7 +62,7 @@
     background-size: contain;
     border-top: 1px solid #e1ecff; */
     background-color:var(--secondary);
-    border-bottom: 1px solid #e1ecff;
+    /* border-bottom: 1px solid #e1ecff; */
     padding: 60px 0 30px 0;
   }
   
