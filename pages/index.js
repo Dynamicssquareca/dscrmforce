@@ -161,10 +161,19 @@ export default function Home() {
         </section>
 
 
-        <section>
+        <section className='bg-grey'>
          <div className='container'>
-         <div className='row'>
-            <div className='col-lg-12'>
+         <div className="row justify-content-center">
+              <div className="col-lg-9">
+                <div className="heading-style-one">
+                  <span>Featured Products</span>
+                  <h2>Dive into the Powerful Salesforce Ecosystem:<br /> Solutions for All Business Needs</h2>
+                  <p>Explore different solutions to choose the perfect one <br /> that drives tangible results</p>
+                </div>
+              </div>
+            </div>
+         <div className='row justify-content-center'>
+            <div className='col-lg-10'>
             <div className='service-tab-style-one'>
             <Nav tabs>
               <NavItem>
@@ -210,40 +219,174 @@ export default function Home() {
             </Nav>
             <TabContent activeTab={activeTab}>
               <TabPane tabId="1">
-                <div className='row'>
-                  <div className='col-lg-6'>
-                      <div>
+                <div className='row tabs-design-one'>
+                  <div className='col-lg-6 align-self-center'>
+                      <div className='tabs-design-one-left'>
                         <span>Sales Cloud</span>
                         <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
                         <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
                       </div>
                   </div>
                   <div className='col-lg-6'>
-                    <div>
-                      <div>
-                        <p><i class="bi bi-check-lg"></i> <span>Focus on potential leads to close more deals.</span></p>
+                    <div className='tabs-design-one-right'>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Focus on potential leads to close more deals</p>
                       </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Gain a 360-degree view of customer activity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Boost collaboration and team productivity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Simplify sales pipeline and forecast sales</p>
+                      </div>
+                      <a href ="/" className='btn btn-full btn-prime'>Get Started</a>
                     </div>
                   </div>
                 </div>
               </TabPane>
               <TabPane tabId="2">
-                Tab 2 Content
+              <div className='row tabs-design-one'>
+                  <div className='col-lg-6 align-self-center'>
+                      <div className='tabs-design-one-left'>
+                        <span>Sales Cloud</span>
+                        <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
+                        <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                      </div>
+                  </div>
+                  <div className='col-lg-6'>
+                    <div className='tabs-design-one-right'>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Focus on potential leads to close more deals</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Gain a 360-degree view of customer activity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Boost collaboration and team productivity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Simplify sales pipeline and forecast sales</p>
+                      </div>
+                      <a href ="/" className='btn btn-full btn-prime'>Get Started</a>
+                    </div>
+                  </div>
+                </div>
               </TabPane>
               <TabPane tabId="3">
-                Tab 3 Content
+              <div className='row tabs-design-one'>
+                  <div className='col-lg-6 align-self-center'>
+                      <div className='tabs-design-one-left'>
+                        <span>Sales Cloud</span>
+                        <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
+                        <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                      </div>
+                  </div>
+                  <div className='col-lg-6'>
+                    <div className='tabs-design-one-right'>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Focus on potential leads to close more deals</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Gain a 360-degree view of customer activity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Boost collaboration and team productivity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Simplify sales pipeline and forecast sales</p>
+                      </div>
+                      <a href ="/" className='btn btn-full btn-prime'>Get Started</a>
+                    </div>
+                  </div>
+                </div>
               </TabPane>
               <TabPane tabId="4">
-                Tab 4 Content
+              <div className='row tabs-design-one'>
+                  <div className='col-lg-6 align-self-center'>
+                      <div className='tabs-design-one-left'>
+                        <span>Sales Cloud</span>
+                        <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
+                        <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                      </div>
+                  </div>
+                  <div className='col-lg-6'>
+                    <div className='tabs-design-one-right'>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Focus on potential leads to close more deals</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Gain a 360-degree view of customer activity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Boost collaboration and team productivity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Simplify sales pipeline and forecast sales</p>
+                      </div>
+                      <a href ="/" className='btn btn-full btn-prime'>Get Started</a>
+                    </div>
+                  </div>
+                </div>
               </TabPane>
               <TabPane tabId="5">
-                Tab 5 Content
+              <div className='row tabs-design-one'>
+                  <div className='col-lg-6 align-self-center'>
+                      <div className='tabs-design-one-left'>
+                        <span>Sales Cloud</span>
+                        <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
+                        <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                      </div>
+                  </div>
+                  <div className='col-lg-6'>
+                    <div className='tabs-design-one-right'>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Focus on potential leads to close more deals</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Gain a 360-degree view of customer activity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Boost collaboration and team productivity</p>
+                      </div>
+                      <div className='tabs-design-one-list'>
+                        <i class="bi bi-check-lg"></i> 
+                        <p>Simplify sales pipeline and forecast sales</p>
+                      </div>
+                      <a href ="/" className='btn btn-full btn-prime'>Get Started</a>
+                    </div>
+                  </div>
+                </div>
               </TabPane>
             </TabContent>
           </div>
             </div>
           </div>
          </div>
+        </section>
+
+        <section>
+          
         </section>
 
 
