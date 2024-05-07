@@ -380,7 +380,8 @@ background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(221,237,24
 background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(221,237,243,1) 47%);
 background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(221,237,243,1) 47%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ddedf3",GradientType=1);
-padding: 100px 0px;
+padding: 120px 0px;
+overflow:hidden
 }
 .hero-ui-one{
   text-align: center;
