@@ -571,6 +571,9 @@ color:var(--primary)
 .colo-design-one{
 
 }
+.colo-design-one .colo-design-left{
+  padding-right:30px
+}
 .colo-design-one .colo-design-left span{
   font-size: 14px;
   color: #acdcef;
@@ -586,13 +589,13 @@ color:var(--primary)
     margin-bottom: 16px;
 }
 .colo-design-one .colo-design-left h4{
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   color: var(--bg-grey);
   margin-bottom: 30px;
 }
 .colo-design-one .colo-design-left p{
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--bg-grey);
 }
@@ -686,10 +689,59 @@ color:var(--primary)
   color: var(--secondary);
   margin-bottom: 30px;
 }
-.bottom-form .form-left .cont-info{}
+.bottom-form .form-left .cont-info a:nth-child(1){
+  font-weight: 600;
+}
 .bottom-form .form-left .cont-info a{
   display: block;
     margin-bottom: 10px;
+}
+
+.form-one{}
+.form-one .form-control{
+  height:50px;
+  border: transparent;
+}
+.form-one textarea.form-control{
+  height:auto !important
+}
+.form-one .form-control:focus{
+
+  border-color: #20a9e4;
+  outlbox-shadow: 0 0 0 1px rgb(0 161 228);ine: 0;
+
+}
+.form-one .form-group{
+  position:relative
+}
+.form-one .form-group label {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  font-size:15px;
+  transform: translateY(-50%);
+  color:var(--secondary); 
+  transition: all 0.3s ease-in-out;
+  pointer-events: none; /* Disable pointer events on the label */
+}
+.form-one .form-group input:focus + label,
+.form-one .form-group input:not(:placeholder-shown) + label,
+.form-one .form-group textarea:focus + label,
+.form-one .form-group textarea:not(:placeholder-shown) + label,
+.form-one .form-group .form-select:focus + label,
+.form-one .form-group .form-select:not(:placeholder-shown) + label,
+.form-one .form-group input:focus ~ label,
+.form-one .form-group input:not(:placeholder-shown) ~ label,
+.form-one .form-group textarea:focus ~ label,
+.form-one .form-group textarea:not(:placeholder-shown) ~ label,
+.form-one .form-group .form-select:focus ~ label,
+.form-one .form-group .form-select:not(:placeholder-shown) ~ label {
+  top: 0;
+  font-size: 12px;
+  color: Var(--primary);
+  background: #fff;
+  padding: 0px 5px;
+  font-weight: 600;
 }
 
 /*react video model css*/

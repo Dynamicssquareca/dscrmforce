@@ -10,8 +10,8 @@ const FooterContactForm = () => {
                         <span>Contact Us</span>
                         <h3>Get in touch with our team to discuss your CRM needs</h3>
                         <div className="cont-info">
-                            <a href="">T:  9876 543 210</a>
-                            <a href="">E: info@crmforceplus.com</a>
+                            <a href="tel:9876543210"><b>T:</b> 9876 543 210</a>
+                            <a href="mailto:info@crmforceplus.com"><b>E:</b> info@crmforceplus.com</a>
                         </div>
                     </div>
                 </div>
