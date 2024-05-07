@@ -3,7 +3,6 @@ import "bootstrap-icons/font/bootstrap-icons.min.css"
 import "@/styles/globals.css";
 import "@/styles/header.css"
 import "@/styles/footer.css"
-import { GoogleAnalytics } from '@next/third-parties/google';
 import Layout from '@/components/Layout'; // Import your custom layout component
 import Head from "next/head";
 
@@ -24,7 +23,6 @@ function MyAppWithLayout({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-      <GoogleAnalytics gaId="GTM-T5X2P3X" />
       </>
     );
   }
