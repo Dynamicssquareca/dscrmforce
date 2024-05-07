@@ -3,24 +3,28 @@ import "bootstrap-icons/font/bootstrap-icons.min.css"
 import "@/styles/globals.css";
 import "@/styles/header.css"
 import "@/styles/footer.css"
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google';
+import Layout from '@/components/Layout'; // Import your custom layout component
+import Head from "next/head";
 
 // export default function App({ Component, pageProps }) {
 //   return <Component {...pageProps} />;
 // }
 
 
-function MyApp({ Component, pageProps }) {
+function MyAppWithLayout({ Component, pageProps }) {
  
 
  {
     return (
       <>
-        <Header />
+     <Head>
+   
+     </Head>
+      <Layout>
         <Component {...pageProps} />
-        <Footer />
-       
+      </Layout>
+      <GoogleAnalytics gaId="GTM-T5X2P3X" />
       </>
     );
   }
@@ -28,4 +32,4 @@ function MyApp({ Component, pageProps }) {
 
 }
 
-export default MyApp;
+export default MyAppWithLayout;
