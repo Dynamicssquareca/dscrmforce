@@ -4,13 +4,13 @@ const Form = () => {
     return (
         <form>
             <div className="form-group">
-                <input type="text" class="form-control" placeholder="Name" />
+                <input type="text" className="form-control" placeholder="Name" />
             </div>
             <div className="form-group">
-                <input type="email" class="form-control" placeholder="Company Email" />
+                <input type="email" className="form-control" placeholder="Company Email" />
             </div>
             <div className="form-group">
-                <input type="text" class="form-control" placeholder="Contact Number" />
+                <input type="text" className="form-control" placeholder="Contact Number" />
             </div>
             <div className="form-group">
             <textarea className="form-control" placeholder="Message"  rows="3"></textarea>

@@ -45,7 +45,7 @@ export default function Home() {
               <div className="col-lg-9">
                 <div className="banner-pic-flot">
                   <figure className="main-pic">
-                    <img src="/img/banner/home-main-banner.png" className="pc-cenetr" alt="home-main-banner" />
+                    <Image src="/img/banner/home-main-banner.png" className="pc-cenetr" alt="home-main-banner" width={995} height={522} priority />
                   </figure>
                   <figure className="main-pi-abso main-pic-1">
                     <img src="/img/section/float-left-1.png" className="pc-cenetr" alt="float-left" />
@@ -230,19 +230,19 @@ export default function Home() {
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Focus on potential leads to close more deals</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Gain a 360-degree view of customer activity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Boost collaboration and team productivity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Simplify sales pipeline and forecast sales</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
@@ -262,19 +262,19 @@ export default function Home() {
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Focus on potential leads to close more deals</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Gain a 360-degree view of customer activity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Boost collaboration and team productivity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Simplify sales pipeline and forecast sales</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
@@ -294,19 +294,19 @@ export default function Home() {
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Focus on potential leads to close more deals</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Gain a 360-degree view of customer activity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Boost collaboration and team productivity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Simplify sales pipeline and forecast sales</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
@@ -326,19 +326,19 @@ export default function Home() {
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Focus on potential leads to close more deals</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Gain a 360-degree view of customer activity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Boost collaboration and team productivity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Simplify sales pipeline and forecast sales</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
@@ -358,19 +358,19 @@ export default function Home() {
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Focus on potential leads to close more deals</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Gain a 360-degree view of customer activity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Boost collaboration and team productivity</p>
                             </div>
                             <div className='tabs-design-one-list'>
-                              <i class="bi bi-check-lg"></i>
+                              <i className="bi bi-check-lg"></i>
                               <p>Simplify sales pipeline and forecast sales</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
@@ -672,23 +672,23 @@ export default function Home() {
             </div>
             
             <div
-              class="row box-icon-box-wraper"
+              className="row box-icon-box-wraper"
             >
-              <div class="col-lg-4">
+              <div className="col-lg-4">
                 <div className='box-icon-box'>
                   <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
                   <h3>Seamless Implementation</h3>
                   <p>Our experts ensure a successful and efficient Salesforce implementation to help you achieve more ROI with existing resources.</p>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div className="col-lg-4">
                 <div className='box-icon-box'>
                   <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
                   <h3>Proven Expertise</h3>
                   <p>With a proven track record, our certified Salesforce experts are utilizing their expertise to optimize and maximize CRM ROI.</p>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div className="col-lg-4">
                 <div className='box-icon-box'>
                   <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
                   <h3>Tailored Approach</h3>
