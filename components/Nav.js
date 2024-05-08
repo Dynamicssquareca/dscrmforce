@@ -1,17 +1,24 @@
 import React from 'react';
 
 const Nav = () => {
-    return (
-        <>
-            <nav id="navbar" className="navbar">
-                <ul>
-                    <li><a className="nav-link scrollto active" href="/">Services</a></li>
-                    <li><a className="nav-link scrollto" href="/">Solutions</a></li>
-                    <li><a className="nav-link scrollto" href="/">Industries</a></li>
-                    <li><a className="nav-link scrollto" href="/">Company</a></li>
-                    <li><a className="nav-link scrollto" href="/">Resources</a></li>
-                    <li><a className="nav-link scrollto" href="/">Contact</a></li>
-                    {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
+  return (
+    <>
+      <nav id="navbar" className="navbar">
+        <ul>
+          <li><a className="nav-link scrollto active" href="/">Services</a></li>
+          <li><a className="nav-link scrollto" href="/">Solutions</a></li>
+          <li><a className="nav-link scrollto" href="/">Industries</a></li>
+          <li><a className="nav-link scrollto" href="/">Company</a></li>
+          <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/about-us/">About Us</a></li>
+              <a href="/why-us/">Why Us</a>
+              <a href="/partner/">Partners</a>
+              <a href="/career/">Careers</a>
+            </ul>
+          </li>
+          <li><a className="nav-link scrollto" href="/contact-us/">Contact</a></li>
+          {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
@@ -54,13 +61,13 @@ const Nav = () => {
             </ul>
           </li> */}
 
-                    <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>
-                    <li><a className="getstarted scrollto" href="/">Get Started</a></li>
-                </ul>
-                <i className="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-        </>
-    );
+          <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>
+          <li><a className="getstarted scrollto" href="/">Get Started</a></li>
+        </ul>
+        <i className="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </>
+  );
 }
 
 export default Nav;
