@@ -173,7 +173,7 @@ section{
 }
 p{
   font-size: 16px;
-  color: var(--accsend);
+  color: var(--secnadry);
 }
 
 
@@ -192,7 +192,21 @@ p{
 }
 
 
-
+/*custom padding and margin*/
+.pd-r-30{
+  padding-right: 30px;
+}
+.pd-l-r-80{
+  padding: 0px 60px;
+}
+.m-top-m-180{
+  margin-top: -180px;
+}
+.bg-center-two{
+  margin-top: -200px;
+  z-index:-1;
+  position: relative;
+}
 
 /*Hero section css*/
 .hero{
@@ -318,11 +332,39 @@ to {
 }
 
 
-/*bg coloor*/
+/*bg color*/
 .bg-grey{
   background-color:var(--bg-grey);
 }
-
+.bg-50{
+  /* position:relative */
+}
+.bg-50::before{
+  /* content: "";
+    position: absolute;
+    background-color: var(--bg-grey);
+    width: 45%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1; */
+}
+.first-column {
+  background-color: var(--bg-grey); /* Set the background color for the first column */
+  position: relative;
+  padding-top: 60px;
+    border-bottom: 80px;
+}
+.first-column::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%; /* Position the pseudo-element at 50% of the screen width */
+  width: 100vw; /* Set the width of the pseudo-element to cover the entire viewport width */
+  background-color: inherit; /* Inherit the background color of the first column */
+  z-index: -1; /* Move the pseudo-element behind the content of the first column */
+}
 /*service heading design*/
 .heading-style-one{
   text-align: center;
@@ -357,19 +399,20 @@ to {
     color: var(--primary);
     letter-spacing: -0.28px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight:500
 }
 .heading-style-two h2{
   font-size: 32px;
     font-weight: 600;
     color: var(--secondary);
-    margin-bottom: 16px;
+    margin-bottom: 19px;
 }
 .heading-style-two p{
-  color:var(--accsend);
+  color: var(--secondary);
   font-size: 16px;
   line-height: 1.5;
+ 
 }
 
 /*hero section*/
@@ -396,7 +439,11 @@ overflow:hidden
   right:0;
   bottom:0
 }
-.hero-ui-one h1{}
+.hero-ui-one h1{
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--secondary);
+}
 .hero-ui-one p{}
 
 /*box design*/
@@ -486,10 +533,74 @@ overflow:hidden
   color:var(--secondary)
 }
 .box-icon-box p{
-
 }
 
+.service-box-two{}
+.service-box-two .service-box-two-inner{
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(41deg, rgba(255,255,255,1) 0%, rgba(221,237,243,1) 50%);
+background: -webkit-linear-gradient(41deg, rgba(255,255,255,1) 0%, rgba(221,237,243,1) 50%);
+background: linear-gradient(41deg, rgba(255,255,255,1) 0%, rgba(221,237,243,1) 50%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ddedf3",GradientType=1);
+padding: 15px;
+}
+.service-box-two .service-box-two-inner div:first-child{
+  text-align:right
+}
+.service-box-two .service-box-two-inner img{}
+.service-box-two  .box-content{
+  padding: 20px 15px;
+    height: 290px;
+}
+.service-box-two .service-box-two-inner .box-content span{
+  display:block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:10px
+}
+.service-box-two .service-box-two-inner .box-content p{}
 
+.user-box-card{
+  position:relative
+}
+.user-box-card .user-box-card-info{
+  background: #ffffff;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
+-moz-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
+box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
+border: 1px solid rgb(0 161 224 / 62%);
+border-radius:8px
+}
+.user-box-card .user-box-card-info img{
+  width:64px;
+  height:64px;
+  margin-bottom: 15px;
+}
+.m-t-20{
+  margin-top: -60px;
+}
+.user-box-card .user-box-card-info .user-card-in{}
+.user-box-card .user-box-card-info .user-card-in p{
+  font-size: 14px;
+  font-weight: 600;
+  color:var(--primary);
+  margin-bottom: 4px;
+}
+.user-box-card .user-box-card-info .user-card-in span{
+  display:block;
+  font-size: 13px;
+  color:var(--secondary)
+}
+.center-image{
+  right: -83px;
+  position: absolute;
+  z-index: 1;
+  top: 163px;
+  width: 144px;
+}
 /*tabs design*/
 .service-tab-style-one{
   z-index: 2;
@@ -769,6 +880,15 @@ color:var(--primary)
   padding: 0px 5px;
   font-weight: 600;
 }
+/*exatrasection*/
+.img-about-bg{
+  Position: relative;
+  Position: relative;
+  margin-top: -130px;
+  z-index: -1;
+}
+.img-about-bg .pic-top-left{}
+
 
 /*react video model css*/
 @keyframes modal-video {
@@ -907,3 +1027,5 @@ color:var(--primary)
   border-radius: 5px;
   margin-top: -6px;
 }
+
+

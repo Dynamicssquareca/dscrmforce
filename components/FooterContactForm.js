@@ -1,7 +1,22 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Form from './Form';
 
+
+
 const FooterContactForm = () => {
+const router = useRouter();
+
+ // Define the pathname of the page where you want to hide the component
+ const hiddenPagePaths = ['/about-us'];
+
+ const shouldHideComponent = hiddenPagePaths.includes(router.pathname);
+  // Conditionally render the component based on whether it should be hidden
+  if (shouldHideComponent) {
+    // Return null to hide the component
+    return null;
+  }
+
     return (
         <div className='container bottom-form'>
             <div className='row'>
