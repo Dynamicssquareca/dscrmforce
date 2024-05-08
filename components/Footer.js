@@ -35,11 +35,11 @@ const Footer = () => {
                             <div className="col-lg-2 col-6 footer-links">
                                 <h4>Business Apps</h4>
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Solutions</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Industries</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Company</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Resources</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-12 footer-contact text-center text-md-start">
