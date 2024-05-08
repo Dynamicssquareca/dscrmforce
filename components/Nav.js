@@ -17,7 +17,7 @@ const Nav = () => {
               <a href="/career/">Careers</a>
             </ul>
           </li>
-          <li><a className="nav-link scrollto" href="/contact-us/">Contact</a></li>
+          <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
           {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
