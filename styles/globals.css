@@ -444,6 +444,7 @@ overflow:hidden
   font-size: 48px;
   font-weight: 600;
   color: var(--secondary);
+  margin-bottom: 30px;
 }
 .hero-ui-one p{}
 

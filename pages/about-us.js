@@ -16,7 +16,7 @@ const AboutUs = () => {
                                     <img src="/img/icons/cloud-hero-big.png" alt="cloud-hero-big" />
                                 </div>
                                 <h1>Empowering Businesses Through Innovative CRM Solutions</h1>
-                                <p>Welcome to CRMForcePlus, your trusted partner for Salesforce CRM solutions. Discover how we empower businesses to thrive in the digital age</p>
+                                <p>Welcome to CRMForcePlus, your trusted partner for Salesforce CRM solutions.<br/> Discover how we empower businesses to thrive in the digital age</p>
                                 <div className="absolut-img-two">
                                     <img src="/img/icons/cloud-hero-small.png" alt="cloud-hero-small" />
                                 </div>
