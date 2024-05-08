@@ -206,6 +206,7 @@ p{
   margin-top: -280px;
   z-index:-1;
   position: relative;
+  text-align:center
 }
 
 /*Hero section css*/
@@ -883,9 +884,9 @@ color:var(--primary)
 /*exatrasection*/
 .img-about-bg{
   Position: relative;
-  Position: relative;
   margin-top: -130px;
   z-index: -1;
+  text-align: center;
 }
 .img-about-bg .pic-top-left{}
 
