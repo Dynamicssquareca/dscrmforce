@@ -988,6 +988,16 @@ color:var(--primary)
 .form-subscribe .btn-outline-secondary:hover .bi{
   color:var(--color-white)
 }
+
+.model-form{
+
+}
+.model-form .modal-body{
+  padding:40px 40px
+}
+.model-form .modal-body form .form-control{
+  background-color:#f1f8fa
+}
 /*exatrasection*/
 .img-about-bg{
   Position: relative;

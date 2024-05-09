@@ -5,6 +5,7 @@ import Image from "next/image";
 // import { Inter } from "next/font/google";
 // import styles from "@/styles/Home.module.css";
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
+import ModelBox from '@/components/ModelBox';
 // const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -32,12 +33,15 @@ export default function Home() {
                 <div className="hero-content">
                   <h1>Boost Sales & Earn Customers for life with Leading Salesforce Partner</h1>
                   <p>Salesforce CRM: Scale Faster, Grow Better</p>
-                  <a href="" className="btn btn-prime">Request a Free Demo</a>
+                   <ModelBox />
+                   {/* <a href="" className="btn btn-prime">Request a Free Demo</a> */}
                 </div>
               </div>
             </div>
           </div>
         </section>
+      
+    
         <section className="m-mines">
           <div className="container">
             <div className="row justify-content-center">
