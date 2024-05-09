@@ -12,14 +12,18 @@ const Form = () => {
                 <label htmlFor="name">Company Email</label>
             </div>
             <div className="form-group">
-                <input type="text" className="form-control" name="Contact Number" placeholder="" />
-                <label htmlFor="name">Contact Number</label>
+                <input type="text" className="form-control" name="Phone Number" placeholder="" />
+                <label htmlFor="name">Phone Number</label>
+            </div>
+            <div className="form-group">
+                <input type="text" className="form-control" name="Company Name" placeholder="" />
+                <label htmlFor="name">Company Name</label>
             </div>
             <div className="form-group mb-4">
             <textarea className="form-control" name="message" placeholder=""  rows="3"></textarea>
             <label htmlFor="name">Message</label>
             </div>
-            <div className="mb-4 form-check">
+            <div className="mb-5 form-check">
                 <input
                   type="checkbox"
                   checked

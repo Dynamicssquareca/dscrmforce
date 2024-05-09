@@ -1,5 +1,6 @@
 import React from 'react';
 import FooterContactForm from './FooterContactForm';
+import FormSubscribe from './FormSubscribe';
 
 const Footer = () => {
     return (
@@ -43,26 +44,17 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-12 footer-contact text-center text-md-start">
-                                <h4>Contact Us</h4>
-                                <p>
-                                    A108 Adam Street <br />
-                                    New York, NY 535022<br />
-                                    United States <br /><br />
-                                    <strong>Phone:</strong> +1 5589 55488 55<br />
-                                    <strong>Email:</strong> info@example.com<br />
-                                </p>
+                                <h4>Subscribe our Newsletter</h4>
+                                <FormSubscribe />
                             </div>
 
                         </div>
                     </div>
-                    <div className="container">
-                        <div className="copyright">
-                            &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
-                        </div>
-                        <div className="credits">
-
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
+                   
+                </div>
+                <div className='bottom-footer'>
+                <div className="container">
+                        <div className="copyright">© Copyright 2024 crmforceplus, Inc. All rights reserved. Various trademarks held by their respective owners.</div>
                     </div>
                 </div>
             </footer>
