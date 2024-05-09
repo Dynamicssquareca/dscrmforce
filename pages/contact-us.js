@@ -41,28 +41,28 @@ const ContactUs = () => {
                     <div className='row'>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
-                                <img src="/img/icons/mission-icon.png" alt="mission-icon" width={64} height={64} />
+                                <img src="/img/icons/Group-1.png" alt="Tailored Solutions" width={64} height={64} />
                                 <h3>Tailored Solutions</h3>
                                 <p>Customized offerings to meet your unique needs.</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
-                                <img src="/img/icons/mission-icon.png" alt="mission-icon" width={64} height={64} />
+                                <img src="/img/icons/Group-2.png" alt="Exceptional Support" width={64} height={64} />
                                 <h3>Exceptional Support</h3>
                                 <p>Dedicated customer support team ready to assist you.</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
-                                <img src="/img/icons/mission-icon.png" alt="mission-icon" width={64} height={64} />
+                                <img src="/img/icons/Group-3.png" alt="Proven Results" width={64} height={64} />
                                 <h3>Proven Results</h3>
                                 <p>Thousands of satisfied users trust our reliable solutions</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
-                                <img src="/img/icons/mission-icon.png" alt="mission-icon" width={64} height={64} />
+                                <img src="/img/icons/Group-4.png" alt="Expertise and Innovation" width={64} height={64} />
                                 <h3>Expertise and Innovation</h3>
                                 <p>Experience excellence with our innovative approach</p>
                             </div>

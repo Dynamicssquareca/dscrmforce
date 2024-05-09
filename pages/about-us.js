@@ -188,7 +188,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section>
+            <section style={{paddingBottom:"0px"}}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
