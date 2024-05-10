@@ -21,6 +21,7 @@ function MyAppWithLayout({ Component, pageProps }) {
    
      </Head>
       <Layout>
+        
         <Component {...pageProps} />
       </Layout>
       </>

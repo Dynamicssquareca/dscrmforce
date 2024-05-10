@@ -876,8 +876,12 @@ color:var(--primary)
 .bottom-form .form-left .cont-info a{
   display: block;
     margin-bottom: 10px;
+    font-weight:600;
+    color: var(--secondary);
 }
-
+.bottom-form .form-left .cont-info a:hover{
+  color: var(--primary-hover);
+}
 .form-one{}
 .form-one .form-control{
   height:50px;

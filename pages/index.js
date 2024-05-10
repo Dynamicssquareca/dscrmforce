@@ -81,7 +81,7 @@ export default function Home() {
                 <div className="heading-style-one">
                   <span>Our Services</span>
                   <h2>Supercharge your Sales <br />and Customer Service with CRMForce Plus</h2>
-                  <p>Get reliable and extensive services to unlock the full potential of your CRM solution with a trusted Salesforce CRM Implementation Partner</p>
+                  <p>Get comprehensive and reliable services to get your Salesforce up and running. </p>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="service-box-contant">
-                      <p>Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation.</p>
+                      <p>Join hands with the leading Salesforce implementation partner for a successful and tailored implementation to experience a never-before transformation</p>
                       <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
                     </div>
                   </a>
@@ -212,11 +212,8 @@ export default function Home() {
                       </NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink
-                        className={activeTab === '5' ? 'active' : ''}
-                        onClick={() => { toggle('5'); }}
-                      >
-                        View all Product
+                      <NavLink href='/contact-us/'>
+                        View all Products
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -258,27 +255,27 @@ export default function Home() {
                         <div className='col-lg-6 align-self-center'>
                           <div className='tabs-design-one-left'>
                             <span>Service Cloud</span>
-                            <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
-                            <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                            <h3>Make your First-contact Perfect with the Customer </h3>
+                            <p>Turn each interaction with the business into a positive response while delivering exceptional levels of customer satisfaction with Service Cloud. Empower team with omnichannel support to build loyalty and lasting relationships. </p>
                           </div>
                         </div>
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Focus on potential leads to close more deals</p>
+                              <p>Empower agents with resources to resolve issues</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Gain a 360-degree view of customer activity</p>
+                              <p>Offer a personalized experience to customers</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Boost collaboration and team productivity</p>
+                              <p>Understand your customers better with true insights</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Simplify sales pipeline and forecast sales</p>
+                              <p>Provide positive experiences throughout the sales journey</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
                           </div>
@@ -290,27 +287,27 @@ export default function Home() {
                         <div className='col-lg-6 align-self-center'>
                           <div className='tabs-design-one-left'>
                             <span>Marketing Cloud</span>
-                            <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
-                            <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                            <h3>Speak Directly to Customers with Marketing Cloud </h3>
+                            <p>Understand your customers better through unified data and make smarter decisions leveraging AI to maximize conversions. Use marketing automation to connect your marketing with sales and enhance customer loyalty.</p>
                           </div>
                         </div>
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Focus on potential leads to close more deals</p>
+                              <p>Capture relevant engagement across devices</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Gain a 360-degree view of customer activity</p>
+                              <p>Utilize the full potential of your customer data</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Boost collaboration and team productivity</p>
+                              <p>Raise performance and optimize campaigns with AI</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Simplify sales pipeline and forecast sales</p>
+                              <p>Increase marketing ROI and customer engagement</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
                           </div>
@@ -322,34 +319,34 @@ export default function Home() {
                         <div className='col-lg-6 align-self-center'>
                           <div className='tabs-design-one-left'>
                             <span>Commerce Cloud</span>
-                            <h3>Sell Smarter and Close Deals Faster with Trusted AI</h3>
-                            <p>Team up with the world's 1st AI-enabled CRM solution to streamline sales, automate workflows, and win more deals with minimum resources. Get real-time insights, personalize customer interaction, and build long-lasting relationships.</p>
+                            <h3>Increase marketing ROI and customer engagement</h3>
+                            <p>Simplify your e-commerce business and increase revenue by tracking customer data across the sales journey. From storefront setup to conversions, utilize conversational AI to enhance the shopping experience.</p>
                           </div>
                         </div>
                         <div className='col-lg-6'>
                           <div className='tabs-design-one-right'>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Focus on potential leads to close more deals</p>
+                              <p>Set up your ideal store that grows over time</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Gain a 360-degree view of customer activity</p>
+                              <p>Get an AI-embedded advanced vendor dashboard</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Boost collaboration and team productivity</p>
+                              <p>Make two-way links between online and offline stores</p>
                             </div>
                             <div className='tabs-design-one-list'>
                               <i className="bi bi-check-lg"></i>
-                              <p>Simplify sales pipeline and forecast sales</p>
+                              <p>Connect your Sales, Service, and Marketing modules</p>
                             </div>
                             <a href="/" className='btn btn-full btn-prime'>Get Started</a>
                           </div>
                         </div>
                       </div>
                     </TabPane>
-                    <TabPane tabId="5">
+                    {/* <TabPane tabId="5">
                       <div className='row tabs-design-one'>
                         <div className='col-lg-6 align-self-center'>
                           <div className='tabs-design-one-left'>
@@ -380,7 +377,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                    </TabPane>
+                    </TabPane> */}
                   </TabContent>
                 </div>
               </div>
