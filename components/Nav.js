@@ -10,7 +10,6 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
   const toggles = () => setDropdownOpen(!dropdownOpen);
 
   return (
@@ -89,10 +88,10 @@ const Nav = () => {
                 <li><a className="nav-link scrollto" href="/">Solutions</a></li>
                 <li><a className="nav-link scrollto" href="/">Industries</a></li>
                 <li><a className="nav-link scrollto" href="/">Company</a></li>
-                <li>
-                <Dropdown nav isOpen={dropdownOpen} toggle={toggles}>
+            
+                  <Dropdown nav isOpen={dropdownOpen} toggle={toggles}>
                     <DropdownToggle nav caret>
-                    Resources
+                      Resources
                     </DropdownToggle>
                     <DropdownMenu>
                       <ul>
@@ -103,7 +102,7 @@ const Nav = () => {
                       </ul>
                     </DropdownMenu>
                   </Dropdown>
-                </li>
+              
                 {/* <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
                   <ul>
                     <li><a href="/about-us/">About Us</a></li>
