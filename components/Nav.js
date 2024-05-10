@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {
+  Button, Offcanvas, OffcanvasHeader, OffcanvasBody, Dropdown,
+  DropdownItem,
+  DropdownToggle,
+  DropdownMenu,
+} from 'reactstrap';
 
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggles = () => setDropdownOpen(!dropdownOpen);
+
   return (
+
     <>
       <nav id="navbar" className="navbar">
         <ul>
@@ -64,8 +77,55 @@ const Nav = () => {
           <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>
           <li><a className="getstarted scrollto" href="/">Get Started</a></li>
         </ul>
-        <i className="bi bi-list mobile-nav-toggle"></i>
+
+
+        <i className="bi bi-list mobile-nav-toggle" onClick={toggle}></i>
+        <div className='navbar-mobile'>
+          <Offcanvas isOpen={isOpen} toggle={toggle} className='navbar-mobile'>
+            <OffcanvasHeader toggle={toggle}></OffcanvasHeader>
+            <OffcanvasBody>
+              <ul>
+                <li><a className="nav-link scrollto active" href="/">Services</a></li>
+                <li><a className="nav-link scrollto" href="/">Solutions</a></li>
+                <li><a className="nav-link scrollto" href="/">Industries</a></li>
+                <li><a className="nav-link scrollto" href="/">Company</a></li>
+                <li>
+                <Dropdown nav isOpen={dropdownOpen} toggle={toggles}>
+                    <DropdownToggle nav caret>
+                    Resources
+                    </DropdownToggle>
+                    <DropdownMenu>
+                      <ul>
+                        <li><a href="/about-us/">About Us</a></li>
+                        <a href="/why-us/">Why Us</a>
+                        <a href="/partner/">Partners</a>
+                        <a href="/career/">Careers</a>
+                      </ul>
+                    </DropdownMenu>
+                  </Dropdown>
+                </li>
+                {/* <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
+                  <ul>
+                    <li><a href="/about-us/">About Us</a></li>
+                    <a href="/why-us/">Why Us</a>
+                    <a href="/partner/">Partners</a>
+                    <a href="/career/">Careers</a>
+                  </ul>
+                  
+                </li> */}
+                <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
+
+
+                {/* <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>
+                <li><a className="getstarted scrollto" href="/">Get Started</a></li> */}
+              </ul>
+
+            </OffcanvasBody>
+          </Offcanvas>
+        </div>
       </nav>
+
+
     </>
   );
 }
