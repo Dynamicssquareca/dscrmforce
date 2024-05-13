@@ -130,7 +130,7 @@ const FormCta = ({ onSubmit }) => {
   }, [redirectTimer]);
 
   return (
-    <form className="form-one" onSubmit={handleSubmit}>
+    <form className="form-one" id='WebToLeads196947000014082029' action='https://crm.zoho.in/crm/WebToLeadForm' name='WebToLeads196947000014082029' method='POST' onSubmit={handleSubmit}>
       <div className="form-group">
         <input
           type="text"
