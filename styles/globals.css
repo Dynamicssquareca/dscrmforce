@@ -214,7 +214,13 @@ p{
   position: relative;
   text-align:center
 }
-
+.bg-white{
+  background: var(--color-white);
+    margin-top: -140px;
+    position: relative;
+    z-index: 2;
+    padding-top: 130px;
+}
 
 /*Hero section css*/
 .hero{
@@ -270,9 +276,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ddedf3",endCo
   text-align: center;
   padding: 80px 0px;
   background: rgb(255,255,255);
-background: -moz-linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
-background: -webkit-linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
-background: linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
+background: -moz-linear-gradient(41deg, rgba(255,255,255,1) 25%, rgba(221,237,243,1) 100%);
+background: -webkit-linear-gradient(41deg, rgba(255,255,255,1) 25%, rgba(221,237,243,1) 100%);
+background: linear-gradient(41deg, rgba(255,255,255,1) 25%, rgba(221,237,243,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ddedf3",GradientType=1);
 
 }
@@ -301,9 +307,21 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   position:relative;
   padding-top: 60px;
 }
-.elementor-background-overlay .bg-top{}
+.elementor-background-overlay .bg-top{
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:1
+}
+.elementor-background-overlay .bg-mid{
+  z-index: 3;
+    position: relative;
+}
 .elementor-background-overlay .bg-back{
-  margin-top: -386px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index:2
 }
 
 /*floating banner css*/
@@ -683,6 +701,10 @@ border-radius:8px
   z-index: 1;
   top: 163px;
   width: 144px;
+}
+
+.service-box-three{
+  
 }
 /*tabs design*/
 .service-tab-style-one{
