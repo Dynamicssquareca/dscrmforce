@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import FormCta from './FormCta';
 import { useRouter } from 'next/router';
 
-function ModelBox(args) {
+function ModelBox({ headerText, buttonText, ...args }) {
     const [modal, setModal] = useState(false);
     const router = useRouter();
   
@@ -19,11 +19,11 @@ function ModelBox(args) {
   return (
     <div>
        <a className='btn btn-prime' onClick={toggle}>
-       Request a Free Demo
+       {buttonText}
       </a>
       <Modal className='model-form'  isOpen={modal} toggle={toggle} {...args} centered	
 >
-        <ModalHeader toggle={toggle}>Request Callback</ModalHeader>
+        <ModalHeader toggle={toggle}>{headerText}</ModalHeader>
         <ModalBody>
           <FormCta  onSubmit={handleSubmit}/>
         </ModalBody>

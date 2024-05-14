@@ -16,6 +16,19 @@ const router = useRouter();
     // Return null to hide the component
     return null;
   }
+  const getHeaderText = () => {
+    switch (router.pathname) {
+        case '/':
+            return 'Get in touch with our team to <br/> discuss your CRM needs';
+        case '/solutions':
+            return 'Unlock the Power of <br/> CRMforcePlus Today!';
+        case '/page3':
+            return 'Request Callback for Page 3';
+        default:
+            return 'Get in touch with our team <br/> to discuss your CRM needs';
+    }
+};
+
 
     return (
         <div className='container bottom-form'>
@@ -23,7 +36,7 @@ const router = useRouter();
                 <div className='col-lg-6 align-self-center'>
                     <div className='form-left'>
                         <span>Contact Us</span>
-                        <h3>Get in touch with our team to discuss your CRM needs</h3>
+                        <h3 dangerouslySetInnerHTML={{ __html: getHeaderText() }}></h3>
                         <div className="cont-info">
                             <a href="tel:9876543210"><b>T:</b> 9876 543 210</a>
                             <a href="mailto:info@crmforceplus.com"><b>E:</b> info@crmforceplus.com</a>

@@ -253,16 +253,57 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ddedf3",endCo
 .hero .hero-content{
   position:relative
 }
-.hero .hero-content h1{
+.hero .hero-content h1,.hero-banner-two .hero-content h1{
   font-size: 48px;
   font-weight: 600;
   color:var(--secondary);
   margin-bottom:30px
 }
-.hero .hero-content p{
+.hero .hero-content p,.hero-banner-two .hero-content p{
   font-size: 22px;
   color:var(--accsend-light);
   margin-bottom: 30px;
+}
+
+
+.hero-banner-two{
+  text-align: center;
+  padding: 80px 0px;
+  background: rgb(255,255,255);
+background: -moz-linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
+background: -webkit-linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
+background: linear-gradient(41deg, rgba(255,255,255,1) 50%, rgba(221,237,243,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ddedf3",GradientType=1);
+
+}
+.hero-banner-two .hero-content{
+}
+
+.hero-banner-two .hero-content h1 span{
+  color:var(--primary);
+}
+.hero-banner-two .hero-content p{
+
+}
+/* .elementor-background-overlay{
+  height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.elementor-background-overlay{
+  background: url('/img/banner/solution-banner-bg-1.png') top center no-repeat;
+    opacity: 0.85;
+} */
+
+.elementor-background-overlay{
+  position:relative;
+  padding-top: 60px;
+}
+.elementor-background-overlay .bg-top{}
+.elementor-background-overlay .bg-back{
+  margin-top: -386px;
 }
 
 /*floating banner css*/

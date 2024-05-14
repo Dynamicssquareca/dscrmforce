@@ -1,11 +1,12 @@
 import React from 'react';
 import FooterContactForm from './FooterContactForm';
 import FormSubscribe from './FormSubscribe';
+import ScrollToTopButton from './ScrollToTopButton';
 
 const Footer = () => {
     return (
         <>
-        <FooterContactForm />
+        <FooterContactForm  />
             <footer id="footer" className="footer">
                 <div className='footer-top'>
                     <div className='container'>
@@ -58,6 +59,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+            <ScrollToTopButton />
         </>
     );
 }

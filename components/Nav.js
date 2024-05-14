@@ -18,7 +18,7 @@ const Nav = () => {
       <nav id="navbar" className="navbar">
         <ul>
           <li><a className="nav-link scrollto active" href="/">Services</a></li>
-          <li><a className="nav-link scrollto" href="/">Solutions</a></li>
+          <li><a className="nav-link scrollto" href="/solutions">Solutions</a></li>
           <li><a className="nav-link scrollto" href="/">Industries</a></li>
           <li><a className="nav-link scrollto" href="/">Company</a></li>
           <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
@@ -85,7 +85,7 @@ const Nav = () => {
             <OffcanvasBody>
               <ul>
                 <li><a className="nav-link scrollto active" href="/">Services</a></li>
-                <li><a className="nav-link scrollto" href="/">Solutions</a></li>
+                <li><a className="nav-link scrollto" href="/solutions">Solutions</a></li>
                 <li><a className="nav-link scrollto" href="/">Industries</a></li>
                 <li><a className="nav-link scrollto" href="/">Company</a></li>
             

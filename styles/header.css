@@ -1,15 +1,38 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 .header {
-    transition: all 0.5s;
     z-index: 997;
-    padding: 20px 0;
+    padding: 15px 0;
+    transition: transform 0.5s ease;
   }
+  
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Set your desired background color */
+  z-index: 1000; 
+  animation: fadeInDown 0.5s ease;
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
   
   .header.header-scrolled {
     background: #fff;
-    padding: 15px 0;
+    padding: 5px 0;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
   }
   
