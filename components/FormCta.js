@@ -225,7 +225,7 @@ const FormCta = ({ onSubmit }) => {
         {errors.email && <div className="text-danger">{errors.email}</div>}
       </div>
       <div className="form-group">
-        <PhoneInput
+        <PhoneInput inputStyle={{width:'100%',height:'auto'}} 
           country={defaultCountryCode} // Set default country code
           value={phone}
           onChange={(value) => {
