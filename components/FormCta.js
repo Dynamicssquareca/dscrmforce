@@ -25,7 +25,7 @@ const FormCta = ({ onSubmit }) => {
     fetchCountryCodeByIP();
   }, []);
 
-  
+
   const fetchCountryCodeByIP = () => {
     fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
       .then(response => {
@@ -219,7 +219,13 @@ const FormCta = ({ onSubmit }) => {
         <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
-          onChange={(e) => setPhone(e.target.value)}
+          onChange={(value) => {
+            setPhone(value);
+            if (errors.phone) {
+              delete errors.phone;
+              setErrors({ ...errors });
+            }
+          }}
           inputClass="form-control" // CSS class for the input
           inputProps={{
             name: 'Phone Number',
