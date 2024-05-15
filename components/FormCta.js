@@ -1,6 +1,8 @@
-// FormCta.js
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import axios from 'axios';
 
 const FormCta = ({ onSubmit }) => {
   const [name, setName] = useState('');
@@ -13,6 +15,33 @@ const FormCta = ({ onSubmit }) => {
   const [timerId, setTimerId] = useState(null);
   const [errors, setErrors] = useState({});
 
+
+
+
+  const [defaultCountryCode, setDefaultCountryCode] = useState('');
+
+  useEffect(() => {
+    // Fetch IP information when the component mounts
+    fetchCountryCodeByIP();
+  }, []);
+  const fetchCountryCodeByIP = () => {
+    // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = '00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e';
+    fetch(`https://ipapi.co/json/?key=${apiKey}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch IP information');
+        }
+        return response.json();
+      })
+      .then(data => {
+        const countryCode = data.country_code;
+        setDefaultCountryCode(countryCode);
+      })
+      .catch(error => {
+        console.error('Error fetching IP information:', error);
+      });
+  };
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -114,10 +143,13 @@ const FormCta = ({ onSubmit }) => {
   };
 
   const isValidPhoneNumber = (phone) => {
+    if (phone.trim() === '') {
+      return true; // Return true for empty phone number
+    }
     // Remove non-digit characters
     const cleanedPhoneNumber = phone.replace(/\D/g, '');
     // Check if the resulting string contains only digits and has a length between 10 and 13 characters
-    return /^\d{10,13}$/.test(cleanedPhoneNumber);
+    return /^\d{10,15}$/.test(cleanedPhoneNumber);
   };
 
   useEffect(() => {
@@ -180,30 +212,27 @@ const FormCta = ({ onSubmit }) => {
         {errors.email && <div className="text-danger">{errors.email}</div>}
       </div>
       <div className="form-group">
-        <input
-          type="tel"
-          className="form-control"
-          name="Phone Number"
-          placeholder=""
+        <PhoneInput
+          country={defaultCountryCode} // Set default country code
           value={phone}
-          onChange={(e) => {
-            if (!isNaN(e.target.value)) {
-              setPhone(e.target.value);
-            }
-            if (errors.phone) {
-              delete errors.phone;
-              setErrors({ ...errors });
-            }
-          }}
-          onBlur={() => {
-            if (!phone.trim()) {
-              setErrors({ ...errors, phone: 'Phone number is required' });
-            } else if (!isValidPhoneNumber(phone)) {
-              setErrors({ ...errors, phone: 'Invalid phone number format' });
+          onChange={(value) => setPhone(value)}
+          inputClass="form-control" // CSS class for the input
+          inputProps={{
+            name: 'Phone Number',
+            onBlur: () => {
+              if (phone.trim() !== '') { // Check if phone number is not empty before validation
+                if (!isValidPhoneNumber(phone)) {
+                  setErrors({ ...errors, phone: 'Invalid phone number format' });
+                } else {
+                  delete errors.phone; // Clear error if phone number is valid
+                }
+              } else {
+                delete errors.phone; // Clear error if phone number is empty
+              }
             }
           }}
         />
-        <label htmlFor="name">Phone Number</label>
+        {/* <label htmlFor="name">Phone Number</label> */}
         {errors.phone && <div className="text-danger">{errors.phone}</div>}
       </div>
       <div className="form-group">

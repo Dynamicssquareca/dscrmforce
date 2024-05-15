@@ -85,10 +85,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row d-flex align-items-stretch">
               {/* <ServiceBox jsonDataUrl="datanew/ne.json" /> */}
-              <div className="col-lg-3">
-                <div className="service-box-one">
+              <div className="col-lg-3 d-flex">
+                <div className="service-box-one flex-fill">
                   <a href="#">
                     <div className="service-box-head">
                       <figure>
@@ -105,8 +105,8 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-3">
-                <div className="service-box-one">
+              <div className="col-lg-3 d-flex">
+                <div className="service-box-one flex-fill">
                   <a href="#">
                     <div className="service-box-head">
                       <figure>
@@ -123,8 +123,8 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-3">
-                <div className="service-box-one">
+              <div className="col-lg-3 d-flex">
+                <div className="service-box-one flex-fill">
                   <a href="#">
                     <div className="service-box-head">
                       <figure>
@@ -141,8 +141,8 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-3">
-                <div className="service-box-one">
+              <div className="col-lg-3 d-flex">
+                <div className="service-box-one flex-fill">
                   <a href="#">
                     <div className="service-box-head">
                       <figure>
