@@ -25,25 +25,34 @@ const FormCta = ({ onSubmit }) => {
     fetchCountryCodeByIP();
   }, []);
 
-
   const fetchCountryCodeByIP = () => {
-    fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+    axios.get('https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e')
       .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch IP information');
-        }
-        return response.json();
-      })
-      .then(data => {
-        let countryCode = data.country_code.toLowerCase(); // Convert to lowercase
-        console.log("Country Code:", countryCode); // Log the country code
+        const countryCode = response.data.country_code.toLowerCase(); // Convert to lowercase
         setDefaultCountryCode(countryCode);
-        console.log("Default Country Code:", defaultCountryCode); // Log the updated state
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
       });
   };
+  // const fetchCountryCodeByIP = () => {
+  //   fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error('Failed to fetch IP information');
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => {
+  //       let countryCode = data.country_code.toLowerCase(); 
+  //       console.log("Country Code:", countryCode); // 
+  //       setDefaultCountryCode(countryCode);
+  //       console.log("Default Country Code:", defaultCountryCode); 
+  //     })
+  //     .catch(error => {
+  //       console.error('Error fetching IP information:', error);
+  //     });
+  // };
 
 
   const handleSubmit = async (e) => {
