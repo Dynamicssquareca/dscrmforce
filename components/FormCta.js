@@ -24,10 +24,10 @@ const FormCta = ({ onSubmit }) => {
     // Fetch IP information when the component mounts
     fetchCountryCodeByIP();
   }, []);
+
+  
   const fetchCountryCodeByIP = () => {
-    // Replace 'YOUR_API_KEY' with your actual API key
-    const apiKey = '00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e';
-    fetch(`https://ipapi.co/json/?key=${apiKey}`)
+    fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch IP information');
@@ -35,13 +35,17 @@ const FormCta = ({ onSubmit }) => {
         return response.json();
       })
       .then(data => {
-        const countryCode = data.country_code;
+        let countryCode = data.country_code.toLowerCase(); // Convert to lowercase
+        console.log("Country Code:", countryCode); // Log the country code
         setDefaultCountryCode(countryCode);
+        console.log("Default Country Code:", defaultCountryCode); // Log the updated state
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
       });
   };
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -215,7 +219,7 @@ const FormCta = ({ onSubmit }) => {
         <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
-          onChange={(value) => setPhone(value)}
+          onChange={(e) => setPhone(e.target.value)}
           inputClass="form-control" // CSS class for the input
           inputProps={{
             name: 'Phone Number',
