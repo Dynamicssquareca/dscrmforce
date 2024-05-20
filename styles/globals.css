@@ -1133,6 +1133,42 @@ color:var(--primary)
 .img-about-bg .pic-top-left{}
 
 
+/*slider*/
+
+.slider-one{}
+.slider-one .swiper{
+  padding-bottom: 60px;
+}
+.slider-one .swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color:var(--primary)
+}
+.slider-one .slider-one-inner{
+  padding:40px;
+  background-image: linear-gradient(122deg, #fff -72%, #e4f5fb 95%);
+}
+.slider-one .slider-one-inner h4{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.slider-one .slider-one-inner p{
+  margin-bottom: 15px;
+}
+.slider-one .slider-one-inner ul{
+  padding: 0;
+  list-style: none;
+}
+.slider-one .slider-one-inner ul li{
+  font-size:16px;
+  font-weight:600;
+  margin-bottom:10px
+}
+.slider-one .slider-one-inner ul li .bi{
+  margin-right:10px
+}
+.slider-one .slider-one-inner ul li span{}
 /*react video model css*/
 @keyframes modal-video {
   from {

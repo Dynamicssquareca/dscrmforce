@@ -363,6 +363,42 @@ const Solution = () => {
 
                                         </div>
                                     </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className='slider-one-inner'>
+                                            <h4>ABC Enterprises, a tech firm, aimed to streamline sales with Salesforce Sales Cloud</h4>
+                                            <p>They began by defining clear goals and identifying pain points in their sales operations. Customizing Sales Cloud to their specific needs, they integrated it seamlessly with existing systems to ensure a unified view of customer data. Comprehensive user training programs were implemented to drive adoption, supported by continuous monitoring and optimization of key performance metrics.</p>
+                                            <ul>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                            </ul>
+                                            <a href=""><span>Learn More</span></a>
+
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className='slider-one-inner'>
+                                            <h4>ABC Enterprises, a tech firm, aimed to streamline sales with Salesforce Sales Cloud</h4>
+                                            <p>They began by defining clear goals and identifying pain points in their sales operations. Customizing Sales Cloud to their specific needs, they integrated it seamlessly with existing systems to ensure a unified view of customer data. Comprehensive user training programs were implemented to drive adoption, supported by continuous monitoring and optimization of key performance metrics.</p>
+                                            <ul>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                            </ul>
+                                            <a href=""><span>Learn More</span></a>
+
+                                        </div>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <div className='slider-one-inner'>
+                                            <h4>ABC Enterprises, a tech firm, aimed to streamline sales with Salesforce Sales Cloud</h4>
+                                            <p>They began by defining clear goals and identifying pain points in their sales operations. Customizing Sales Cloud to their specific needs, they integrated it seamlessly with existing systems to ensure a unified view of customer data. Comprehensive user training programs were implemented to drive adoption, supported by continuous monitoring and optimization of key performance metrics.</p>
+                                            <ul>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                            </ul>
+                                            <a href=""><span>Learn More</span></a>
+
+                                        </div>
+                                    </SwiperSlide>
                                 </Swiper>
                             </div>
                         </div>
