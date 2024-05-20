@@ -1,6 +1,12 @@
-import { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import ModelBox from '@/components/ModelBox';
 import Image from 'next/image';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination, Autoplay } from 'swiper/modules';
+
 const Solution = () => {
 
     const [showAll, setShowAll] = useState(false);
@@ -329,7 +335,37 @@ const Solution = () => {
                         </div>
                     </div>
                     <div className='row'>
+                        <div className='col-lg-12'>
+                            <div className='slider-one'>
+                                <Swiper
+                                    slidesPerView={2}
+                                    spaceBetween={30}
+                                    autoplay={{
+                                        delay: 2000,
+                                        disableOnInteraction: true,
+                                    }}
+                                    pagination={{
+                                        clickable: true,
+                                    }}
+                                    modules={[Pagination, Autoplay]}
+                                    className="mySwiper"
+                                >
 
+                                    <SwiperSlide>
+                                        <div className='slider-one-inner'>
+                                            <h4>ABC Enterprises, a tech firm, aimed to streamline sales with Salesforce Sales Cloud</h4>
+                                            <p>They began by defining clear goals and identifying pain points in their sales operations. Customizing Sales Cloud to their specific needs, they integrated it seamlessly with existing systems to ensure a unified view of customer data. Comprehensive user training programs were implemented to drive adoption, supported by continuous monitoring and optimization of key performance metrics.</p>
+                                            <ul>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                            </ul>
+                                            <a href=""><span>Learn More</span></a>
+
+                                        </div>
+                                    </SwiperSlide>
+                                </Swiper>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

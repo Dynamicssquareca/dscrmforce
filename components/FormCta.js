@@ -13,12 +13,11 @@ const FormCta = ({ onSubmit }) => {
   const [submitted, setSubmitted] = useState(false);
   const [redirectTimer, setRedirectTimer] = useState(3);
   const [timerId, setTimerId] = useState(null);
+
+  
   const [errors, setErrors] = useState({});
 
-
-
-
-  const [defaultCountryCode, setDefaultCountryCode] = useState('');
+  const [defaultCountryCode, setDefaultCountryCode] = useState('gb');
 
   useEffect(() => {
     // Fetch IP information when the component mounts
@@ -33,6 +32,7 @@ const FormCta = ({ onSubmit }) => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('gb'); // Fallback to 'us' if the API call fails
       });
   };
   // const fetchCountryCodeByIP = () => {
