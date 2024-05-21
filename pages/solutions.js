@@ -118,7 +118,7 @@ const Solution = () => {
 
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
+                            <div className="service-box-three flex-fill bg-gradiant">
                                 <h3>Sales Engagement</h3>
                                 <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
                             </div>
@@ -130,6 +130,30 @@ const Solution = () => {
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                            <div className="service-box-three flex-fill bg-gradiant">
+                                <h3>Partner Relationship Management</h3>
+                                <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                            </div>
+                        </div>
+                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                            <div className="service-box-three flex-fill">
+                                <h3>Partner Relationship Management</h3>
+                                <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                            </div>
+                        </div>
+                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                            <div className="service-box-three flex-fill">
+                                <h3>Partner Relationship Management</h3>
+                                <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                            </div>
+                        </div>
+                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                            <div className="service-box-three flex-fill bg-gradiant">
+                                <h3>Partner Relationship Management</h3>
+                                <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                            </div>
+                        </div>
+                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
                                 <h3>Partner Relationship Management</h3>
                                 <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
@@ -137,7 +161,7 @@ const Solution = () => {
                         </div>
                         {!showAll && (
                             <div className="col-lg-3 d-flex">
-                                <div className="service-box-three flex-fill custom-anc" onClick={handleShowAll}>
+                                <div className="service-box-three flex-fill custom-anc bg-gradiant" onClick={handleShowAll}>
                                     <div className="text-center">
                                         <a>See all Products</a>
                                     </div>
@@ -147,7 +171,7 @@ const Solution = () => {
                         {showAll && (
                             <>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Sales Engagement</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
                                     </div>
@@ -159,7 +183,7 @@ const Solution = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Partner Relationship Management</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
                                     </div>
@@ -171,13 +195,13 @@ const Solution = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill ">
                                         <h3>Buyer Engagement</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Sales AI</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
                                     </div>
@@ -189,13 +213,13 @@ const Solution = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Sales AI</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Sales Engagement</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
                                     </div>
@@ -207,7 +231,7 @@ const Solution = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
+                                    <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Partner Relationship Management</h3>
                                         <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
                                     </div>
