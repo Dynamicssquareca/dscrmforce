@@ -1498,14 +1498,20 @@ color:var(--primary)
 .form-left{
   margin-bottom:30px
 }
+.bottom-form .form-left h3 br{
+  display:none
+}
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
     display: none;
   }
   .tabs-design-one {
-    padding: 10px;
+    padding: 30px 15px;
   }
+  .service-tab-style-one>.tab-content {
+    padding: 0px 0px;
+}
   .tabs-design-one .tabs-design-one-left, {
     padding-right: 0;
     margin-bottom: 30px;
@@ -1514,10 +1520,12 @@ color:var(--primary)
   display:none
 }
 .service-tab-style-one>.nav {
-  display: inline-flex;
+  /* display: inline-flex; */
+  
   flex-wrap: nowrap;
   align-items: center;
   overflow-x: auto;
+  overflow-y: hidden;
   gap: 15px;
   padding: 0 10px;
   justify-content: normal;
@@ -1528,7 +1536,7 @@ color:var(--primary)
 display:none
 }
 .service-tab-style-one .nav-tabs .nav-item {
-  flex: 1 0 40%;
+  flex: 1 0 70%;
 }
 .service-tab-style-one .nav-tabs .nav-link {
   font-size: 16px;
@@ -1541,9 +1549,9 @@ display:none
 }
 .m-mines {
   margin-top: -180px;
-  margin-bottom: 0px;
+  margin-bottom: -20px;
 }
-.footer .footer-top .footer-links .col-6 {
+.footer .footer-top .footer-links.col-6 {
   flex: 0 0 auto;
   width: 100%;
 }
