@@ -632,7 +632,7 @@ overflow:hidden
 .box-icon-box.box-icon-box-center{
   text-align: center;
 }
-.box-icon-box.box-icon-box-center::before{
+.box-icon-box.box-icon-box-center::before,.box-icon-box.border-side-remove::before{
   display:none
 }
 

@@ -20,6 +20,8 @@ const Solution = () => {
         transform: showAll ? 'translateX(0)' : 'translateX(-100%)',
     };
 
+    let swiperRef = null;
+
     return (
         <>
             <div className='hero-banner-two'>
@@ -258,28 +260,28 @@ const Solution = () => {
                         className="row box-icon-box-wraper"
                     >
                         <div className="col-lg-3">
-                            <div className='box-icon-box'>
+                            <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
                                 <h3>Seamless Implementation</h3>
                                 <p>Our experts ensure a successful and efficient Salesforce implementation to help you achieve more ROI with existing resources.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
-                            <div className='box-icon-box'>
+                            <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
                                 <h3>Proven Expertise</h3>
                                 <p>With a proven track record, our certified Salesforce experts are utilizing their expertise to optimize and maximize CRM ROI.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
-                            <div className='box-icon-box'>
+                            <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
                                 <h3>Tailored Approach</h3>
                                 <p>We understand the business and its unique requirements to offer you a sustainable solution for growth and continuous profitability.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
-                            <div className='box-icon-box'>
+                            <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
                                 <h3>Tailored Approach</h3>
                                 <p>We understand the business and its unique requirements to offer you a sustainable solution for growth and continuous profitability.</p>
@@ -365,7 +367,7 @@ const Solution = () => {
                                     slidesPerView={2}
                                     spaceBetween={30}
                                     autoplay={{
-                                        delay: 2000,
+                                        delay: 4000,
                                         disableOnInteraction: true,
                                     }}
                                     pagination={{
