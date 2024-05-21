@@ -228,6 +228,15 @@ p{
   padding-top: 100px;
 }
 
+.p-top-60{
+  padding-top:60px
+}
+.p-bottom-60{
+  padding-bottom:60px
+}
+.m-bottom-60{
+  margin-bottom:60px
+}
 /*Hero section css*/
 .hero{
   text-align: center;
@@ -236,7 +245,7 @@ p{
   overflow: hidden;
 }
 .m-mines{
-  margin-top: -220px;
+  margin-top: -180px;
     margin-bottom: -60px;
 }
 .hero::before{
@@ -776,8 +785,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ddedf3",endCo
 
 /*CTA Css*/
 .cta{
-  background-color:var(--secondary)
-
+  background-color:var(--secondary);
+padding-top:60px;
+margin-bottom:60px
 
 }
 .cta-content{}
@@ -977,7 +987,8 @@ color:var(--primary)
   transform: translateY(-6px);
 }
 .cloude-bg{
-  position:relative
+  position:relative;
+  margin-bottom:60px
 }
 .cloud-images-1,.cloud-images-2{
   position: absolute;
@@ -1409,13 +1420,137 @@ color:var(--primary)
   }
 }
 @media (max-width: 1200px){
-  
+  .hero .hero-content h1,.hero-ui-one h1{
+    font-size:36px
+  }
+  .hero .hero-content p {
+    font-size: 18px;
+  }
+  .heading-style-one h2 {
+    font-size: 28px;
+  }
+  .service-box-one .service-box-head .service-box-title h3 {
+    font-size: 16px;
+  }
+  .service-tab-style-one .nav-tabs .nav-link{
+    font-size:17px
+  }
+  .tabs-design-one .tabs-design-one-right .tabs-design-one-list {
+    gap: 15px;
+    padding: 15px 15px;
+}
+  .tabs-design-one .tabs-design-one-right .tabs-design-one-list p {
+    font-size: 15px;
+}
+.tabs-design-one .tabs-design-one-left h3,.colo-design-one .colo-design-left h3,.heading-style-two h2,.bottom-form .form-left h3 {
+  font-size: 24px;
+}
+.colo-design-right .design-list span {
+  font-size: 15px;
+}
+.first-column {
+  padding-top: 40px;
+}
+.img-about-bg {
+  margin-top: -100px;
+}
+.center-image {
+  width: 130px;
+}
+.pd-l-r-80 {
+  padding: 0px 40px;
+}
+ 
+.service-box-one .service-box-head figure img {
+  width: 24px;
+  height: 24px;
+}
+.banner-pic-flot .main-pic-2 {
+  top: 5%;
+  left: -105px;
+}
 }
 @media (max-width: 991px){
-  
+  .heading-style-one h2 {
+    font-size: 24px;
+  }
+  .service-box-one{
+    margin-bottom:15px
+  }
+  .service-box-one .service-box-contant span{
+    opacity:1;
+    visibility:visible
+  }
+  section {
+    padding-bottom: 30px;
+}
+.colo-design-one .colo-design-left{
+  padding-right: 0;
+  margin-bottom: 30px;
+}
+.bottom-form>.row {
+
+  padding: 30px 15px;
+}
+.p-top-60 {
+  padding-top: 30px;
+}
+.form-left{
+  margin-bottom:30px
+}
 }
 @media (max-width: 768px){
-  
+  .banner-pic-flot .main-pi-abso{
+    display: none;
+  }
+  .tabs-design-one {
+    padding: 10px;
+  }
+  .tabs-design-one .tabs-design-one-left, {
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.heading-style-one h2 br,.heading-style-one p br{
+  display:none
+}
+.service-tab-style-one>.nav {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 0 10px;
+  justify-content: normal;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.service-tab-style-one .nav-tabs .nav-item:hover::before, .service-tab-style-one .nav-tabs .nav-item .nav-link.active::before{
+display:none
+}
+.service-tab-style-one .nav-tabs .nav-item {
+  flex: 1 0 40%;
+}
+.service-tab-style-one .nav-tabs .nav-link {
+  font-size: 16px;
+}
+.cloud-images-2{
+  display:none
+}
+.colo-design-right .design-list:hover{
+  transform: scale(1);
+}
+.m-mines {
+  margin-top: -180px;
+  margin-bottom: 0px;
+}
+.footer .footer-top .footer-links .col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.footer .footer-top h4 {
+
+  text-align: left;
+}
 }
 
 @media (min-width: 100px) and (max-width: 767px){

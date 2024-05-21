@@ -25,7 +25,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="p-top-60">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -112,7 +112,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section>
+            <section className="p-top-60">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -188,7 +188,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section style={{paddingBottom:"0px"}}>
+            <section className="p-top-60" style={{paddingBottom:"0px"}}>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">

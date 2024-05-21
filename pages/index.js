@@ -74,7 +74,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="service">
+        <section className="service p-top-60">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -164,7 +164,7 @@ export default function Home() {
         </section>
 
 
-        <section className='bg-grey'>
+        <section className='bg-grey p-top-60'>
           <div className='container'>
             <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -176,7 +176,7 @@ export default function Home() {
               </div>
             </div>
             <div className='row justify-content-center'>
-              <div className='col-lg-10'>
+              <div className='col-xl-10 col-lg-12 col-md-12'>
                 <div className='service-tab-style-one'>
                   <Nav tabs>
                     <NavItem>
