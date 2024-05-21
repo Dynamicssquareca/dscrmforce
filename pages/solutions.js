@@ -20,7 +20,6 @@ const Solution = () => {
         transform: showAll ? 'translateX(0)' : 'translateX(-100%)',
     };
 
-    let swiperRef = null;
 
     return (
         <>
@@ -36,10 +35,10 @@ const Solution = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <div class="elementor-background-overlay">
-                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} />
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={278} />
-                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298} />
+                        <div className="elementor-background-overlay">
+                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313}  priority  />
+                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
+                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298}  priority  />
                         </div>
                     </div>
                 </div>
@@ -296,7 +295,7 @@ const Solution = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={364} height={247} />
+                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
