@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import {
   Button, Offcanvas, OffcanvasHeader, OffcanvasBody, Dropdown,
   DropdownItem,
@@ -17,8 +18,8 @@ const Nav = () => {
     <>
       <nav id="navbar" className="navbar">
         <ul>
-          <li><a className="nav-link scrollto active" href="/">Services</a></li>
-          <li><a className="nav-link scrollto" href="/solutions/">Solutions</a></li>
+          <li><Link className="nav-link scrollto active" href="/services/">Services</Link></li>
+          <li><Link className="nav-link scrollto" href="/solutions/">Solutions</Link></li>
           {/* <li><a className="nav-link scrollto" href="/">Industries</a></li> */}
           {/* <li><a className="nav-link scrollto" href="/">Company</a></li> */}
           {/* <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
@@ -29,8 +30,8 @@ const Nav = () => {
               <a href="/career/">Careers</a>
             </ul>
           </li> */}
-            <li><a className="nav-link scrollto" href="/about-us/">About Us</a></li>
-          <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
+            <li><Link className="nav-link scrollto" href="/about-us/">About Us</Link></li>
+          <li><Link className="nav-link scrollto" href="/contact-us/">Contact Us</Link></li>
           {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -85,9 +86,9 @@ const Nav = () => {
             <OffcanvasHeader toggle={toggle}></OffcanvasHeader>
             <OffcanvasBody>
               <ul>
-                <li><a className="nav-link scrollto active" href="/">Services</a></li>
-                <li><a className="nav-link scrollto" href="/solutions/">Solutions</a></li>
-                <li><a className="nav-link scrollto" href="/about-us/">About US</a></li>
+                <li><Link className="nav-link scrollto active" href="/services/">Services</Link></li>
+                <li><Link className="nav-link scrollto" href="/solutions/">Solutions</Link></li>
+                <li><Link className="nav-link scrollto" href="/about-us/">About US</Link></li>
                 {/* <li><a className="nav-link scrollto" href="/">Industries</a></li>
                 <li><a className="nav-link scrollto" href="/">Company</a></li> */}
             
@@ -97,10 +98,10 @@ const Nav = () => {
                     </DropdownToggle>
                     <DropdownMenu>
                       <ul>
-                        <li><a href="/about-us/">About Us</a></li>
-                        <a href="/why-us/">Why Us</a>
-                        <a href="/partner/">Partners</a>
-                        <a href="/career/">Careers</a>
+                        <li><Link href="/about-us/">About Us</Link></li>
+                        <Link href="/why-us/">Why Us</Link>
+                        <Link href="/partner/">Partners</Link>
+                        <Linkhref="/career/">Careers</Link>
                       </ul>
                     </DropdownMenu>
                   </Dropdown> */}
@@ -114,7 +115,7 @@ const Nav = () => {
                   </ul>
                   
                 </li> */}
-                <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
+                <li><Link className="nav-link scrollto" href="/contact-us/">Contact Us</Link></li>
 
 
                 {/* <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>

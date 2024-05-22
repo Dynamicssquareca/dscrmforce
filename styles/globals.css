@@ -339,6 +339,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   transform: translateX(-50%);
   z-index:2
 }
+.hero-banner-two.height-auto{
+  padding-bottom: 60px;
+}
+.hero-banner-two.height-auto .elementor-background-default{
+  padding-top: 0px;
+}
+.hero-banner-two.height-auto .elementor-background-default img{}
 
 /*floating banner css*/
 .banner-pic-flot{
@@ -1597,7 +1604,3 @@ display:none
 @media (min-width: 100px) and (max-width: 767px){
   
 }
-
-
-
-

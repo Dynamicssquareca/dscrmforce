@@ -125,8 +125,8 @@ const AboutUs = () => {
                     </div>
 
                 </div>
-                <div class="img-about-bg">
-                    <div class="pic-bottom">
+                <div className="img-about-bg">
+                    <div className="pic-bottom">
                         <img src="/img/banner/bottom-bg.png" alt="bottom-bg" /></div>
                 </div>
             </section>
@@ -197,7 +197,7 @@ const AboutUs = () => {
                                 <h2>We are more than just a technology company - we are partners in your success journey.</h2>
                                 <p>With our unwavering dedication to excellence, innovation, and social responsibility, we are poised to redefine the future of CRM solutions and empower businesses to thrive in the digital age.</p>
                                 <div className="call-to-act">
-                                <a href="/contact-us/" class="btn btn-prime">Get in Touch</a>
+                                <a href="/contact-us/" className="btn btn-prime">Get in Touch</a>
                                 </div>
                             </div>
                         </div>

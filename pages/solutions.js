@@ -374,7 +374,7 @@ const Solution = () => {
                                         delay: 4000,
                                         disableOnInteraction: true,
                                     }}
-                                    
+
                                     pagination={{
                                         clickable: true,
                                     }}
