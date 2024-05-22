@@ -153,7 +153,7 @@ const AboutUs = () => {
                                                 <p>Our Team</p>
                                                 <span>Designation</span>
                                             </div>
-                                        </div>
+                                        </div> 
                                         <div className="user-box-card-info">
                                             <img src="/img/icons/avtar-2.png" alt="avtar-2" width={64} height={64} />
                                             <div className="user-card-in">
@@ -194,7 +194,7 @@ const AboutUs = () => {
                         <div className="col-lg-9">
                             <div className="heading-style-one">
                                 <span>CRMFORCEPLUS</span>
-                                <h2>We are more than just a technology company – we are partners in your success journey.</h2>
+                                <h2>We are more than just a technology company - we are partners in your success journey.</h2>
                                 <p>With our unwavering dedication to excellence, innovation, and social responsibility, we are poised to redefine the future of CRM solutions and empower businesses to thrive in the digital age.</p>
                                 <div className="call-to-act">
                                 <a href="/contact-us/" class="btn btn-prime">Get in Touch</a>
