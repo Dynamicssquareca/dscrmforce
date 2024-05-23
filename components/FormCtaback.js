@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const FormCta = ({ onSubmit }) => {
+const FormCtaback = ({ onSubmit }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
@@ -108,4 +108,4 @@ const FormCta = ({ onSubmit }) => {
   );
 }
 
-export default FormCta;
+export default FormCtaback;

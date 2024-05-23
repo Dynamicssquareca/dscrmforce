@@ -1229,6 +1229,33 @@ color:var(--primary)
     font-weight: 600;
     display: none;
 }
+
+
+/* CustomAccordion.css */
+
+/* Remove default accordion header icons */
+.accordion-one .accordion-header {
+  position: relative;
+}
+
+.accordion-one  .accordion-header::after {
+  content: none !important;
+}
+
+/* Style custom icons */
+.accordion-one  .icon {
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.accordion-one  .icon.open {
+  /* transform: rotate(180deg); */
+}
+.accordion-one  .accordion-button::after{
+  display:none
+}
+
 /*react video model css*/
 @keyframes modal-video {
   from {
@@ -1604,3 +1631,4 @@ display:none
 @media (min-width: 100px) and (max-width: 767px){
   
 }
+

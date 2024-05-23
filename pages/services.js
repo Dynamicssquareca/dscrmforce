@@ -141,7 +141,24 @@ const Services = () => {
                 </div>
             </section>
 
-
+            <section>
+                <div className='container'>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-9">
+                            <div className="heading-style-one">
+                                <span>Our Process</span>
+                                <h2>How we Work</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='pic-box-one'>
+                            <img src="" alt="" className='desk' />
+                            <img src="" alt="" className='mob' />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
             <section className='cta'>
@@ -297,36 +314,57 @@ const Services = () => {
                     </div>
                     <div className='row justify-content-center'>
                         <div className='col-lg-8'>
-                            <div>
-                                <Accordion open={open} toggle={toggle} >
+                            <div className='accordion-one'>
+                                <Accordion open={open} toggle={toggle}>
                                     <AccordionItem>
-                                        <AccordionHeader targetId="1">Accordion Item 1</AccordionHeader>
+                                        <AccordionHeader targetId="1">
+                                            <div className="d-flex justify-content-between align-items-center w-100">
+                                                <span>Accordion Item 1</span>
+                                                <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
+                                                    {open === '1' ? '-' : '+'}
+                                                </span>
+                                            </div>
+                                        </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <strong>This is the first item&#39;s accordion body.</strong>
+                                            <strong>This is the first item's accordion body.</strong>
                                             You can modify any of this with custom CSS or overriding our default
-                                            variables. It&#39;s also worth noting that just about any HTML can
-                                            go within the <code>.accordion-body</code>, though the transition
-                                            does limit overflow.
+                                            variables. It's also worth noting that just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does
+                                            limit overflow.
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
-                                        <AccordionHeader targetId="2">Accordion Item 2</AccordionHeader>
+                                        <AccordionHeader targetId="2">
+                                            <div className="d-flex justify-content-between align-items-center w-100">
+                                                <span>Accordion Item 2</span>
+                                                <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
+                                                    {open === '2' ? '-' : '+'}
+                                                </span>
+                                            </div>
+                                        </AccordionHeader>
                                         <AccordionBody accordionId="2">
-                                            <strong>This is the second item&#39;s accordion body.</strong>
+                                            <strong>This is the second item's accordion body.</strong>
                                             You can modify any of this with custom CSS or overriding our default
-                                            variables. It&#39;s also worth noting that just about any HTML can
-                                            go within the <code>.accordion-body</code>, though the transition
-                                            does limit overflow.
+                                            variables. It's also worth noting that just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does
+                                            limit overflow.
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
-                                        <AccordionHeader targetId="3">Accordion Item 3</AccordionHeader>
+                                        <AccordionHeader targetId="3">
+                                            <div className="d-flex justify-content-between align-items-center w-100">
+                                                <span>Accordion Item 3</span>
+                                                <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
+                                                    {open === '3' ? '-' : '+'}
+                                                </span>
+                                            </div>
+                                        </AccordionHeader>
                                         <AccordionBody accordionId="3">
-                                            <strong>This is the third item&#39;s accordion body.</strong>
+                                            <strong>This is the third item's accordion body.</strong>
                                             You can modify any of this with custom CSS or overriding our default
-                                            variables. It&#39;s also worth noting that just about any HTML can
-                                            go within the <code>.accordion-body</code>, though the transition
-                                            does limit overflow.
+                                            variables. It's also worth noting that just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does
+                                            limit overflow.
                                         </AccordionBody>
                                     </AccordionItem>
                                 </Accordion>
@@ -335,6 +373,7 @@ const Services = () => {
                     </div>
                 </div>
             </section>
+
 
 
         </>
