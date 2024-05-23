@@ -167,6 +167,7 @@
   .navbar .dropdown.dropdown-mega:hover> a{
     border: 1px solid var(--primary);
     border-bottom-color: transparent;
+    border-radius: 5px 5px 0px 0px;
   }
   .navbar .dropdown.dropdown-mega ul{
     padding: 15px;
@@ -183,6 +184,7 @@
   border: none;
   margin-bottom:10px;
   background-color:var(--bg-grey);
+  border-radius:8px
   
   }
   .navbar .dropdown.dropdown-mega ul li a p{
