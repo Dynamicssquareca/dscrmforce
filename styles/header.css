@@ -113,8 +113,9 @@
         border: 1px solid var(--primary);
         padding: 3px 10px;
   }
-  .navbar .getstarted-outline .call-btn .bi{
-    font-size: 18px;
+  .navbar .getstarted-outline .call-btn:hover path{
+    fill:var(--primary);
+
   }
   .navbar .getstarted-outline .call-btn .call-r{
     color: var(--primary);
