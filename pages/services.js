@@ -153,8 +153,81 @@ const Services = () => {
                     </div>
                     <div className='row'>
                         <div className='pic-box-one'>
-                            <img src="" alt="" className='desk' />
-                            <img src="" alt="" className='mob' />
+                            <img src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' />
+                            <img src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-grey p-top-60'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-5 align-self-center'>
+                            <div className="heading-style-two">
+                                <h2>Benefits of Salesforce Implementation Partner</h2>
+                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today and See the Difference</a></div>
+                            </div>
+                        </div>
+                        <div className='col-lg-7'>
+                            <div className='row'>
+                                <div className='col-lg-6 d-flex'>
+                                    <div className='service-box-four flex-fill'>
+                                        <div className='icons-flot'>
+                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        </div>
+                                        <div className='box-inner'>
+                                            <h4>Tailored Fit</h4>
+                                            <p>Solutions designed specifically for your business needs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-6 d-flex'>
+                                    <div className='service-box-four flex-fill'>
+                                        <div className='icons-flot'>
+                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        </div>
+                                        <div className='box-inner'>
+                                            <h4>Improved Efficiency</h4>
+                                            <p>Streamlined processes and workflows</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-6 d-flex'>
+                                    <div className='service-box-four flex-fill'>
+                                        <div className='icons-flot'>
+                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        </div>
+                                        <div className='box-inner'>
+                                            <h4>Scalability</h4>
+                                            <p>Flexible solutions that grow with your business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-6 d-flex'>
+                                    <div className='service-box-four flex-fill'>
+                                        <div className='icons-flot'>
+                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        </div>
+                                        <div className='box-inner'>
+                                            <h4>Enhanced User Experience</h4>
+                                            <p>User-friendly interfaces tailored to your team’s needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-6 d-flex'>
+                                    <div className='service-box-four flex-fill'>
+                                        <div className='icons-flot'>
+                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        </div>
+                                        <div className='box-inner'>
+                                            <h4>Competitive Advantage</h4>
+                                            <p>Gain a competitive edge with bespoke solutions</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -319,24 +392,24 @@ const Services = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="1">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <span>Accordion Item 1</span>
+                                                <h3>How long does a custom implementation take?</h3>
                                                 <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
                                                     {open === '1' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <strong>This is the first item's accordion body.</strong>
+                                            <p><strong>This is the first item's accordion body.</strong>
                                             You can modify any of this with custom CSS or overriding our default
                                             variables. It's also worth noting that just about any HTML can go
                                             within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                            limit overflow.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="2">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <span>Accordion Item 2</span>
+                                            <h3>How long does a custom implementation take?</h3>
                                                 <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
                                                     {open === '2' ? '-' : '+'}
                                                 </span>
@@ -353,7 +426,7 @@ const Services = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="3">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <span>Accordion Item 3</span>
+                                            <h3>How long does a custom implementation take?</h3>
                                                 <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
                                                     {open === '3' ? '-' : '+'}
                                                 </span>

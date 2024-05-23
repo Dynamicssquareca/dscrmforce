@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className='row'>
                             <div className="col-lg-4 col-md-12 footer-info">
                                 <a href="/" className="logo d-flex align-items-center">
-                                <img src="/img/crmforceplus-logo-white.png" alt="crmforceplus-logo-white" />
+                                <img src="/crmforceplus-white.png" alt="crmforceplus-logo-white" />
                                     {/* <span>FlexStart</span> */}
                                 </a>
                                 <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>

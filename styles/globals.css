@@ -195,6 +195,12 @@ p{
 }
 
 
+
+
+
+
+
+
 /*custom padding and margin*/
 .pd-r-30{
   padding-right: 30px;
@@ -237,6 +243,26 @@ p{
 .m-bottom-60{
   margin-bottom:60px
 }
+.p-t-15{
+  padding-top:15px
+}
+.p-t-20{
+  padding-top:20px
+}
+.p-t-30{
+  padding-top:30px
+}
+
+
+
+
+
+
+
+
+
+
+
 /*Hero section css*/
 .hero{
   text-align: center;
@@ -347,6 +373,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 }
 .hero-banner-two.height-auto .elementor-background-default img{}
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*floating banner css*/
 .banner-pic-flot{
   position: relative;
@@ -446,6 +484,15 @@ to {
 }
 
 
+
+
+
+
+
+
+
+
+
 /*bg color*/
 .bg-grey{
   background-color:var(--bg-grey);
@@ -530,6 +577,18 @@ to {
  
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*hero section*/
 .hero-bg-one{
   position:relative;
@@ -561,6 +620,21 @@ overflow:hidden
   margin-bottom: 30px;
 }
 .hero-ui-one p{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*box design*/
 .service-box-one{
@@ -767,7 +841,7 @@ border-radius:8px
     align-items: center;
     justify-content: center;
 }
-.custom-anc:hover,.service-box-three:hover{
+.custom-anc:hover,.service-box-three:hover,.service-box-four:hover{
   -webkit-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
   box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
@@ -789,6 +863,53 @@ background: -webkit-linear-gradient(180deg, rgba(221,237,243,1) 29%, rgba(230,24
 background: linear-gradient(180deg, rgba(221,237,243,1) 29%, rgba(230,240,244,1) 55%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ddedf3",endColorstr="#e6f0f4",GradientType=1);
 }
+
+.pic-box-one{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic-box-one .desk{}
+.pic-box-one .mob{
+  display:none
+}
+
+.service-box-four{
+  background: #fff;
+    margin-bottom: 15px;
+    padding: 20px 16px;
+    position:relative;
+    border-radius:8px;
+    transition:.4s all ease-out
+}
+.service-box-four:hover{
+
+}
+.service-box-four .box-inner h4{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--secondary);
+}
+.service-box-four .box-inner p{
+  margin-bottom:0px
+}
+.icons-flot{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.service-box-four:hover{
+  transform:translate(5px,-5px)
+}
+
+
+
+
+
+
+
+
 
 /*CTA Css*/
 .cta{
@@ -855,6 +976,17 @@ color:var(--primary)
     left: -4px;
     top: -46px;
 }
+
+
+
+
+
+
+
+
+
+
+
 /*tabs inner design*/
 .tabs-design-one{
   background: var(--color-white);
@@ -984,6 +1116,18 @@ color:var(--primary)
   border: solid 1px #00a1e0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*inustries*/
 .bg-secnadry{
   background-color: var(--secondary);
@@ -1014,6 +1158,15 @@ color:var(--primary)
     animation: mover-left 2s infinite alternate;
 }
 .cloud-images-2 img{}
+
+
+
+
+
+
+
+
+
 
 /*from section design*/
 .form-group {
@@ -1173,6 +1326,16 @@ color:var(--primary)
 .model-form .modal-body form .form-control{
   background-color:#f1f8fa
 }
+
+
+
+
+
+
+
+
+
+
 /*exatrasection*/
 .img-about-bg{
   Position: relative;
@@ -1181,6 +1344,13 @@ color:var(--primary)
   text-align: center;
 }
 .img-about-bg .pic-top-left{}
+
+
+
+
+
+
+
 
 
 /*slider*/
@@ -1231,22 +1401,54 @@ color:var(--primary)
 }
 
 
+
+
+
 /* CustomAccordion.css */
 
-/* Remove default accordion header icons */
 .accordion-one .accordion-header {
   position: relative;
 }
-
+.accordion-one .accordion .accordion-button{
+  padding-left:0px
+}
+.accordion-one .accordion .accordion-body{
+padding-left:0
+}
+.accordion-one .accordion .accordion-item{
+    border-color: transparent;
+    border-bottom: 1px solid #daeef6;
+}
+.accordion-one .accordion .accordion-item:last-child{
+  border-color: transparent;
+}
+.accordion-one .accordion .accordion-button:not(.collapsed){
+  background:transparent
+}
+.accordion-one .accordion .accordion-button:not(.collapsed) h3,.accordion-one .accordion .accordion-button:hover h3{
+color:var(--primary)
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+  border-radius:0px
+}
+.accordion-one .accordion .accordion-item button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
 .accordion-one  .accordion-header::after {
   content: none !important;
 }
+.accordion-one h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--secondary);
+}
 
-/* Style custom icons */
 .accordion-one  .icon {
   font-size: 1.5rem;
   transition: transform 0.2s;
   display: inline-block;
+  color:var(--primary)
 }
 
 .accordion-one  .icon.open {
@@ -1393,6 +1595,16 @@ color:var(--primary)
   border-radius: 5px;
   margin-top: -6px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*media*/
@@ -1629,6 +1841,11 @@ display:none
 }
 
 @media (min-width: 100px) and (max-width: 767px){
-  
+  .pic-box-one .mob{
+    display:block
+  }
+  .pic-box-one .desk{
+    display:none
+  }
 }
 
