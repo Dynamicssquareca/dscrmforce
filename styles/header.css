@@ -81,12 +81,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 15px;
     font-size: 14px;
     font-weight: 600;
     color: #423f3f;
     /* white-space: nowrap; */
     transition: 0.3s;
+    margin-right: 5px;
   }
   
   .navbar a i,
@@ -158,16 +159,17 @@
 
   }
   .navbar .dropdown.dropdown-mega a{
-  
     position: relative;
     z-index: 100;
-    margin-bottom: -1px;
-    background: #fff;
+    margin-bottom: -1px; 
+    border: 1px solid transparent;
+    border-bottom-color:transparent
   }
   .navbar .dropdown.dropdown-mega:hover> a{
     border: 1px solid var(--primary);
     border-bottom-color: transparent;
     border-radius: 5px 5px 0px 0px;
+    background: #fff;
   }
   .navbar .dropdown.dropdown-mega ul{
     padding: 15px;

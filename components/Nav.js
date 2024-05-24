@@ -33,6 +33,10 @@ const Nav = () => {
                     <p>Salesforce Implementation</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
+                  <a href="/about-us/">
+                    <p>Salesforce Implementation</p>
+                    <span>Join hands with the leading Salesforce implementation partner for</span>
+                  </a>
               </li>
 
             </ul>
@@ -45,6 +49,10 @@ const Nav = () => {
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
                   <a href="/">
+                    <p>Salesforce Implementation</p>
+                    <span>Join hands with the leading Salesforce implementation partner for</span>
+                  </a>
+                  <a href="/about-us/">
                     <p>Salesforce Implementation</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
