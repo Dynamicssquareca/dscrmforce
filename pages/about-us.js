@@ -71,7 +71,7 @@ const AboutUs = () => {
                                 <p>As a subsidiary of the MPG Group, we are deeply committed to corporate social responsibility. Our CSR initiatives extend beyond the realm of business to support local communities, promote education, and contribute to environmental sustainability. We believe that by investing in social responsibility, we can create a brighter future for all.</p>
                             </div>
                         </div>
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 mob-m-30">
                             <div className="row">
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
