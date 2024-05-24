@@ -141,8 +141,9 @@ const AboutUs = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="row pd-l-r-80">
-                                <div className="col-lg-5">
+                            <div className="pd-l-r-80">
+                                <img src="/img/section/about-teampic.png" alt="about-teampic" />
+                                {/* <div className="col-lg-5">
                                     <div className="user-box-card m-t-20">
                                         <div className="center-image">
                                             <img src="/img/icons/certtifed-icons.png" alt="certtifed-icons" width={144} height={144} />
@@ -181,14 +182,14 @@ const AboutUs = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="p-top-60" style={{paddingBottom:"0px"}}>
+            <section className="p-top-600">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
