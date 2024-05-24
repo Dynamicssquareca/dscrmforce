@@ -1,14 +1,30 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import FooterContactForm from './FooterContactForm';
 import FormSubscribe from './FormSubscribe';
 import ScrollToTopButton from './ScrollToTopButton';
 
 const Footer = () => {
+    const router = useRouter();
+    const { pathname } = router;
+
+// Define classes based on different routes
+let footerClass = '';
+
+if (pathname === '/contact-us' || pathname === '/about-us') {
+  footerClass = 'footer-pad';
+} 
+// } else if (pathname === '/page2') {
+//   footerClass = 'page2-footer';
+// } else if (pathname === '/page3') {
+//   footerClass = 'page3-footer';
+// }
+
     return (
         <>
         <FooterContactForm  />
             <footer id="footer" className="footer">
-                <div className='footer-top'>
+                <div className={`footer-top ${footerClass}`}>
                     <div className='container'>
                         <div className='row'>
                             <div className="col-lg-4 col-md-12 footer-info">
