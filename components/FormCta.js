@@ -17,7 +17,7 @@ const FormCta = ({ onSubmit }) => {
   
   const [errors, setErrors] = useState({});
 
-  const [defaultCountryCode, setDefaultCountryCode] = useState('gb');
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us');
 
   useEffect(() => {
     // Fetch IP information when the component mounts
@@ -25,14 +25,14 @@ const FormCta = ({ onSubmit }) => {
   }, []);
 
   const fetchCountryCodeByIP = () => {
-    axios.get('https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e')
+    axios.get('')//https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e
       .then(response => {
         const countryCode = response.data.country_code.toLowerCase(); // Convert to lowercase
         setDefaultCountryCode(countryCode);
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-        setDefaultCountryCode('gb'); // Fallback to 'us' if the API call fails
+        setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
       });
   };
   // const fetchCountryCodeByIP = () => {

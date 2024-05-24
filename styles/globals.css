@@ -1255,7 +1255,14 @@ color:var(--primary)
   padding: 0px 5px;
   font-weight: 600;
 }
-
+.form-one .form-group{
+  margin-bottom: 1.2rem;
+}
+.form-one .form-group .text-danger{
+  position: absolute;
+    font-size: 11px;
+    right: 0;
+}
 .contact-form-left{
   -webkit-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.08);
