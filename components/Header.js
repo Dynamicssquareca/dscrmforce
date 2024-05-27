@@ -26,9 +26,9 @@ const Header = () => {
         <>
             <header id="header" className={`header ${isFixed ? 'fixed header-scrolled' : ''}`}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-                    <Link href="/" className="logo d-flex align-items-center">
+                    <a href="/" className="logo d-flex align-items-center">
                         <img src="/crmforceplus-logo.png" alt="crmforceplus-logo" />
-                    </Link>
+                    </a>
                     <Nav />
                 </div>
             </header>

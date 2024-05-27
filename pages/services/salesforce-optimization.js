@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-const Services = () => {
+const SalesforceOptimization = () => {
 
     const [showAll, setShowAll] = useState(false);
 
@@ -453,4 +453,4 @@ const Services = () => {
     );
 }
 
-export default Services;
+export default SalesforceOptimization;

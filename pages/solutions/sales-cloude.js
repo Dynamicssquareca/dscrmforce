@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
-const Solution = () => {
+const SalesCloude = () => {
 
     const [showAll, setShowAll] = useState(false);
 
@@ -492,4 +492,4 @@ const Solution = () => {
     );
 }
 
-export default Solution;
+export default SalesCloude;

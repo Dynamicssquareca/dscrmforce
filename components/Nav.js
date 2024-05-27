@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
+
 import { Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
 import DropdownComponent from '@/components/DropdownComponent';
 const Nav = () => {
@@ -9,18 +9,18 @@ const Nav = () => {
   // const toggles = () => setDropdownOpen(!dropdownOpen);
 
   const servicesItems = [
-    { label: 'Salesforce Implementation', href: '/services/' },
-    { label: 'Customization & Integration', href: '/services/' },
-    { label: 'Training & Support', href: '/services/' },
-    { label: 'Salesforce Optimization', href: '/services/' },
+    { label: 'Salesforce Implementation', href: '/services/salesforce-implementation/' },
+    { label: 'Customization & Integration', href: '/services/customization-and-integration/' },
+    { label: 'Training & Support', href: '/services/training-and-support/' },
+    { label: 'Salesforce Optimization', href: '/services/salesforce-optimization/' },
   ];
 
   const solutionsItems = [
-    { label: 'Small Business', href: '/solutions/' },
-    { label: 'Sales Cloud', href: '/solutions/' },
-    { label: 'Service Cloud', href: '/solutions/' },
-    { label: 'Marketing Cloud', href: '/solutions/' },
-    { label: 'Commerce Cloud', href: '/solutions/' },
+    { label: 'Small Business', href: '/solutions/small-business/' },
+    { label: 'Sales Cloud', href: '/solutions/sales-cloude/' },
+    { label: 'Service Cloud', href: '/solutions/service-cloud/' },
+    { label: 'Marketing Cloud', href: '/solutions/marketing-cloud/' },
+    { label: 'Commerce Cloud', href: '/solutions/commerce-cloud/' },
   ];
 
   const resourceItems = [
@@ -36,22 +36,22 @@ const Nav = () => {
     <>
       <nav id="navbar" className="navbar">
         <ul>
-          <li className="dropdown dropdown-mega"><a href="/services/"><span>Services</span> <i className="bi bi-chevron-down"></i></a>
+          <li className="dropdown dropdown-mega"><a href="#"><span>Services</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <a href="/">
+                <a href="/services/salesforce-implementation/">
                   <p>Salesforce Implementation</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/services/customization-and-integration/">
                   <p>Customization & Integration</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/services/training-and-support/">
                   <p>Training & Support</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/services/salesforce-optimization/">
                   <p>Salesforce Optimization</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
@@ -59,26 +59,26 @@ const Nav = () => {
 
             </ul>
           </li>
-          <li className="dropdown dropdown-mega"><a href="/solutions/"><span>Solutions</span> <i className="bi bi-chevron-down"></i></a>
+          <li className="dropdown dropdown-mega"><a href="#"><span>Solutions</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                <a href="/">
+                <a href="/solutions/small-business/">
                   <p>Small Business</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/solutions/sales-cloude/">
                   <p>Sales Cloud</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/solutions/service-cloud/">
                   <p>Service Cloud</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/solutions/marketing-cloud/">
                   <p>Marketing Cloud</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
-                <a href="/">
+                <a href="/solutions/commerce-cloud/">
                   <p>Commerce Cloud</p>
                   <span>Join hands with the leading Salesforce implementation partner for</span>
                 </a>
@@ -98,8 +98,8 @@ const Nav = () => {
               <a href="/career/">Careers</a>
             </ul>
           </li> */}
-          <li><Link className="nav-link scrollto" href="/about-us/">About Us</Link></li>
-          <li><Link className="nav-link scrollto" href="/contact-us/">Contact Us</Link></li>
+          <li><a className="nav-link scrollto" href="/about-us/">About Us</a></li>
+          <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
           {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -162,15 +162,15 @@ const Nav = () => {
           <Offcanvas isOpen={isOpen} toggle={toggles} className='navbar-mobile'>
             <OffcanvasHeader toggle={toggles}>
               <div className='mobile-logo'>
-              <a href="/"><img src="/crmforceplus-logo.png" alt="/crmforceplus-logo" /></a>
+                <a href="/"><img src="/crmforceplus-logo.png" alt="/crmforceplus-logo" /></a>
               </div>
             </OffcanvasHeader>
             <OffcanvasBody>
 
               <ul>
-              
-              <DropdownComponent id="servicesDropdown" label="Services" items={servicesItems} />
-      <DropdownComponent id="solutionsDropdown" label="Solutions" items={solutionsItems} />
+
+                <DropdownComponent id="servicesDropdown" label="Services" items={servicesItems} />
+                <DropdownComponent id="solutionsDropdown" label="Solutions" items={solutionsItems} />
                 {/* <DropdownComponent label="Resources" items={resourceItems} /> */}
                 <li><a className="nav-link scrollto" href="/about-us/">About US</a></li>
                 {/* <Dropdown nav isOpen={dropdownOpen} toggle={toggles}>
@@ -196,7 +196,7 @@ const Nav = () => {
                   </ul>
                   
                 </li> */}
-                <li><Link className="nav-link scrollto" href="/contact-us/">Contact Us</Link></li>
+                <li><a className="nav-link scrollto" href="/contact-us/">Contact Us</a></li>
 
 
                 {/* <li><a className="getstarted-outline" href="/"><div className='call-btn'><i className="bi bi-telephone-fill"></i><div className='call-r'>Give us a call <span>9876 543 210</span></div></div></a></li>
