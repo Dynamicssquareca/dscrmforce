@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
 import DropdownComponent from '@/components/DropdownComponent';
 const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);
+  const [isOpen, setIsOpen] = useState(true);
+  const toggles = () => setIsOpen(!isOpen);
   // const [dropdownOpen, setDropdownOpen] = useState(false);
   // const toggles = () => setDropdownOpen(!dropdownOpen);
 
@@ -157,10 +157,10 @@ const Nav = () => {
         </ul>
 
 
-        <i className="bi bi-list mobile-nav-toggle" onClick={toggle}></i>
+        <i className="bi bi-list mobile-nav-toggle" onClick={toggles}></i>
         <div className='navbar-mobile'>
-          <Offcanvas isOpen={isOpen} toggle={toggle} className='navbar-mobile'>
-            <OffcanvasHeader toggle={toggle}>
+          <Offcanvas isOpen={isOpen} toggle={toggles} className='navbar-mobile'>
+            <OffcanvasHeader toggle={toggles}>
               <div className='mobile-logo'>
               <a href="/"><img src="/crmforceplus-logo.png" alt="/crmforceplus-logo" /></a>
               </div>
