@@ -1,17 +1,35 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import {
-  Button, Offcanvas, OffcanvasHeader, OffcanvasBody, Dropdown,
-  DropdownItem,
-  DropdownToggle,
-  DropdownMenu,
-} from 'reactstrap';
-
+import { Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
+import DropdownComponent from '@/components/DropdownComponent';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const toggles = () => setDropdownOpen(!dropdownOpen);
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
+  // const toggles = () => setDropdownOpen(!dropdownOpen);
+
+  const servicesItems = [
+    { label: 'Salesforce Implementation', href: '/services/' },
+    { label: 'Customization & Integration', href: '/services/' },
+    { label: 'Training & Support', href: '/services/' },
+    { label: 'Salesforce Optimization', href: '/services/' },
+  ];
+
+  const solutionsItems = [
+    { label: 'Small Business', href: '/solutions/' },
+    { label: 'Sales Cloud', href: '/solutions/' },
+    { label: 'Service Cloud', href: '/solutions/' },
+    { label: 'Marketing Cloud', href: '/solutions/' },
+    { label: 'Commerce Cloud', href: '/solutions/' },
+  ];
+
+  const resourceItems = [
+    { label: 'About Us', href: '/about-us/' },
+    { label: 'Blogs', href: '/blogs/' },
+    { label: 'Why Us', href: '/why-us/' },
+    { label: 'Partners', href: '/partner/' },
+    { label: 'Careers', href: '/career/' },
+  ];
 
   return (
 
@@ -21,22 +39,22 @@ const Nav = () => {
           <li className="dropdown dropdown-mega"><a href="/services/"><span>Services</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                  <a href="/">
-                    <p>Salesforce Implementation</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Customization & Integration</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Training & Support</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Salesforce Optimization</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
+                <a href="/">
+                  <p>Salesforce Implementation</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Customization & Integration</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Training & Support</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Salesforce Optimization</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
               </li>
 
             </ul>
@@ -44,26 +62,26 @@ const Nav = () => {
           <li className="dropdown dropdown-mega"><a href="/solutions/"><span>Solutions</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-              <a href="/">
-                    <p>Small Business</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
                 <a href="/">
-                    <p>Sales Cloud</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Service Cloud</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Marketing Cloud</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
-                  <a href="/">
-                    <p>Commerce Cloud</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
+                  <p>Small Business</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Sales Cloud</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Service Cloud</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Marketing Cloud</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
+                <a href="/">
+                  <p>Commerce Cloud</p>
+                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                </a>
               </li>
 
             </ul>
@@ -142,28 +160,32 @@ const Nav = () => {
         <i className="bi bi-list mobile-nav-toggle" onClick={toggle}></i>
         <div className='navbar-mobile'>
           <Offcanvas isOpen={isOpen} toggle={toggle} className='navbar-mobile'>
-            <OffcanvasHeader toggle={toggle}></OffcanvasHeader>
+            <OffcanvasHeader toggle={toggle}>
+              <div className='mobile-logo'>
+              <a href="/"><img src="/crmforceplus-logo.png" alt="/crmforceplus-logo" /></a>
+              </div>
+            </OffcanvasHeader>
             <OffcanvasBody>
-              <ul>
-                <li><Link className="nav-link scrollto active" href="/services/">Services</Link></li>
-                <li><Link className="nav-link scrollto" href="/solutions/">Solutions</Link></li>
-                <li><Link className="nav-link scrollto" href="/about-us/">About US</Link></li>
-                {/* <li><a className="nav-link scrollto" href="/">Industries</a></li>
-                <li><a className="nav-link scrollto" href="/">Company</a></li> */}
 
+              <ul>
+              
+                 <DropdownComponent label="Services" items={servicesItems} />
+                <DropdownComponent label="Solutions" items={solutionsItems} />
+                {/* <DropdownComponent label="Resources" items={resourceItems} /> */}
+                <li><a className="nav-link scrollto" href="/about-us/">About US</a></li>
                 {/* <Dropdown nav isOpen={dropdownOpen} toggle={toggles}>
-                    <DropdownToggle nav caret>
-                      Resources
-                    </DropdownToggle>
-                    <DropdownMenu>
-                      <ul>
-                        <li><Link href="/about-us/">About Us</Link></li>
-                        <Link href="/why-us/">Why Us</Link>
-                        <Link href="/partner/">Partners</Link>
-                        <Linkhref="/career/">Careers</Link>
-                      </ul>
-                    </DropdownMenu>
-                  </Dropdown> */}
+                  <DropdownToggle nav caret>
+                    Resources
+                  </DropdownToggle>
+                  <DropdownMenu>
+                    <ul>
+                      <li><a href="/about-us/">About Us</a></li>
+                      <a href="/why-us/">Why Us</a>
+                      <a href="/partner/">Partners</a>
+                      <a href="/career/">Careers</a>
+                    </ul>
+                  </DropdownMenu>
+                </Dropdown> */}
 
                 {/* <li className="dropdown"><a href="#"><span>Resources</span> <i className="bi bi-chevron-down"></i></a>
                   <ul>

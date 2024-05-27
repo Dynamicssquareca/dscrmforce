@@ -1838,6 +1838,19 @@ margin-top:30px
 .header.header-scrolled {
   padding: 15px 0;
 }
+.service-box-two .service-box-two-inner{
+  margin-bottom: 15px;
+}
+.pd-r-30 {
+  padding-right: 0px;
+}
+.mobile-logo{}
+.mobile-logo img{
+  max-width: 160px;
+}
+.header {
+  padding: 15px 0;
+}
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
@@ -1902,12 +1915,7 @@ display:none
 .absolut-img-one {
   display: none;
 }
-.service-box-two .service-box-two-inner{
-  margin-bottom: 15px;
-}
-.pd-r-30 {
-  padding-right: 0px;
-}
+
 }
 
 @media (min-width: 100px) and (max-width: 767px){
