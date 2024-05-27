@@ -1407,7 +1407,9 @@ color:var(--primary)
     display: none;
 }
 
-
+.desk-hide{
+  display:none
+}
 
 
 
@@ -1817,6 +1819,16 @@ margin-top:30px
 .bg-center-two {
   margin-top: -40px;
 }
+.desk-hide{
+  display:block
+}
+.hide-m-sil{
+  display:none
+}
+.tabs-design-one .tabs-design-one-left {
+  padding-right: 0px;
+  margin-bottom: 20px;
+}
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
@@ -1890,5 +1902,6 @@ display:none
   .pic-box-one .desk{
     display:none
   }
+
 }
 
