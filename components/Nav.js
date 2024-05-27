@@ -21,20 +21,20 @@ const Nav = () => {
           <li className="dropdown dropdown-mega"><a href="/services/"><span>Services</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
-                    <span>Join hands with the leading Salesforce implementation partner for</span>
-                  </a>
                   <a href="/">
                     <p>Salesforce Implementation</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
+                  <a href="/">
+                    <p>Customization & Integration</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
+                  <a href="/">
+                    <p>Training & Support</p>
+                    <span>Join hands with the leading Salesforce implementation partner for</span>
+                  </a>
+                  <a href="/">
+                    <p>Salesforce Optimization</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
               </li>
@@ -44,20 +44,24 @@ const Nav = () => {
           <li className="dropdown dropdown-mega"><a href="/solutions/"><span>Solutions</span> <i className="bi bi-chevron-down"></i></a>
             <ul>
               <li>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
+              <a href="/">
+                    <p>Small Business</p>
+                    <span>Join hands with the leading Salesforce implementation partner for</span>
+                  </a>
+                <a href="/">
+                    <p>Sales Cloud</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
                   <a href="/">
-                    <p>Salesforce Implementation</p>
+                    <p>Service Cloud</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
+                  <a href="/">
+                    <p>Marketing Cloud</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
-                  <a href="/about-us/">
-                    <p>Salesforce Implementation</p>
+                  <a href="/">
+                    <p>Commerce Cloud</p>
                     <span>Join hands with the leading Salesforce implementation partner for</span>
                   </a>
               </li>
