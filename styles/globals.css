@@ -1902,6 +1902,12 @@ display:none
 .absolut-img-one {
   display: none;
 }
+.service-box-two .service-box-two-inner{
+  margin-bottom: 15px;
+}
+.pd-r-30 {
+  padding-right: 0px;
+}
 }
 
 @media (min-width: 100px) and (max-width: 767px){
