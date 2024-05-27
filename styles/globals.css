@@ -1836,7 +1836,7 @@ margin-top:30px
   padding-top: 30px;
 }
 .header.header-scrolled {
-  padding: 15px 0;
+  padding: 15px 0 !important;
 }
 .service-box-two .service-box-two-inner{
   margin-bottom: 15px;
@@ -1848,9 +1848,7 @@ margin-top:30px
 .mobile-logo img{
   max-width: 160px;
 }
-.header {
-  padding: 15px 0;
-}
+
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
