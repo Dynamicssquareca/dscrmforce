@@ -1848,7 +1848,9 @@ margin-top:30px
 .mobile-logo img{
   max-width: 160px;
 }
-
+.navbar-mobile ul li{
+  margin-bottom: 10px;
+}
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
