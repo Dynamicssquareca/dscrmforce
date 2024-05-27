@@ -32,8 +32,8 @@ const SmallBusiness = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
+                                <h1>Supercharge Your Small Business with Salesforce: Grow Faster, Smarter, Stronger</h1>
+                                <p>Stop wasting time and resources. Streamline your operations, boost sales, and delight customers with Salesforce for Small Business. Get a free trial and see the difference!</p>
                                 <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo" />
                             </div>
                         </div>
@@ -55,8 +55,8 @@ const SmallBusiness = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Track customers in a better way with advanced CRM functionalities</h2>
+                                <span>Key Features of Salesforce for Small Business</span>
+                                <h2>Simplify Your Business with Powerful Features of Salesforce for Small Business</h2>
                             </div>
                         </div>
                     </div>
@@ -65,38 +65,38 @@ const SmallBusiness = () => {
                             <div className='row d-flex align-items-stretch'>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Activity Management</h3>
-                                        <p>Track customer activities and engagement through different communication channels.</p>
+                                        <h3>Effortless CRM</h3>
+                                        <p>Manage customer relationships seamlessly, track leads, and close deals faster.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Forecast Management</h3>
-                                        <p>Forecast trends and customer demands using real-time data to drive growth.</p>
+                                        <h3>Automated Workflows</h3>
+                                        <p>Free up your time by automating repetitive tasks and nurturing leads automatically.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Process Automation</h3>
-                                        <p>Manage and prioritize leads using AI capabilities to generate maximum revenue.</p>
+                                        <h3>Mobile Access</h3>
+                                        <p>Work from anywhere with the Salesforce mobile app and stay connected to your customers on the go.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Pipeline Management</h3>
-                                        <p>Manage and track the sales pipeline, from capturing a lead to converting it using AI.</p>
+                                        <h3>Powerful Reporting & Insights</h3>
+                                        <p>Gain valuable insights into your sales performance and make data-driven decisions.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Quote Approvals</h3>
-                                        <p>Access quote templates linked with sales opportunities to speed up approvals.</p>
+                                        <h3>Integrated Solutions</h3>
+                                        <p>Connect Salesforce with your existing tools for a unified view of your business.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Account Management</h3>
-                                        <p>Simplify the sales process to understand the customer and increase deal size.</p>
+                                        <h3>Affordable & Scalable</h3>
+                                        <p>Enjoy flexible pricing that grows with your business and see a clear return on investment.</p>
                                     </div>
                                 </div>
 
@@ -116,8 +116,8 @@ const SmallBusiness = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Sales Product</span>
-                                <h2>Digitalize Sales and Business Operations with Diverse Sales Cloud Apps</h2>
+                                <span>Salesforce Products for Small Business</span>
+                                <h2>Grow Your Business Faster with These Salesforce for Small Business Products</h2>
                             </div>
                         </div>
                     </div>
@@ -125,52 +125,41 @@ const SmallBusiness = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Starter Suite</h3>
+                                <p>Lay the foundation for growth with essential contact management and sales tools.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Pro Suite</h3>
+                                <p>Unlock powerful automation, lead nurturing, and reporting to accelerate your sales. </p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Marketing</h3>
+                                <p>Engage customers across channels, personalize campaigns, and drive higher ROI. </p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Sales</h3>
+                                <p>Manage leads, track opportunities, and close deals faster with a streamlined sales process. .</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Revenue Intelligence</h3>
-                                <p>Categories lead on the basis of revenue through built-in analytics and insights.</p>
+                                <h3>Service</h3>
+                                <p>Deliver exceptional customer support, resolve issues quickly, and build stronger relationships.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Planning</h3>
-                                <p>Build a sales strategy to capture leads, increase conversions, and enhance ROI.</p>
+                                <h3>Productivity with Slack</h3>
+                                <p>Boost team collaboration, communication, and productivity with integrated Slack functionality.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
-                                <h3>Sales Programs</h3>
-                                <p>Deploy sufficient resources using AI-powered coaching to maximize sales output.</p>
-                            </div>
-                        </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
-                                <h3>Sales Analytics</h3>
-                                <p>Get sales insights to simplify the sales pipeline and optimize different sales operations.</p>
-                            </div>
-                        </div>
+                        
                         {/* {!showAll && (
                             <div className="col-lg-3 d-flex">
                                 <div className="service-box-three flex-fill custom-anc bg-gradiant" onClick={handleShowAll}>
@@ -182,66 +171,7 @@ const SmallBusiness = () => {
                         )}
                         {showAll && (
                             <>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
-                                        <h3>Sales Programs</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Partner Relationship Management</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
-                                        <h3>Sales Team Productivity</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill ">
-                                        <h3>Buyer Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales AI</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
-                                        <h3>Sales Analytics</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales AI</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill">
-                                        <h3>Sales Programs</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
+                               
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill bg-gradiant">
                                         <h3>Partner Relationship Management</h3>
@@ -260,8 +190,8 @@ const SmallBusiness = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Benefits of Salesforce Sales Cloud</span>
-                                <h2>Boost sales performance, delight customers, and generate more revenue</h2>
+                                <span>Benefits of Salesforce for Small Business</span>
+                                <h2>From Small Biz to Big Success: Level up your Business with advanced tools</h2>
                             </div>
                         </div>
                     </div>
@@ -272,29 +202,29 @@ const SmallBusiness = () => {
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Boost Sales & Close More Deals</h3>
+                                <p>Streamline your sales process, automate tasks, and gain valuable insights to close deals faster.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Effortless Customer Management</h3>
+                                <p>Centralize all your customer data, track interactions, and build stronger relationships effortlessly.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Unify Your Business</h3>
+                                <p>Connect Salesforce with your existing tools to gain a complete view of your operations and work more efficiently.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Access Automation</h3>
-                                <p>Leverage automation to eliminate system redundancies and automate different processes.</p>
+                                <h3>Data-Driven Decisions</h3>
+                                <p>Gain real-time insights into your business performance, identify trends, and make smarter decisions for growth.</p>
                             </div>
                         </div>
                     </div>
@@ -310,9 +240,9 @@ const SmallBusiness = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Ready to Supercharge Your Small Business with Salesforce Solutions?</h3>
+                                <p>Get a free consultation and unlock the power of Salesforce for your unique needs.</p>
+                                <ModelBox headerText="Schedule a Free Call Today!" buttonText="Schedule a Free Call Today!" />
                             </div>
                         </div>
                     </div>
@@ -324,8 +254,8 @@ const SmallBusiness = () => {
                         <div className="col-lg-7">
                             <div className="heading-style-two">
                                 <span>How CRMForce + can help you?</span>
-                                <h2>Double up your sales numbers with a tailored Salesforce Sales Cloud solution</h2>
-                                {/* <p>We enable the Salesforce to work for you. Build relationships, transform the customer experience, and drive uninterrupted growth with our expert guidance.<br /><br />Don't settle for just a Salesforce partner. We deliver results. Our Salesforce experts combine experience, proven solutions, and advanced technology to harness the power of CRM and transform your business.</p> */}
+                                <h2>Your Trusted Partner for Salesforce Success: How CRMForce+ Empowers Small Businesses</h2>
+                               
                             </div>
                         </div>
                     </div>
@@ -336,22 +266,22 @@ const SmallBusiness = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Seamless Implementation</h3>
-                                <p>Join hands with reliable Salesforce-certified experts for an efficient, productive, and successful implementation.</p>
+                                <h3>Expert Guidance & Implementation</h3>
+                                <p>Our team of certified Salesforce consultants will guide you through every step of the implementation process, ensuring successful transition.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Proven Expertise</h3>
-                                <p>With years of experience and expertise in Salesforce, we are available to simplify and optimize sales processes.</p>
+                                <h3>Customized Solutions for Your Needs</h3>
+                                <p>We'll work with you to understand your unique business goals and tailor Salesforce to meet them perfectly.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Tailored Approach</h3>
-                                <p>Align the Sales Cloud with the uniqueness of your business to accept sheer growth and sustainability.</p>
+                                <h3>Measurable Results & ROI</h3>
+                                <p>We'll track your progress and ensure you see a clear return on investment from your Salesforce implementation.</p>
                             </div>
                         </div>
                     </div>
@@ -363,9 +293,9 @@ const SmallBusiness = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="heading-style-one">
-                                <span>Case Stories</span>
-                                <h2>Sales Cloud has transformed the sales operations of different businesses to go all digital</h2>
-                                <p>Explore such businesses to see the effectiveness of Salesforce Sales Cloud with a tailored approach.</p>
+                                <span>Customer Stories</span>
+                                <h2>Small Businesses, Big Success: Inspiring Stories of Growth</h2>
+                                <p>Check out the inspiring stories of small businesses that have overcome challenges and achieved success through innovation and perseverance.</p>
                             </div>
                         </div>
                     </div>
@@ -402,11 +332,11 @@ const SmallBusiness = () => {
 
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>World Economic Forum, a global forum, aimed to centralize systems with Sales Cloud. </h4>
-                                            <p>Being a global discussion forum, they were using email attachments and spreadsheets to manage data for large programs. Managing data from different aspects becomes time-consuming using different solutions. Salesforce integrated different solutions, including Sales Cloud, into WEF. This implementation led them to track attendees and manage potential memberships.</p>
+                                            <h4>Snapology of Lehi Builds STEAM Future with Affordable CRM Capabilities</h4>
+                                            <p>Focused on STEAM education, Snapology of Lehi Builds was facing challenge to grow and maintain cost efficiency due to pandemic. With the Startup Pack of Small Businesses, they have implemented an attractive user-interface and lightning App Development for ease of customisation. The business has started getting critical insights for tracking growth, and marketing campaign effectiveness.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased data usability by 30%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Enhanced customer base by 40%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -414,11 +344,11 @@ const SmallBusiness = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Grammarly, an AI-based writing application, aimed to increase the conversion rate.</h4>
-                                            <p>Grammarly is a popular tool with over 30 million global users. They used to collect, filter, and process inbound leads manually, making the process hectic. The Einstein 1 Marketing of Sales Cloud utilized AI to connect sales with marketing and automated processes to increase the conversion rate by 30%.</p>
+                                            <h4>ICS+ Tunes Up Productivity and Unified Operations with Salesforce Small Business</h4>
+                                            <p>ICS+ was facing issues managing disparate systems, limited collaboration opportunities, and ineffective lead management. With the Salesforce for Small Business implementation, they are now able to centralize data management, boost team collaboration, and enhance lead management operations more effectively.  ICS+ achieves boosted productivity, faster cash flow, and enhanced sales efficiency. </p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased Sales Efficiency by 25%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Achieved ROI using Salesforce by 942%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -426,52 +356,17 @@ const SmallBusiness = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>The Texas Rangers, an American-based baseball team, want to get a 360° view of operations.</h4>
-                                            <p>The Texas Rangers are a world-champion baseball team that wants to eliminate the manual ways of guest service while eliminating data silos from the system. With the Sales Cloud implementation, Texas Ranger can now connect diverse systems to get a unified business view with real-time data insights.</p>
+                                            <h4>Humu Builds a People-Centered Business with Salesforce Essentials</h4>
+                                            <p>Humu was facing issues in managing client relationships, empowering user adoption, and gather customer feedback. With the adoption of Salesforce Essentials, they are now able to streamline client management, adapt to intuitive user interface, utilize mobile accessibility, and perform data-driven product development. Humu is able to build strong client relationships, enhance team productivity, and boost product development.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Productivity increased by 30%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Team collaboration enhanced by 50%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
                                         </div>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Pirelli, a premium tire company, aims to utilize data to enhance business efficiency.</h4>
-                                            <p>Pirelli is a renowned brand with a global presence of approx. 1.8 million orders per day using their dealer platform. They were facing issues establishing connections with dealers and customers to generate more sales. This lets the business implement a B2B2C consulting model with Sales Cloud to capture data insights and perform data-driven sales.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>John Lewis Partnership, a popular business in the UK, aimed to utilize data.</h4>
-                                            <p>Being a popular and largest employee-owned business in the UK with 34 shops and 329 supermarket stores, they have collected huge amounts of data in different departments but are unable to utilize it. Now, with Sales Cloud implementation, they are able to centralize data across departments to offer an exceptional customer experience.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Spotify, a streaming giant, wants to supercharge sales with Salesforce Sales Cloud.</h4>
-                                            <p>Spotify is a digital music platform with millions of global users. They want to capture customer data so that they can serve ads better. Also, they want to show more personalized content using data analytics to retain users for the long run. All such issues were resolved using the Salesforce Sales Cloud implementation.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
+                                    
                                 </Swiper>
                             </div>
                         </div>

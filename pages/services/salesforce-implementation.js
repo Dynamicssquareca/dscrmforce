@@ -44,9 +44,9 @@ const SalesforceImplementation = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
-                                <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Consultatio" />
+                                <h1>Seamless Salesforce Implementation: Trusted Partner, Streamlined Results</h1>
+                                <p>CRMForce+ - Your Trusted Partner in Transforming your Business with Salesforce</p>
+                                <ModelBox headerText="Get a Free Demo" buttonText="Schedule a Free Call!" />
                             </div>
                         </div>
                     </div>
@@ -63,9 +63,9 @@ const SalesforceImplementation = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Most Trusted and Secure <br />Salesforce Implementation Services</h2>
-                                <p>At CRMFORCEPLUS, we are dedicated to revolutionizing businesses through innovative Salesforce Solutions implementations. As a newly established venture, we bring a fresh perspective to the realm of customer relationship management, leveraging cutting-edge technology to drive growth and success for our clients.</p>
+                                {/* <span>Features of Salesforce Sales Cloud</span> */}
+                                <h2>Reliable and Cost-effective Salesforce Implementation Services</h2>
+                                <p>Stop wasting time and money on complex or overpriced Salesforce implementations. CRMforce+ offers a reliable and cost-effective approach, ensuring your CRM solution is tailored to your business needs and budget. Our experienced team will guide you through every step of the process, from initial planning to successful launch.</p>
                             </div>
                         </div>
                     </div>
@@ -75,22 +75,22 @@ const SalesforceImplementation = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Proven Methodology</h3>
+                                <p>We follow a structured approach for a smooth and efficient implementation process to guaranteed project success.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Certified Experts</h3>
+                                <p>Join hands with Salesforce certified experts to get benefit from the knowledge and expertise they are possessing.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Long-Term Support</h3>
+                                <p>Our commitment extends beyond Salesforce implementation with ongoing support to ensure continuous success.</p>
                             </div>
                         </div>
 
@@ -104,8 +104,8 @@ const SalesforceImplementation = () => {
                         <div className="col-lg-6">
                             <div className="heading-style-two">
                                 {/* <span>Sales Product</span> */}
-                                <h2>Salesforce Product Implementation Expertise</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <h2>Effective Salesforce Product Implementation Services</h2>
+                                <p>Enhance operational efficiency, improve decision making, and get data-driven success with the implementation of specific salesforce solution. </p>
                             </div>
                         </div>
                     </div>
@@ -113,26 +113,26 @@ const SalesforceImplementation = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Sales Cloud Implementation</h3>
+                                <p>Automate tasks, manage leads effectively, and close more deals with a customized Salesforce Sales Cloud solution.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Service Cloud Implementation</h3>
+                                <p>Empower your team to deliver exceptional customer service, resolve issues faster, and build stronger customer loyalty.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Marketing Cloud Implementation</h3>
+                                <p>Automate marketing campaigns, personalize customer journeys, and measure results for optimized marketing efforts.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Commerce Cloud Implementation</h3>
+                                <p>Unify your online store with your CRM, streamline the buying experience, and drive sales growth.</p>
                             </div>
                         </div>
 
@@ -165,9 +165,9 @@ const SalesforceImplementation = () => {
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
                             <div className="heading-style-two">
-                                <h2>Benefits of Salesforce Implementation Partner</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
-                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today and See the Difference</a></div>
+                                <h2>Get the Most Out of Salesforce: Partner with CRMForce+</h2>
+                                <p>Experience a seamless and successful Salesforce implementation with proven expertise, and cost-effective approach.</p>
+                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today!</a></div>
                             </div>
                         </div>
                         <div className='col-lg-7'>
@@ -178,8 +178,8 @@ const SalesforceImplementation = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Tailored Fit</h4>
-                                            <p>Solutions designed specifically for your business needs</p>
+                                            <h4>Cost-Effective  <br/>Solutions</h4>
+                                            <p>We optimize costs without compromising on quality, delivering the best value for your investment.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +189,8 @@ const SalesforceImplementation = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Improved Efficiency</h4>
-                                            <p>Streamlined processes and workflows</p>
+                                            <h4>Customized to <br/> Your Needs</h4>
+                                            <p>We don't offer a one-size-fits-all solution. We tailor Salesforce to fit your unique business goals.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -200,8 +200,8 @@ const SalesforceImplementation = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Scalability</h4>
-                                            <p>Flexible solutions that grow with your business.</p>
+                                            <h4>Streamlined <br/>Implementation Process</h4>
+                                            <p>Experience a clear and efficient implementation journey with clear communication and milestones.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -211,8 +211,8 @@ const SalesforceImplementation = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Enhanced User Experience</h4>
-                                            <p>User-friendly interfaces tailored to your team’s needs.</p>
+                                            <h4>Ongoing  <br/>Support & Training</h4>
+                                            <p>Our commitment goes beyond implementation. We offer ongoing support and training to ensure success.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -222,8 +222,8 @@ const SalesforceImplementation = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Competitive Advantage</h4>
-                                            <p>Gain a competitive edge with bespoke solutions</p>
+                                            <h4>Measurable  <br/>Results & ROI</h4>
+                                            <p>Track your progress and maximize your return on investment with our data-driven approach.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -242,9 +242,9 @@ const SalesforceImplementation = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Ready to Transform Your Business? Start Your Salesforce Journey Today!</h3>
+                                <p>Don't wait, start building your Salesforce success story today!</p>
+                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Call Now!" />
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@ const SalesforceImplementation = () => {
             </section>
 
 
-            <section>
+            {/* <section>
                 <div className='container'>
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -371,7 +371,7 @@ const SalesforceImplementation = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
@@ -392,52 +392,40 @@ const SalesforceImplementation = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="1">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <h3>How long does a custom implementation take?</h3>
+                                                <h3>What is Salesforce implementation?</h3>
                                                 <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
                                                     {open === '1' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <p><strong>This is the first item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.</p>
+                                            <p>Salesforce implementation is the process of tailoring Salesforce solutions like Sales Cloud, Marketing Cloud, etc. to your specific business needs. CRMForce + can help you navigate this process, from initial planning and data migration to configuration, customization, and user training. Our goal is to ensure a smooth and efficient implementation that maximizes the value of Salesforce for your company.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="2">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>How difficult is to implement Salesforce?</h3>
                                                 <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
                                                     {open === '2' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="2">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                           <p>The difficulty of a Salesforce implementation depends on several factors, such as the complexity of your business needs, the number of Salesforce products you choose to implement, and the amount of data migration involved. However, CRMForce+ can help simplify the process. Our experienced team uses a proven methodology to break down the implementation into manageable steps, ensuring a successful outcome.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="3">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>How long does a Salesforce implementation take?</h3>
                                                 <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
                                                     {open === '3' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="3">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                          <p>The timeframe for a Salesforce implementation can vary depending on the factors mentioned above. Typically, smaller implementations can be completed in a few weeks, while more complex projects may take several months. CRMForce+ will work closely with you to understand your needs and create a realistic timeline for your implementation project.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                 </Accordion>
