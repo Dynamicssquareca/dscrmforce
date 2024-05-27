@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
 import DropdownComponent from '@/components/DropdownComponent';
 const Nav = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const toggles = () => setIsOpen(!isOpen);
   // const [dropdownOpen, setDropdownOpen] = useState(false);
   // const toggles = () => setDropdownOpen(!dropdownOpen);
