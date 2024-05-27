@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import ModelBox from '@/components/ModelBox';
 import Image from 'next/image';
+import Head from 'next/head';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -23,6 +24,9 @@ const SalesCloude = () => {
 
     return (
         <>
+          <Head>
+            <title>Sales Cloude | CRM Force Plus</title>
+        </Head>
             <div className='hero-banner-two'>
                 <div className="container">
                     <div className="row justify-content-center">

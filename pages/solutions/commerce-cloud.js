@@ -24,26 +24,26 @@ const CommerceCloud = () => {
 
     return (
         <>
-        <Head>
-            <title>Small Business | CRM Force Plus</title>
-        </Head>
+            <Head>
+                <title>Commerce Cloud | CRM Force Plus</title>
+            </Head>
             <div className='hero-banner-two'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
+                                <h1>Future-Proof your E-commerce business with Salesforce <span>Commerce Cloud </span></h1>
+                                <p>Take control of your online store and unlock a future of seamless shopping experiences. Discover how Commerce Cloud empowers businesses to grow and thrive in evolving world of e-commerce</p>
                                 <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo" />
                             </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div className="elementor-background-overlay">
-                          
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
-                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority  />
-                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298}  priority  />
+
+                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296} priority />
+                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority />
+                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298} priority />
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ const CommerceCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Track customers in a better way with advanced CRM functionalities</h2>
+                                <span>Key Features of Salesforce Commerce Cloud</span>
+                                <h2>Power Up Your Store: Unveiling the Features of Salesforce Commerce Cloud</h2>
                             </div>
                         </div>
                     </div>
@@ -65,38 +65,38 @@ const CommerceCloud = () => {
                             <div className='row d-flex align-items-stretch'>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Activity Management</h3>
-                                        <p>Track customer activities and engagement through different communication channels.</p>
+                                        <h3>Seamless Customer Journeys</h3>
+                                        <p>Craft personalized shopping experiences tailored to individual customer preferences.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Forecast Management</h3>
-                                        <p>Forecast trends and customer demands using real-time data to drive growth.</p>
+                                        <h3>Omnichannel Commerce</h3>
+                                        <p>Unify your online store with physical locations and other sales channels for a cohesive shopping experience.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Process Automation</h3>
-                                        <p>Manage and prioritize leads using AI capabilities to generate maximum revenue.</p>
+                                        <h3>Agile Marketing Tools</h3>
+                                        <p>Drive targeted promotions and campaigns to boost customer engagement and sales.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Pipeline Management</h3>
-                                        <p>Manage and track the sales pipeline, from capturing a lead to converting it using AI.</p>
+                                        <h3>Effortless Content Management</h3>
+                                        <p>Easily update product information, images, and promotions with intuitive content management features.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Quote Approvals</h3>
-                                        <p>Access quote templates linked with sales opportunities to speed up approvals.</p>
+                                        <h3>Scalable Inventory Management</h3>
+                                        <p>Maintain accurate inventory levels across all channels, ensuring smooth order fulfilment.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Account Management</h3>
-                                        <p>Simplify the sales process to understand the customer and increase deal size.</p>
+                                        <h3>Powerful Order Management System</h3>
+                                        <p>Automate workflows, track orders in real-time, and deliver exceptional customer service.</p>
                                     </div>
                                 </div>
 
@@ -116,8 +116,8 @@ const CommerceCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Sales Product</span>
-                                <h2>Digitalize Sales and Business Operations with Diverse Sales Cloud Apps</h2>
+                                <span>Salesforce Commerce Cloud Products</span>
+                                <h2>Beyond the Platform: Exploring the Power of Commerce Cloud Products</h2>
                             </div>
                         </div>
                     </div>
@@ -125,41 +125,41 @@ const CommerceCloud = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Storefront Templates</h3>
+                                <p>Launch quickly with pre-designed themes or craft a unique online store experience.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Composable Storefronts</h3>
+                                <p>Build a modular storefront, picking and choosing the features that perfectly match your vision.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Headless Commerce</h3>
+                                <p>Deliver a frictionless shopping experience across any device or touchpoint (think mobile apps, social media).</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Order Management</h3>
+                                <p>Automate workflows, streamline fulfillment, and keep customers happy with efficient order handling.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Revenue Intelligence</h3>
-                                <p>Categories lead on the basis of revenue through built-in analytics and insights.</p>
+                                <h3>Web3 Commerce</h3>
+                                <p>Embrace the future - accept payments and unlock new opportunities with Web3 technologies like cryptocurrency.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Planning</h3>
-                                <p>Build a sales strategy to capture leads, increase conversions, and enhance ROI.</p>
+                                <h3>Pay Now</h3>
+                                <p>Offer a secure and convenient payment processing solution for your customers.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        {/* <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
                                 <h3>Sales Programs</h3>
                                 <p>Deploy sufficient resources using AI-powered coaching to maximize sales output.</p>
@@ -170,7 +170,7 @@ const CommerceCloud = () => {
                                 <h3>Sales Analytics</h3>
                                 <p>Get sales insights to simplify the sales pipeline and optimize different sales operations.</p>
                             </div>
-                        </div>
+                        </div> */}
                         {/* {!showAll && (
                             <div className="col-lg-3 d-flex">
                                 <div className="service-box-three flex-fill custom-anc bg-gradiant" onClick={handleShowAll}>
@@ -260,8 +260,8 @@ const CommerceCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Benefits of Salesforce Sales Cloud</span>
-                                <h2>Boost sales performance, delight customers, and generate more revenue</h2>
+                                <span>Benefits of Salesforce Commerce Cloud</span>
+                                <h2>Elevate Your E-commerce Game: The Compelling Benefits of Commerce Cloud</h2>
                             </div>
                         </div>
                     </div>
@@ -272,29 +272,29 @@ const CommerceCloud = () => {
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Omnichannel Excellence</h3>
+                                <p>Provide a seamless shopping experience across all channels, from mobile apps to physical stores.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Scalability & Agility</h3>
+                                <p>Empower your business to grow and adapt with a platform that scales effortlessly to meet your needs.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Data-Driven Insights</h3>
+                                <p>Gain valuable customer data and analytics to optimize marketing campaigns and product offerings.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Access Automation</h3>
-                                <p>Leverage automation to eliminate system redundancies and automate different processes.</p>
+                                <h3>Reduced Total Cost of Ownership</h3>
+                                <p>Streamline operations, minimize development efforts, and enjoy the cost-efficiencies of a cloud-based platform.</p>
                             </div>
                         </div>
                     </div>
@@ -310,9 +310,9 @@ const CommerceCloud = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Stop Managing, Start Thriving:  Simplify Your E-commerce Journey with Commerce Cloud</h3>
+                                <p>Ready to transform your online store and unlock explosive growth? Take the first step towards a future-proofed e-commerce experience.</p>
+                                <ModelBox headerText="Request a Demo Now!" buttonText="Request a Demo Now!" />
                             </div>
                         </div>
                     </div>
@@ -323,8 +323,8 @@ const CommerceCloud = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="heading-style-two">
-                                <span>How CRMForce + can help you?</span>
-                                <h2>Double up your sales numbers with a tailored Salesforce Sales Cloud solution</h2>
+                                <span>How CRMforce+ Can Help You?</span>
+                                <h2>Why Choose CRMForce+ for Your Salesforce Commerce Cloud Implementation?</h2>
                                 {/* <p>We enable the Salesforce to work for you. Build relationships, transform the customer experience, and drive uninterrupted growth with our expert guidance.<br /><br />Don't settle for just a Salesforce partner. We deliver results. Our Salesforce experts combine experience, proven solutions, and advanced technology to harness the power of CRM and transform your business.</p> */}
                             </div>
                         </div>
@@ -336,22 +336,22 @@ const CommerceCloud = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Seamless Implementation</h3>
-                                <p>Join hands with reliable Salesforce-certified experts for an efficient, productive, and successful implementation.</p>
+                                <h3>Deep Expertise & Proven Results</h3>
+                                <p>Benefit from our team of certified Commerce Cloud professionals with a track record of successful implementations.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Proven Expertise</h3>
-                                <p>With years of experience and expertise in Salesforce, we are available to simplify and optimize sales processes.</p>
+                                <h3>Streamlined Implementation Process</h3>
+                                <p>Experience a smooth and efficient implementation journey, tailored to your specific business needs.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Tailored Approach</h3>
-                                <p>Align the Sales Cloud with the uniqueness of your business to accept sheer growth and sustainability.</p>
+                                <h3>Ongoing Support & Optimization</h3>
+                                <p>Gain access to our ongoing support services and continuous optimization strategies to ensure full potential of the solution.</p>
                             </div>
                         </div>
                     </div>
@@ -364,8 +364,8 @@ const CommerceCloud = () => {
                         <div className="col-lg-9">
                             <div className="heading-style-one">
                                 <span>Case Stories</span>
-                                <h2>Sales Cloud has transformed the sales operations of different businesses to go all digital</h2>
-                                <p>Explore such businesses to see the effectiveness of Salesforce Sales Cloud with a tailored approach.</p>
+                                <h2>From Clicks to Committed Customers: Salesforce Commerce Cloud Success Stories</h2>
+                                <p>Dive into these case studies and discover how businesses of all sizes are leveraging Commerce Cloud to achieve success.</p>
                             </div>
                         </div>
                     </div>
@@ -384,29 +384,29 @@ const CommerceCloud = () => {
                                     }}
                                     breakpoints={{
                                         640: {
-                                          slidesPerView: 1,
-                                          spaceBetween: 20,
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
                                         },
                                         768: {
-                                          slidesPerView: 1,
-                                          spaceBetween: 40,
+                                            slidesPerView: 1,
+                                            spaceBetween: 40,
                                         },
                                         1024: {
-                                          slidesPerView: 2,
-                                          spaceBetween: 50,
+                                            slidesPerView: 2,
+                                            spaceBetween: 50,
                                         },
-                                      }}
+                                    }}
                                     modules={[Pagination, Autoplay]}
                                     className="mySwiper"
                                 >
 
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>World Economic Forum, a global forum, aimed to centralize systems with Sales Cloud. </h4>
-                                            <p>Being a global discussion forum, they were using email attachments and spreadsheets to manage data for large programs. Managing data from different aspects becomes time-consuming using different solutions. Salesforce integrated different solutions, including Sales Cloud, into WEF. This implementation led them to track attendees and manage potential memberships.</p>
+                                    <SwiperSlide className="d-flex">
+                                        <div className='slider-one-inner flex-fill'>
+                                            <h4>Duluth Trading Company Builds a Blazing-Fast Shopping Experience with Commerce Cloud</h4>
+                                            <p>Duluth Trading Company, an online workwear retailer, needed to create a faster, more convenient online shopping experience for its customers. With Commerce Cloud implementation, they can now achieve a headless architecture that delivers an app-like experience on the web. This eliminated the need for a separate mobile app and boosted site speed by a full second.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased brand sales by 60%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>User engagement enhanced by 30%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -414,11 +414,11 @@ const CommerceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Grammarly, an AI-based writing application, aimed to increase the conversion rate.</h4>
-                                            <p>Grammarly is a popular tool with over 30 million global users. They used to collect, filter, and process inbound leads manually, making the process hectic. The Einstein 1 Marketing of Sales Cloud utilized AI to connect sales with marketing and automated processes to increase the conversion rate by 30%.</p>
+                                            <h4>YETI Hikes to Conversion Success with a Customized Commerce Cloud Experience</h4>
+                                            <p>Yeti is a popular name in premium outdoor gear who wants to create a unique online experience for its drinkware campaign while maintaining its existing Commerce Cloud storefront. With Commerce Cloud, they can now combine existing templates with new composable technology, offering a fully customized journey for customers while keeping the core storefront intact.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Mobile conversion rate increased by 63%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Enhanced online shopping experience by 50%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -426,11 +426,11 @@ const CommerceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>The Texas Rangers, an American-based baseball team, want to get a 360° view of operations.</h4>
-                                            <p>The Texas Rangers are a world-champion baseball team that wants to eliminate the manual ways of guest service while eliminating data silos from the system. With the Sales Cloud implementation, Texas Ranger can now connect diverse systems to get a unified business view with real-time data insights.</p>
+                                            <h4>Heathrow Takes Off with Personalized Digital Experiences Powered by Salesforce Commerce Cloud</h4>
+                                            <p>Heathrow was facing challenges in delivering a seamless digital experience. The disjointed systems and fragmented data were hindering personalization efforts. They decided on a Commerce Cloud implementation along with different solutions. This enabled personalized services and communication. Also, passengers benefited from a more seamless digital experience, with features like pre-booking parking and receiving personalized product recommendations.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased digital revenue by 30%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Average call handling time reduced to 27%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -438,11 +438,11 @@ const CommerceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Pirelli, a premium tire company, aims to utilize data to enhance business efficiency.</h4>
-                                            <p>Pirelli is a renowned brand with a global presence of approx. 1.8 million orders per day using their dealer platform. They were facing issues establishing connections with dealers and customers to generate more sales. This lets the business implement a B2B2C consulting model with Sales Cloud to capture data insights and perform data-driven sales.</p>
+                                            <h4>Santander UK Empowers Businesses for Global Growth with Salesforce Commerce Cloud</h4>
+                                            <p>Santander UK, a commercial bank, aims to empower businesses, especially SMEs, to navigate the complexities of international trade and unlock global growth opportunities. Marketing Cloud implementation led them to build a digital platform named Santander Navigator. This platform offers growth strategies, market insights, and connections to international trade experts.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased conversions by 40%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Data utilisation enhanced by 60%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -450,11 +450,11 @@ const CommerceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>John Lewis Partnership, a popular business in the UK, aimed to utilize data.</h4>
-                                            <p>Being a popular and largest employee-owned business in the UK with 34 shops and 329 supermarket stores, they have collected huge amounts of data in different departments but are unable to utilize it. Now, with Sales Cloud implementation, they are able to centralize data across departments to offer an exceptional customer experience.</p>
+                                            <h4>ReserveBar Raises a Glass to Scalability with Salesforce Commerce Cloud</h4>
+                                            <p>They need a robust solution to manage their complex marketplace. They were unable to scale up their legacy solution. With Commerce Cloud implementation, they can now manage inventory and pricing across all partner stores, utilizing the power of automation. Now, they have gained the flexibility to manage a vast product range and partner network, paving the way for future expansion. </p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased revenue by 40%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Enhanced customer interaction by 30%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -462,11 +462,11 @@ const CommerceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Spotify, a streaming giant, wants to supercharge sales with Salesforce Sales Cloud.</h4>
-                                            <p>Spotify is a digital music platform with millions of global users. They want to capture customer data so that they can serve ads better. Also, they want to show more personalized content using data analytics to retain users for the long run. All such issues were resolved using the Salesforce Sales Cloud implementation.</p>
+                                            <h4>Kellogg's Serves Up Success with Data-Driven Commerce and Philanthropy using Commerce Cloud</h4>
+                                            <p>Kellogg's is a popular brand for SMBs who want to get valuable insights and recommendations. Also, they want to build brand loyalty and gather consumer feedback for product development. The Salesforce implementation empowered them to launch a mobile e-commerce platform that offers dynamic segmentation, suggested orders, and optimized shipping.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>User-friendliness increased by 50%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Customer engagement enhanced by 60%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 

@@ -25,15 +25,15 @@ const MarketingCloud = () => {
     return (
         <>
         <Head>
-            <title>Small Business | CRM Force Plus</title>
+            <title>Marketing Cloud | CRM Force Plus</title>
         </Head>
             <div className='hero-banner-two'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
+                                <h1>Unlock Marketing Automation & Personalization with  <span>Marketing Cloud</span></h1>
+                                <p>Craft hyper-personalized marketing journeys & boost ROI with Salesforce Marketing Cloud discover the data-driven features that unlock customer engagement and fuel business growth.</p>
                                 <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo" />
                             </div>
                         </div>
@@ -55,8 +55,8 @@ const MarketingCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Track customers in a better way with advanced CRM functionalities</h2>
+                                <span>Key Features of Salesforce Marketing Cloud</span>
+                                <h2>Power Up Your Marketing with Customer-Centric Features of Marketing Cloud</h2>
                             </div>
                         </div>
                     </div>
@@ -65,38 +65,38 @@ const MarketingCloud = () => {
                             <div className='row d-flex align-items-stretch'>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Activity Management</h3>
-                                        <p>Track customer activities and engagement through different communication channels.</p>
+                                        <h3>Personalized Customer Journeys</h3>
+                                        <p>Craft unique experiences across different channels based on customer preferences and behaviour.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Forecast Management</h3>
-                                        <p>Forecast trends and customer demands using real-time data to drive growth.</p>
+                                        <h3>Omnichannel Engagement</h3>
+                                        <p>Reach customers on their preferred channels to build stronger relationships with personal interactions.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Process Automation</h3>
-                                        <p>Manage and prioritize leads using AI capabilities to generate maximum revenue.</p>
+                                        <h3>Marketing Automation</h3>
+                                        <p>Automate repetitive tasks, personalize email journeys, and trigger real-time interactions at scale.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Pipeline Management</h3>
-                                        <p>Manage and track the sales pipeline, from capturing a lead to converting it using AI.</p>
+                                        <h3>Powerful Analytics & Reporting</h3>
+                                        <p>Gain actionable insights into campaign performance, measure ROI, and optimize your strategy.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Quote Approvals</h3>
-                                        <p>Access quote templates linked with sales opportunities to speed up approvals.</p>
+                                        <h3>Einstein AI for Smart Marketing</h3>
+                                        <p>Leverage the power of AI to predict customer behaviour and optimize campaigns for better results.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Account Management</h3>
-                                        <p>Simplify the sales process to understand the customer and increase deal size.</p>
+                                        <h3>Seamless Integrations</h3>
+                                        <p>Integrate Marketing Cloud with your CRM and other business systems for a unified business view.</p>
                                     </div>
                                 </div>
 
@@ -116,7 +116,7 @@ const MarketingCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Sales Product</span>
+                                <span>Marketing Cloud Products</span>
                                 <h2>Digitalize Sales and Business Operations with Diverse Sales Cloud Apps</h2>
                             </div>
                         </div>

@@ -24,26 +24,26 @@ const ServiceCloud = () => {
 
     return (
         <>
-        <Head>
-            <title>Small Business | CRM Force Plus</title>
-        </Head>
+            <Head>
+                <title>Service Cloud | CRM Force Plus</title>
+            </Head>
             <div className='hero-banner-two'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
+                                <h1>Transform your Customer Experience with Salesforce <span>Service Cloud</span></h1>
+                                <p>Turn every interaction into an opportunity to build loyalty and fuel growth with Service Cloud. Delight your customers, empower your agents, and transform service for business growth.</p>
                                 <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo" />
                             </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div className="elementor-background-overlay">
-                          
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
-                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority  />
-                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298}  priority  />
+
+                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296} priority />
+                            <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority />
+                            <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298} priority />
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ const ServiceCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Track customers in a better way with advanced CRM functionalities</h2>
+                                <span>Key Features of Salesforce Service Cloud</span>
+                                <h2>Empower Agents and Delight Customers to Boost Customer Service</h2>
                             </div>
                         </div>
                     </div>
@@ -65,38 +65,38 @@ const ServiceCloud = () => {
                             <div className='row d-flex align-items-stretch'>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Activity Management</h3>
-                                        <p>Track customer activities and engagement through different communication channels.</p>
+                                        <h3>Unified Customer Profile</h3>
+                                        <p>Know your customers like never before with a single view of all interactions.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Forecast Management</h3>
-                                        <p>Forecast trends and customer demands using real-time data to drive growth.</p>
+                                        <h3>Omnichannel Routing</h3>
+                                        <p>Meet customers where they are available for seamless service across channels.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Process Automation</h3>
-                                        <p>Manage and prioritize leads using AI capabilities to generate maximum revenue.</p>
+                                        <h3>Automated Workflows</h3>
+                                        <p>Free your agents to shine and let Service Cloud handle complex workflows.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Pipeline Management</h3>
-                                        <p>Manage and track the sales pipeline, from capturing a lead to converting it using AI.</p>
+                                        <h3>Community Management</h3>
+                                        <p>Empower your customers and foster a thriving community to spread help.</p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Quote Approvals</h3>
-                                        <p>Access quote templates linked with sales opportunities to speed up approvals.</p>
+                                        <h3>Customer Satisfaction Tracking</h3>
+                                        <p>Turn feedback into priorities to measure sentiment and refine your service. </p>
                                     </div>
                                 </div>
                                 <div className='col-lg-4 d-flex'>
                                     <div className='service-box-three flex-fill'>
-                                        <h3>Account Management</h3>
-                                        <p>Simplify the sales process to understand the customer and increase deal size.</p>
+                                        <h3>Einstein AI for Sentiment Analysis</h3>
+                                        <p>Leverage the power of AI to uncover emotions to offer empathetic service.</p>
                                     </div>
                                 </div>
 
@@ -116,8 +116,8 @@ const ServiceCloud = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Sales Product</span>
-                                <h2>Digitalize Sales and Business Operations with Diverse Sales Cloud Apps</h2>
+                                <span>Service Cloud Products</span>
+                                <h2>Power up the Customer Experience with different Service Cloud Products</h2>
                             </div>
                         </div>
                     </div>
@@ -125,53 +125,47 @@ const ServiceCloud = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Customer Service AI</h3>
+                                <p>Leverage the power of AI to offer smart, intelligent, and personalised service for better output.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Data-Driven Service</h3>
+                                <p>Empower data to guide service executive throughout the customer service cycle and optimise strategies.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Field Service</h3>
+                                <p>Empower your mobile workforce to streamline field operations and delight on-site customers.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Self-Service</h3>
+                                <p>Offer self-service tools to your customers so that they can find solutions on their own terms.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Revenue Intelligence</h3>
-                                <p>Categories lead on the basis of revenue through built-in analytics and insights.</p>
+                                <h3>Contact Center</h3>
+                                <p>Unify your interactions to deliver seamless service across all communication channels.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Planning</h3>
-                                <p>Build a sales strategy to capture leads, increase conversions, and enhance ROI.</p>
+                                <h3>Digital Engagement</h3>
+                                <p>Engage customers from everywhere to connect and build relationships in the digital age.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Sales Programs</h3>
-                                <p>Deploy sufficient resources using AI-powered coaching to maximize sales output.</p>
+                                <h3>Visual Remote Assistant</h3>
+                                <p>View the customer issue in real-time to empower agents with live visuals for faster issue resolutions.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
-                                <h3>Sales Analytics</h3>
-                                <p>Get sales insights to simplify the sales pipeline and optimize different sales operations.</p>
-                            </div>
-                        </div>
-                        {/* {!showAll && (
+                        {!showAll && (
                             <div className="col-lg-3 d-flex">
                                 <div className="service-box-three flex-fill custom-anc bg-gradiant" onClick={handleShowAll}>
                                     <div className="text-center">
@@ -182,74 +176,104 @@ const ServiceCloud = () => {
                         )}
                         {showAll && (
                             <>
+
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                                        <h3>Customer Service AI</h3>
+                                        <p>Leverage the power of AI to offer smart, intelligent, and personalised service for better output.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill">
-                                        <h3>Sales Programs</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
+                                        <h3>Data-Driven Service</h3>
+                                        <p>Empower data to guide service executive throughout the customer service cycle and optimise strategies.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Partner Relationship Management</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                                        <h3>Field Service</h3>
+                                        <p>Empower your mobile workforce to streamline field operations and delight on-site customers.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill">
-                                        <h3>Sales Team Productivity</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill ">
-                                        <h3>Buyer Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales AI</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
+                                        <h3>Self-Service</h3>
+                                        <p>Offer self-service tools to your customers so that they can find solutions on their own terms.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill">
-                                        <h3>Sales Analytics</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
+                                        <h3>Contact Center</h3>
+                                        <p>Unify your interactions to deliver seamless service across all communication channels.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales AI</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 d-flex animated">
-                                    <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Sales Engagement</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                                        <h3>Digital Engagement</h3>
+                                        <p>Engage customers from everywhere to connect and build relationships in the digital age.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill">
-                                        <h3>Sales Programs</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action.</p>
+                                        <h3>Visual Remote Assistant</h3>
+                                        <p>View the customer issue in real-time to empower agents with live visuals for faster issue resolutions.</p>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 d-flex animated">
                                     <div className="service-box-three flex-fill bg-gradiant">
-                                        <h3>Partner Relationship Management</h3>
-                                        <p>Accelerate sales with engagement built directly into your CRM. Connect with buyers and drive action</p>
+                                        <h3>Customer Service Automation</h3>
+                                        <p>Streamline your service delivery to automate routine tasks and free agents for high-touch interactions.</p>
                                     </div>
                                 </div>
+
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill bg-gradiant">
+                                        <h3>Einstein Bots</h3>
+                                        <p>Get AI-powered assistants that answer questions, deflect tickets, and personalize customer journeys.</p>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill">
+                                        <h3>Customer Service Incident Management</h3>
+                                        <p>Resolve issues efficiently to track, prioritize, and collaborate to get things back on track.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill bg-gradiant">
+                                        <h3>Intelligent Service Operations</h3>
+                                        <p>Transform service delivery utilising data and AI for intelligent automation and problem-solving. </p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill">
+                                        <h3>Service Cloud Voice</h3>
+                                        <p>Elevate your phone support to deliver a seamless voice experience with integrated features.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill">
+                                        <h3>Service Cloud for Slack</h3>
+                                        <p>Boost collaboration to integrate Service Cloud with Slack for faster issue resolution.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill bg-gradiant">
+                                        <h3>Employee Service</h3>
+                                        <p>Empower your team to streamline internal service requests and boost employee satisfaction.</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-3 d-flex animated">
+                                    <div className="service-box-three flex-fill">
+                                        <h3>CRM Analytics</h3>
+                                        <p>Turn customer data into insights to uncover trends, measure performance, and optimize your service strategy.</p>
+                                    </div>
+                                </div>
+
+
+
                             </>
-                        )} */}
+                        )}
                     </div>
 
                 </div>
@@ -261,7 +285,7 @@ const ServiceCloud = () => {
                         <div className="col-lg-6">
                             <div className="heading-style-two">
                                 <span>Benefits of Salesforce Sales Cloud</span>
-                                <h2>Boost sales performance, delight customers, and generate more revenue</h2>
+                                <h2>Boost efficiency, automate operations, and deliver more with Service Cloud</h2>
                             </div>
                         </div>
                     </div>
@@ -272,29 +296,29 @@ const ServiceCloud = () => {
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Effortless Customer Interactions</h3>
+                                <p>Offer omnichannel experience and provide self-service platform to empower customers with solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Faster Issue Resolution</h3>
+                                <p>Streamline your services with automated workflows using information available in knowledge base.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Happier Agents, Happier Customers</h3>
+                                <p>Improve agent productivity while tracking customer satisfaction for enhanced experience. </p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Access Automation</h3>
-                                <p>Leverage automation to eliminate system redundancies and automate different processes.</p>
+                                <h3>Data-Driven Decisions for Better Service</h3>
+                                <p>Supercharge your service performance with valuable insights through comprehensive CRM features.</p>
                             </div>
                         </div>
                     </div>
@@ -310,9 +334,9 @@ const ServiceCloud = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Future-Proof Your Customer Experience with a Service Cloud Implementation</h3>
+                                <p>Contact CRMForce+ to implement a solution that perfectly aligns with your business and unlock the full potential of Salesforce. </p>
+                                <ModelBox headerText="Schedule a Free Salesforce Demo Now!" buttonText="Schedule a Free Salesforce Demo Now!" />
                             </div>
                         </div>
                     </div>
@@ -324,8 +348,7 @@ const ServiceCloud = () => {
                         <div className="col-lg-7">
                             <div className="heading-style-two">
                                 <span>How CRMForce + can help you?</span>
-                                <h2>Double up your sales numbers with a tailored Salesforce Sales Cloud solution</h2>
-                                {/* <p>We enable the Salesforce to work for you. Build relationships, transform the customer experience, and drive uninterrupted growth with our expert guidance.<br /><br />Don't settle for just a Salesforce partner. We deliver results. Our Salesforce experts combine experience, proven solutions, and advanced technology to harness the power of CRM and transform your business.</p> */}
+                                <h2>Fuel your business with Service Cloud - your Gateway to unlock Growth</h2>
                             </div>
                         </div>
                     </div>
@@ -336,22 +359,22 @@ const ServiceCloud = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Seamless Implementation</h3>
-                                <p>Join hands with reliable Salesforce-certified experts for an efficient, productive, and successful implementation.</p>
+                                <h3>Tailored Approach</h3>
+                                <p>We'll work closely with you to understand your requirements and configure Service Cloud to align with your business uniqueness.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Proven Expertise</h3>
-                                <p>With years of experience and expertise in Salesforce, we are available to simplify and optimize sales processes.</p>
+                                <h3>End-to-End Support </h3>
+                                <p>We will monitor your performance and provide data-driven recommendations for process optimization to ensure best-in-class support.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Tailored Approach</h3>
-                                <p>Align the Sales Cloud with the uniqueness of your business to accept sheer growth and sustainability.</p>
+                                <h3>Clear Communication & Transparency</h3>
+                                <p>We will keep you informed about progress with a dedicated point of contact and ask questions and feedback from you.</p>
                             </div>
                         </div>
                     </div>
@@ -363,9 +386,9 @@ const ServiceCloud = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="heading-style-one">
-                                <span>Case Stories</span>
-                                <h2>Sales Cloud has transformed the sales operations of different businesses to go all digital</h2>
-                                <p>Explore such businesses to see the effectiveness of Salesforce Sales Cloud with a tailored approach.</p>
+                                <span>Customer Stories</span>
+                                <h2>Real Results, Real Customers: How Service Cloud Transformed Businesses</h2>
+                                <p>See how businesses like yours leveraged Service Cloud to achieve remarkable results. </p>
                             </div>
                         </div>
                     </div>
@@ -384,29 +407,29 @@ const ServiceCloud = () => {
                                     }}
                                     breakpoints={{
                                         640: {
-                                          slidesPerView: 1,
-                                          spaceBetween: 20,
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
                                         },
                                         768: {
-                                          slidesPerView: 1,
-                                          spaceBetween: 40,
+                                            slidesPerView: 1,
+                                            spaceBetween: 40,
                                         },
                                         1024: {
-                                          slidesPerView: 2,
-                                          spaceBetween: 50,
+                                            slidesPerView: 2,
+                                            spaceBetween: 50,
                                         },
-                                      }}
+                                    }}
                                     modules={[Pagination, Autoplay]}
                                     className="mySwiper"
                                 >
 
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>World Economic Forum, a global forum, aimed to centralize systems with Sales Cloud. </h4>
-                                            <p>Being a global discussion forum, they were using email attachments and spreadsheets to manage data for large programs. Managing data from different aspects becomes time-consuming using different solutions. Salesforce integrated different solutions, including Sales Cloud, into WEF. This implementation led them to track attendees and manage potential memberships.</p>
+                                            <h4>Air India Takes Flight with Salesforce: A 360° View for World-Class Customer Service</h4>
+                                            <p>Air India, aiming for 30% market share, tackled data silos hindering customer service. Salesforce Data Cloud unified customer data, giving agents a 360° view. Einstein 1 Service then routed cases and offered AI-powered recommendations, boosting efficiency. This partnership empowers Air India to deliver world-class service and personalize experiences.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Improved customer service by 30%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Enabled automation by 40%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -414,11 +437,11 @@ const ServiceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Grammarly, an AI-based writing application, aimed to increase the conversion rate.</h4>
-                                            <p>Grammarly is a popular tool with over 30 million global users. They used to collect, filter, and process inbound leads manually, making the process hectic. The Einstein 1 Marketing of Sales Cloud utilized AI to connect sales with marketing and automated processes to increase the conversion rate by 30%.</p>
+                                            <h4>Mascoma Bank Unifies Data, Boosts Efficiency with Salesforce Service Cloud</h4>
+                                            <p>Salesforce Data Cloud unified data from 66 systems, giving a 360° customer view. Financial Services Cloud and CRM Analytics personalized interactions and boosted upselling. Automated workflows streamlined processes, and Service Cloud Voice improved phone support. Mascoma Bank now offers proactive service, faster loan processing, and data-driven marketing.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Reduced call center hold times by 98%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased operational efficiency by 40%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -426,11 +449,11 @@ const ServiceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>The Texas Rangers, an American-based baseball team, want to get a 360° view of operations.</h4>
-                                            <p>The Texas Rangers are a world-champion baseball team that wants to eliminate the manual ways of guest service while eliminating data silos from the system. With the Sales Cloud implementation, Texas Ranger can now connect diverse systems to get a unified business view with real-time data insights.</p>
+                                            <h4>Algo Speeds Up Service Cloud with AI and Cuts Resolution Times by 80%</h4>
+                                            <p>The rapid growth led to an influx of technical cases, overwhelming Algo's service agents. The Service Cloud implementation promotes the usage of AI-powered features to streamline workflows and empower agents. New agents were onboarded quickly with 90% AI support accuracy, allowing them to handle complex inquiries. </p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Reduced resolution times by 80%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Improved agent response speed by 67%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -438,11 +461,11 @@ const ServiceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Pirelli, a premium tire company, aims to utilize data to enhance business efficiency.</h4>
-                                            <p>Pirelli is a renowned brand with a global presence of approx. 1.8 million orders per day using their dealer platform. They were facing issues establishing connections with dealers and customers to generate more sales. This lets the business implement a B2B2C consulting model with Sales Cloud to capture data insights and perform data-driven sales.</p>
+                                            <h4>Iron Mountain Speeds Up Service with Service Cloud AI</h4>
+                                            <p>Manual processes and scattered information hampered Iron Mountain's customer support. The implementation enables them to access generative AI based automated replies with knowledge base links. Einstein Work summaries and predictive Article predictive  further boosted agent productivity. They have achieved faster case resolution, and a reduced backlog of inquiries.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increased the cases closing by 80%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Chat abandoned rate decreased by 80%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -450,11 +473,11 @@ const ServiceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>John Lewis Partnership, a popular business in the UK, aimed to utilize data.</h4>
-                                            <p>Being a popular and largest employee-owned business in the UK with 34 shops and 329 supermarket stores, they have collected huge amounts of data in different departments but are unable to utilize it. Now, with Sales Cloud implementation, they are able to centralize data across departments to offer an exceptional customer experience.</p>
+                                            <h4>George Mason Streamlines Student Support with Service Cloud</h4>
+                                            <p>Disconnected services and a lack of student data hindered personalized support at George Mason University. Service Cloud implementation created a central hub for student services, providing a unified view of each student's needs. Real-time data allowed staff to address issues and offer support. It increased student satisfaction and improved recruitment efforts with targeted outreach.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>High school applications have increased by 9%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Student cases are now resolved on the spot by 90%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
@@ -462,11 +485,11 @@ const ServiceCloud = () => {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='slider-one-inner'>
-                                            <h4>Spotify, a streaming giant, wants to supercharge sales with Salesforce Sales Cloud.</h4>
-                                            <p>Spotify is a digital music platform with millions of global users. They want to capture customer data so that they can serve ads better. Also, they want to show more personalized content using data analytics to retain users for the long run. All such issues were resolved using the Salesforce Sales Cloud implementation.</p>
+                                            <h4>Turtle Bay Resort Tailors Guest Experiences with the Service Cloud</h4>
+                                            <p>Limited data made it difficult for Turtle Bay Resort to personalize guest experiences and recommend ideal activities. The implementation led them to access Service Cloud, Data Cloud, and Einstein 1 features with a 360-degree view of guests.  Einstein 1 Marketing sent personalized email campaigns, while a custom AI model identified guest preferences.</p>
                                             <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Increases booking conversions by 20%</span></li>
+                                                <li><i className="bi bi-plus-lg"></i><span>Repeat bookings are increased by 15%</span></li>
                                             </ul>
                                             <a href=""><span>Learn More</span></a>
 
