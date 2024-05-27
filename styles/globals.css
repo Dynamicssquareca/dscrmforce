@@ -1851,6 +1851,9 @@ margin-top:30px
 .navbar-mobile ul li{
   margin-bottom: 10px;
 }
+.header {
+  padding: 15px 0;
+}
 }
 @media (max-width: 768px){
   .banner-pic-flot .main-pi-abso{
