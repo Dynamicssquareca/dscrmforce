@@ -1,45 +1,43 @@
-import React, { useState, useRef, useEffect } from 'react';
-import {
-  Dropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-} from 'reactstrap';
+// components/DropdownComponent.js
+import React, { useState ,useEffect  } from 'react';
 
 const DropdownComponent = ({ id, label, items }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const dropdownRef = useRef(null);
 
-  const toggle = () => setDropdownOpen(prevState => !prevState);
+  const toggle = () => setDropdownOpen(!dropdownOpen);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setDropdownOpen(false);
-      }
-    };
+  // Function to close the dropdown on outside click
+  const handleOutsideClick = (event) => {
+    if (dropdownOpen && !event.target.closest('.dropdown')) {
+      setDropdownOpen(false);
+    }
+  };
 
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
+  // Add event listener to handle outside click
+//   useEffect(() => {
+//     document.addEventListener('click', handleOutsideClick);
+//     return () => {
+//       document.removeEventListener('click', handleOutsideClick);
+//     };
+//   }, [dropdownOpen]);
 
   return (
-    <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
-      <DropdownToggle nav caret>
+    <div className="dropdown">
+      <li className="dropdown-toggle" onClick={toggle}>
         {label}
-      </DropdownToggle>
-      <DropdownMenu innerRef={dropdownRef}>
-        <ul>
-          {items.map((item, index) => (
-            <li key={index}>
-              <a href={item.href}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-      </DropdownMenu>
-    </Dropdown>
+      </li>
+      {dropdownOpen && (
+        <div className="dropdown-menu" aria-labelledby={id}>
+          <ul>
+            {items.map((item, index) => (
+              <li key={index}>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
   );
 };
 

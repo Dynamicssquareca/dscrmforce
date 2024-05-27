@@ -360,3 +360,68 @@
 
 
 
+
+
+/* styles/DropdownComponent.css */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar-mobile .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #012970;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-weight: 500;
+  cursor:pointer
+}
+.navbar-mobile .dropdown{
+  display:block
+}
+.navbar-mobile .dropdown-menu {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.navbar-mobile .dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-mobile .dropdown-menu ul li {
+  padding: 5px 0;
+}
+
+.navbar-mobile .dropdown-menu ul li a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-mobile .dropdown-menu ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .navbar-mobile .dropdown-menu {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: block;
+    background-color: #fff;
+    padding: 20px; */
+  }
+}
