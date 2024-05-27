@@ -1466,7 +1466,12 @@ color:var(--primary)
 .accordion-one  .accordion-button::after{
   display:none
 }
-
+.accordion-one .accordion-body ul li{
+  margin-bottom: 15px;
+}
+.accordion-one .accordion-body ul li:last-child{
+  margin-bottom: 0px;
+}
 /*react video model css*/
 @keyframes modal-video {
   from {

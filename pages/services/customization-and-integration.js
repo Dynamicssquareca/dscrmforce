@@ -39,16 +39,16 @@ const CustomizationAndIntegration = () => {
     return (
         <>
             <Head>
-                <title>Service page</title>
+                <title>Customization And Integration | CRM Force Plus</title>
             </Head>
             <div className='hero-banner-two height-auto'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
-                                <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Consultatio" />
+                                <h1>Extend & Enhance: Optimize Your Salesforce with  <span>CRMForce+</span></h1>
+                                <p>Extend Salesforce functionality and connect it with other systems for a truly integrated and optimized business solution.</p>
+                                <ModelBox headerText="Get a Free Demo" buttonText="Schedule a Free Call!" />
                             </div>
                         </div>
                     </div>
@@ -65,9 +65,9 @@ const CustomizationAndIntegration = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Most Trusted and Secure <br />Salesforce Implementation Services</h2>
-                                <p>At CRMFORCEPLUS, we are dedicated to revolutionizing businesses through innovative Salesforce Solutions implementations. As a newly established venture, we bring a fresh perspective to the realm of customer relationship management, leveraging cutting-edge technology to drive growth and success for our clients.</p>
+                                {/* <span>Features of Salesforce Sales Cloud</span> */}
+                                <h2>Supercharge Your Salesforce: Customization & Integration Expertise at CRMForce+</h2>
+                                <p>Unlock the full potential of Salesforce and transform your business processes with CRMForce Plus's expert customization and integration services. We go beyond the out-of-the-box solution to tailor Salesforce to your specific needs, seamlessly connect it with your existing systems, and create a unified platform that drives efficiency and growth.</p>
                             </div>
                         </div>
                     </div>
@@ -77,22 +77,22 @@ const CustomizationAndIntegration = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Deep Salesforce Expertise</h3>
+                                <p>Our certified consultants understand the intricacies of Salesforce, ensuring optimal customization and integration solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Custom-Fit Approach</h3>
+                                <p>We don't believe in one-size-fits-all. We work closely with you to understand your unique needs and craft a customized solution.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Seamless Integrations</h3>
+                                <p>Eliminate data silos and streamline workflows by integrating Salesforce with your existing CRM, marketing automation, or ERP systems.</p>
                             </div>
                         </div>
 
@@ -106,8 +106,8 @@ const CustomizationAndIntegration = () => {
                         <div className="col-lg-6">
                             <div className="heading-style-two">
                                 {/* <span>Sales Product</span> */}
-                                <h2>Salesforce Product Implementation Expertise</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <h2>Salesforce Customization and Integration Services</h2>
+                                <p>CRMForce+ offers comprehensive customization and integration services to tailor your CRM solution and seamlessly connect it with your existing business systems.</p>
                             </div>
                         </div>
                     </div>
@@ -115,26 +115,26 @@ const CustomizationAndIntegration = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Sales Cloud Customization & Integration Services</h3>
+                                <p>Optimize your sales pipeline and connect seamlessly with other systems for the best salesforce experience.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Service Cloud Customization & Integration Services</h3>
+                                <p>Deliver exceptional customer service with a custom-built Service Cloud and flawless integrations.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Marketing Cloud Customization & Integration Services</h3>
+                                <p>Personalize customer journeys and automate campaigns with the best Marketing Cloud customization and integration services.</p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Commerce Cloud Customization & Integration Services</h3>
+                                <p>Unify your online store and streamline sales with the best Commerce Cloud customization and integration expertise.</p>
                             </div>
                         </div>
 
@@ -167,9 +167,9 @@ const CustomizationAndIntegration = () => {
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
                             <div className="heading-style-two">
-                                <h2>Benefits of Salesforce Implementation Partner</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
-                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today and See the Difference</a></div>
+                                <h2>Transform your Business: Choose CRMForce+ for Salesforce Customization & Integration</h2>
+                                <p>We offer more than just technical expertise; we bring a strategic approach, in-depth industry knowledge, and dedication to your success. </p>
+                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Upgrade your Salesforce Now!</a></div>
                             </div>
                         </div>
                         <div className='col-lg-7'>
@@ -180,8 +180,8 @@ const CustomizationAndIntegration = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Tailored Fit</h4>
-                                            <p>Solutions designed specifically for your business needs</p>
+                                            <h4>Deep Salesforce <br/>Expertise </h4>
+                                            <p>Our team is highly skilled in Salesforce, ensuring the best possible customization and integrations for your specific needs.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,8 +191,8 @@ const CustomizationAndIntegration = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Improved Efficiency</h4>
-                                            <p>Streamlined processes and workflows</p>
+                                            <h4>Custom-Tailored <br/>Solutions</h4>
+                                            <p>We take the time to understand your unique business processes and build a solution that perfectly aligns with them.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -202,8 +202,8 @@ const CustomizationAndIntegration = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Scalability</h4>
-                                            <p>Flexible solutions that grow with your business.</p>
+                                            <h4>Seamless <br/>Integrations</h4>
+                                            <p>Eliminate data silos and streamline workflows by seamlessly connecting Salesforce with your existing systems.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -213,8 +213,8 @@ const CustomizationAndIntegration = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Enhanced User Experience</h4>
-                                            <p>User-friendly interfaces tailored to your team’s needs.</p>
+                                            <h4>Strategic <br/>Approach</h4>
+                                            <p>We go beyond the immediate project, considering future needs and ensuring your solution scales with your business.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -224,8 +224,8 @@ const CustomizationAndIntegration = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Competitive Advantage</h4>
-                                            <p>Gain a competitive edge with bespoke solutions</p>
+                                            <h4>Proven <br/>Track Record</h4>
+                                            <p>Benefit from our experience and expertise, with a focus on delivering tangible results, enhanced revenue, and more ROI.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -244,8 +244,8 @@ const CustomizationAndIntegration = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
+                                <h3>Don't Just Customize, Optimize! </h3>
+                                <p>Get a Free Consultation for Your Salesforce Customization & Integration Needs.</p>
                                 <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
                             </div>
                         </div>
@@ -254,7 +254,7 @@ const CustomizationAndIntegration = () => {
             </section>
 
 
-            <section>
+            {/* <section>
                 <div className='container'>
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -373,7 +373,7 @@ const CustomizationAndIntegration = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
 
@@ -394,52 +394,45 @@ const CustomizationAndIntegration = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="1">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <h3>How long does a custom implementation take?</h3>
+                                                <h3>Is Salesforce CRM Customizable?</h3>
                                                 <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
                                                     {open === '1' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <p><strong>This is the first item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.</p>
+                                            <p>Absolutely! Salesforce is known for its extensive customization capabilities. CRMForce+ can help you leverage this power to tailor your CRM solution to your specific business needs. We can customize objects, fields, workflows, reports, dashboards, and even the user interface to perfectly match your processes and workflows. This ensures your team has a user-friendly experience that maximizes efficiency and productivity.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="2">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>What are the benefits of Salesforce Customization?</h3>
                                                 <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
                                                     {open === '2' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="2">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                           <p>Salesforce customization offers a wide range of benefits, including:</p>
+                                           <ul>
+                                            <li><strong>Improved User Adoption:</strong> A customized Salesforce solution aligns with your existing workflows, making it easier for users to adopt and leverage the platform's capabilities.</li>
+                                            <li><strong>Enhanced Efficiency:</strong> Streamlined processes and automated tasks through customization save time and resources, allowing your team to focus on more strategic initiatives.</li>
+                                            <li><strong>Increased Sales & Revenue:</strong> Tailored functionalities can boost your sales pipeline management, lead nurturing, and overall sales effectiveness.</li>
+                                           </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="3">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>What are Salesforce Integration Services?</h3>
                                                 <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
                                                     {open === '3' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="3">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                           <p>Salesforce integration services involve connecting your CRM with other essential business systems. CRMForce+ offers expertise in integrating Salesforce with various applications, including marketing automation platforms, accounting software, ERP systems, and more. This eliminates data silos, ensures seamless data flow, and creates a unified business ecosystem for improved efficiency and collaboration.</p>
                                         </AccordionBody>
                                     </AccordionItem>
                                 </Accordion>

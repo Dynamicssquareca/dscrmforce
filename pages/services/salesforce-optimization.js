@@ -37,7 +37,7 @@ const SalesforceOptimization = () => {
     return (
         <>
             <Head>
-                <title>Service page</title>
+            <title>Salesforce Optimization  | CRM Force Plus</title>
             </Head>
             <div className='hero-banner-two height-auto'>
                 <div className="container">
