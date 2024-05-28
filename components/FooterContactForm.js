@@ -20,7 +20,7 @@ const router = useRouter();
     switch (router.pathname) {
         case '/':
             return 'Get in touch with our team to <br/> discuss your CRM needs';
-        case '/solutions':
+        case '/services/salesforce-implementation/':
             return 'Unlock the Power of <br/> CRMforcePlus Today!';
         case '/page3':
             return 'Request Callback for Page 3';

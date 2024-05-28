@@ -279,7 +279,7 @@ const FormCta = ({ onSubmit }) => {
         <label htmlFor="name">Company Name</label>
         {errors.company && <div className="text-danger">{errors.company}</div>}
       </div>
-      <div className="form-group mb-4">
+      <div className="form-group mb-5">
         <textarea
           className="form-control"
           name="message"
@@ -301,6 +301,22 @@ const FormCta = ({ onSubmit }) => {
         ></textarea>
         <label htmlFor="name">Message</label>
         {errors.message && <div className="text-danger">{errors.message}</div>}
+      </div>
+      <div className="mb-4 form-check">
+        <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
+        <label className="form-check-label">
+          I agree to the
+          <a href="/privacy-policy/" target="_blank">
+            {' '}
+            Privacy Policy{' '}
+          </a>
+          and
+          <a href="/terms-of-use/" target="_blank">
+            {' '}
+            Terms of Service{' '}
+          </a>
+          .
+        </label>
       </div>
       <button className='btn btn-prime btn-full' type="submit" disabled={submitted}>
         {submitted ? `Submitting (${redirectTimer})` : 'Request CallBack'}

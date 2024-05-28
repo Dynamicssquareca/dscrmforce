@@ -25,24 +25,24 @@ const Form = ({ onSubmit }) => {
   }, []);
 
 
-  
+
   const fetchCountryCodeByIP = () => {
-  fetch(``)
- .then(response => {
+    fetch(``)
+      .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch IP information');
         }
         return response.json();
       })
       .then(data => {
-        let countryCode = data.country_code.toLowerCase(); 
+        let countryCode = data.country_code.toLowerCase();
         console.log("Country Code:", countryCode); // 
         setDefaultCountryCode(countryCode);
-         console.log("Default Country Code:", defaultCountryCode); 
+        console.log("Default Country Code:", defaultCountryCode);
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-          setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
+        setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
       });
   };
 
@@ -218,7 +218,7 @@ const Form = ({ onSubmit }) => {
         {errors.email && <div className="text-danger">{errors.email}</div>}
       </div>
       <div className="form-group">
-        <PhoneInput 
+        <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
           onChange={(value) => {
@@ -244,7 +244,7 @@ const Form = ({ onSubmit }) => {
             }
           }}
         />
-        
+
         {/* <label htmlFor="name">Phone Number</label> */}
         {errors.phone && <div className="text-danger">{errors.phone}</div>}
       </div>
@@ -293,6 +293,22 @@ const Form = ({ onSubmit }) => {
         ></textarea>
         <label htmlFor="name">Message</label>
         {errors.message && <div className="text-danger">{errors.message}</div>}
+      </div>
+      <div className="mb-3 form-check">
+        <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
+        <label className="form-check-label">
+          I agree to the
+          <a href="/privacy-policy/" target="_blank">
+            {' '}
+            Privacy Policy{' '}
+          </a>
+          and
+          <a href="/terms-of-use/" target="_blank">
+            {' '}
+            Terms of Service{' '}
+          </a>
+          .
+        </label>
       </div>
       <button className='btn btn-prime btn-full' type="submit" disabled={submitted}>
         {submitted ? `Submitting (${redirectTimer})` : 'Request CallBack'}

@@ -38,7 +38,7 @@ export default function Home() {
               <div className="hero-content">
                 <h1>Boost Sales & Earn Customers for life with Leading Salesforce Partner</h1>
                 <p>Salesforce CRM: Scale Faster, Grow Better</p>
-                <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo" />
+                <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Demo"  />
                 {/* <a href="" className="btn btn-prime">Request a Free Demo</a> */}
               </div>
             </div>

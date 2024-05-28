@@ -3,7 +3,7 @@ import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import FormCta from './FormCta';
 import { useRouter } from 'next/router';
 
-function ModelBox({ headerText, buttonText, ...args }) {
+function ModelBox({ headerText, buttonText, buttonTextSpan, ...args }) {
     const [modal, setModal] = useState(false);
     const router = useRouter();
   
@@ -17,15 +17,27 @@ function ModelBox({ headerText, buttonText, ...args }) {
     };
 
   return (
-    <div>
+    <div className='custom-model'>
        <a className='btn btn-prime' onClick={toggle}>
        {buttonText}
       </a>
-      <Modal className='model-form'  isOpen={modal} toggle={toggle} {...args} centered	
+      <Modal className='model-form'  isOpen={modal} toggle={toggle} {...args} centered 	
 >
-        <ModalHeader toggle={toggle}>{headerText}</ModalHeader>
+        <ModalHeader toggle={toggle}></ModalHeader>
         <ModalBody>
-          <FormCta  onSubmit={handleSubmit}/>
+          <div className='d-flex-model'>
+            <div className='model-left'>
+            {/* {headerText} {buttonTextSpan} */}
+              <div>
+              <h3>Get Your <span>Free</span><br/> Salesforce <span>Consultation</span></h3>
+              <p>Transform your business with customized<br/> Salesforce Solutions</p>
+              </div>
+              <img src="/img/banner/hero-shape.png" alt="img" />
+            </div>
+            <div className='model-rigt'>
+              <FormCta  onSubmit={handleSubmit}/>
+            </div>
+          </div>
         </ModalBody>
       </Modal>
     </div>
