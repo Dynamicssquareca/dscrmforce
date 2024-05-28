@@ -639,12 +639,15 @@ overflow:hidden
 /*box design*/
 .service-box-one{
   position: relative;
-    overflow: hidden;
-    display: block;
-    padding: 15px;
-    background-color:var(--bg-grey);
-    transition:.4s ease-out;
-    height: auto;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 20px 15px 40px;
+  background-color:var(--bg-grey);
+  transition:.4s ease-out;
+  height: auto;
 
 }
 .service-box-one .service-box-head{
@@ -677,12 +680,15 @@ overflow:hidden
   color: var(--accsend);
 }
 .service-box-one .service-box-contant span{
-    text-align: right;
-    display:block;
-    opacity: 0;
-    visibility: hidden;
-   
-    transition:.4s ease-out;
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+  display:block;
+  opacity: 0;
+  visibility: hidden;
+  transition:.4s ease-out;
+  font-size: 15px;
+    font-weight: 500;
 }
 .service-box-one .service-box-contant span .bi{
 

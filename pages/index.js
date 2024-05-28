@@ -94,7 +94,7 @@ export default function Home() {
             {/* <ServiceBox jsonDataUrl="datanew/ne.json" /> */}
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="#">
+                <a href="/services/salesforce-implementation/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-1.png" alt="Salesforce Implementation" width={36} height={36} />
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="#">
+                <a href="/services/customization-and-integration/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-2.png" alt="Salesforce Implementation" width={36} height={36} />
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="#">
+                <a href="/services/training-and-support/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-3.png" alt="Salesforce Implementation" width={36} height={36} />
@@ -148,7 +148,7 @@ export default function Home() {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="#">
+                <a href="/services/salesforce-optimization/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-4.png" alt="Salesforce Implementation" width={36} height={36} />
