@@ -14,13 +14,14 @@ const FormCta = ({ onSubmit }) => {
   const [redirectTimer, setRedirectTimer] = useState(3);
   const [timerId, setTimerId] = useState(null);
 
-  
+
   const [errors, setErrors] = useState({});
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('us');
-
+  const [pageUrl, setPageUrl] = useState('');
   useEffect(() => {
     // Fetch IP information when the component mounts
+    setPageUrl(window.location.href);
     fetchCountryCodeByIP();
   }, []);
 
@@ -63,14 +64,15 @@ const FormCta = ({ onSubmit }) => {
     }
 
     // Send email using EmailJS
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+    emailjs.send('service_lqazf46', 'template_e13glbp', {
       from_name: name,
       from_email: email,
       to_name: 'YOUR_EMAIL_ADDRESS', // Replace with your own email address
       phone_number: phone,
       company_name: company,
-      message: message
-    }, 'YOUR_USER_ID')
+      message: message,
+      page_url: pageUrl,
+    }, 'JMglIoOzliJzdMCd4')
       .then((response) => {
         console.log('Email sent successfully:', response);
       })
@@ -151,7 +153,7 @@ const FormCta = ({ onSubmit }) => {
 
   const isValidEmail = (email) => {
     // Basic email format validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
     return emailRegex.test(email);
   };
 
@@ -180,7 +182,7 @@ const FormCta = ({ onSubmit }) => {
         <input
           type="text"
           className="form-control"
-          name="Name"
+          name="name"
           placeholder=""
           value={name}
           onChange={(e) => {
@@ -203,7 +205,7 @@ const FormCta = ({ onSubmit }) => {
         <input
           type="email"
           className="form-control"
-          name="Company Email"
+          name="email"
           placeholder=""
           value={email}
           onChange={(e) => {
@@ -225,7 +227,7 @@ const FormCta = ({ onSubmit }) => {
         {errors.email && <div className="text-danger">{errors.email}</div>}
       </div>
       <div className="form-group">
-        <PhoneInput inputStyle={{width:'100%',height:'auto'}} 
+        <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
           onChange={(value) => {
@@ -237,7 +239,7 @@ const FormCta = ({ onSubmit }) => {
           }}
           inputClass="form-control" // CSS class for the input
           inputProps={{
-            name: 'Phone Number',
+            name: 'phone',
             onBlur: () => {
               if (phone.trim() !== '') { // Check if phone number is not empty before validation
                 if (!isValidPhoneNumber(phone)) {
@@ -258,7 +260,7 @@ const FormCta = ({ onSubmit }) => {
         <input
           type="text"
           className="form-control"
-          name="Company Name"
+          name="companyname"
           placeholder=""
           value={company}
           onChange={(e) => {

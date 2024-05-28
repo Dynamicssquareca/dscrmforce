@@ -11,7 +11,7 @@ const Footer = () => {
 // Define classes based on different routes
 let footerClass = '';
 
-if (pathname === '/contact-us' || pathname === '/about-us') {
+if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/thank-you') {
   footerClass = 'footer-pad';
 } 
 // } else if (pathname === '/page2') {

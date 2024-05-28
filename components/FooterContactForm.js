@@ -8,7 +8,7 @@ const FooterContactForm = () => {
 const router = useRouter();
 
  // Define the pathname of the page where you want to hide the component
- const hiddenPagePaths = ['/about-us','/contact-us'];
+ const hiddenPagePaths = ['/about-us','/contact-us','/thank-you'];
 
  const shouldHideComponent = hiddenPagePaths.includes(router.pathname);
   // Conditionally render the component based on whether it should be hidden
@@ -29,13 +29,18 @@ const router = useRouter();
     }
 };
 
-
+const handleFormSubmit = async () => {
+    // Redirect to the thank you page after 5 seconds
+    setTimeout(() => {
+      router.push('/thank-you');
+    }, 3000);
+  };
     return (
         <div className='container bottom-form'>
             <div className='row'>
                 <div className='col-lg-6 align-self-center'>
                     <div className='form-left'>
-                        <span>Contact US</span>
+                        <span>Contact Us</span>
                         <h3 dangerouslySetInnerHTML={{ __html: getHeaderText() }}></h3>
                         <div className="cont-info">
                             <a href="tel:9876543210"><b>T:</b> 9876 543 210</a>
@@ -45,7 +50,7 @@ const router = useRouter();
                 </div>
                 <div className='col-lg-1'></div>
                 <div className='col-lg-5'>
-                    <Form />
+                    <Form onSubmit={handleFormSubmit} />
                 </div>
             </div>
         </div>
