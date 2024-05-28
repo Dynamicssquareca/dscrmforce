@@ -1,13 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import ModelBox from '@/components/ModelBox';
 import Image from 'next/image';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem, } from 'reactstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
+
 
 const SalesforceOptimization = () => {
 
@@ -37,15 +33,15 @@ const SalesforceOptimization = () => {
     return (
         <>
             <Head>
-            <title>Salesforce Optimization  | CRM Force Plus</title>
+                <title>Salesforce Optimization  | CRM Force Plus</title>
             </Head>
             <div className='hero-banner-two height-auto'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
+                                <h1>Fine-Tune Your Salesforce: Optimization Services for Peak Performance</h1>
+                                <p>Unlock the full potential of your Salesforce solution, ensuring peak performance and streamlined processes.</p>
                                 <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Consultatio" />
                             </div>
                         </div>
@@ -63,9 +59,9 @@ const SalesforceOptimization = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Most Trusted and Secure <br />Salesforce Implementation Services</h2>
-                                <p>At CRMFORCEPLUS, we are dedicated to revolutionizing businesses through innovative Salesforce Solutions implementations. As a newly established venture, we bring a fresh perspective to the realm of customer relationship management, leveraging cutting-edge technology to drive growth and success for our clients.</p>
+                                {/* <span>Features of Salesforce Sales Cloud</span> */}
+                                <h2>Optimize & Elevate: Unleash Peak Performance of your Salesforce</h2>
+                                <p>Is your Salesforce not delivering the results you expected? CRMForce+ can help!  Our Salesforce optimization services go beyond the initial implementation. We analyze your current setup, identify areas for improvement, and implement strategic changes to optimize your CRM solution for peak performance.</p>
                             </div>
                         </div>
                     </div>
@@ -75,22 +71,22 @@ const SalesforceOptimization = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>In-Depth Analysis & Performance Review</h3>
+                                <p>We conduct a comprehensive analysis of your Salesforce usage, data health, and user adoption to identify optimization opportunities.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Enhanced User Experience & Increased Adoption</h3>
+                                <p>Our optimization strategies prioritize user experience, leading to increased adoption and user satisfaction.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>Continuous Improvement & Long-Term Success</h3>
+                                <p>We don't stop at optimization. We provide ongoing monitoring and recommendations to ensure your Salesforce continues to evolve with your business.</p>
                             </div>
                         </div>
 
@@ -104,35 +100,35 @@ const SalesforceOptimization = () => {
                         <div className="col-lg-6">
                             <div className="heading-style-two">
                                 {/* <span>Sales Product</span> */}
-                                <h2>Salesforce Product Implementation Expertise</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <h2>Reliable Salesforce Optimization Services</h2>
+                                <p>We analyze your current setup, identify areas for improvement, and implement strategic changes to optimize workflows, automate tasks, and ensure maximum performance.</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="row d-flex align-items-stretch">
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className="col-lg-3 d-flex animated">
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Sales Cloud Optimization Services</h3>
+                                <p>Fine-tune your sales pipeline, automate tasks, and maximize sales effectiveness with the best Salesforce optimization services.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className="col-lg-3 d-flex animated">
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Service Cloud Optimization Services</h3>
+                                <p>Deliver exceptional customer service with optimized workflows and data for a superior service cloud experience.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className="col-lg-3 d-flex animated">
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Marketing Cloud Optimization Services</h3>
+                                <p>Elevate your marketing automation and personalize customer journeys with the best Marketing Cloud optimization services.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className="col-lg-3 d-flex animated">
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Commerce Cloud Optimization Services</h3>
+                                <p>Streamline your online store, enhance user experience, and drive sales growth with the best Commerce Cloud optimization expertise.</p>
                             </div>
                         </div>
 
@@ -165,8 +161,8 @@ const SalesforceOptimization = () => {
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
                             <div className="heading-style-two">
-                                <h2>Benefits of Salesforce Implementation Partner</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <h2>The Optimization Experts: Achieve Peak Performance of Your Salesforce Solution</h2>
+                                <p>We offer a data-driven approach, in-depth expertise, and a commitment to help you go beyond standard Salesforce capabilities.</p>
                                 <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today and See the Difference</a></div>
                             </div>
                         </div>
@@ -178,8 +174,8 @@ const SalesforceOptimization = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Tailored Fit</h4>
-                                            <p>Solutions designed specifically for your business needs</p>
+                                            <h4>In-Depth <br />Analysis</h4>
+                                            <p>Our optimization starts with a deep dive into your Salesforce usage, data, and user behavior, yielding actionable insights for improvement.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +185,8 @@ const SalesforceOptimization = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Improved Efficiency</h4>
-                                            <p>Streamlined processes and workflows</p>
+                                            <h4>Data-Driven <br />Customization</h4>
+                                            <p>We leverage data to recommend strategic optimizations to workflows, automation, and configurations, streamlining your processes.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -200,8 +196,8 @@ const SalesforceOptimization = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Scalability</h4>
-                                            <p>Flexible solutions that grow with your business.</p>
+                                            <h4>Focus on <br />User Experience</h4>
+                                            <p>Our optimization strategies prioritize user experience, leading to increased adoption and improved user satisfaction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -211,8 +207,8 @@ const SalesforceOptimization = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Enhanced User Experience</h4>
-                                            <p>User-friendly interfaces tailored to your team’s needs.</p>
+                                            <h4>Measurable Results <br />& Improved ROI</h4>
+                                            <p>Track the impact of optimization on your key metrics, allowing you to measure the return on your Salesforce investment.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -222,8 +218,8 @@ const SalesforceOptimization = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Competitive Advantage</h4>
-                                            <p>Gain a competitive edge with bespoke solutions</p>
+                                            <h4>Long-Term <br />Partnership</h4>
+                                            <p>We don't stop at optimization. We provide ongoing monitoring, support, and recommendations to ensure your Salesforce continues to evolve with your business.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -242,138 +238,14 @@ const SalesforceOptimization = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Don't Settle for Average</h3>
+                                <p>Optimize Your Salesforce and Drive Results with CRMForce+</p>
+                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Call Now!" />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-            <section>
-                <div className='container'>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-9">
-                            <div className="heading-style-one">
-                                <span>Case Stories</span>
-                                <h2>Sales Cloud has transformed the sales operations of different businesses to go all digital</h2>
-                                <p>Explore such businesses to see the effectiveness of Salesforce Sales Cloud with a tailored approach.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-lg-12'>
-                            <div className='slider-one'>
-                                <Swiper
-                                    spaceBetween={30}
-                                    autoplay={{
-                                        delay: 4000,
-                                        disableOnInteraction: true,
-                                    }}
-
-                                    pagination={{
-                                        clickable: true,
-                                    }}
-                                    breakpoints={{
-                                        640: {
-                                            slidesPerView: 1,
-                                            spaceBetween: 20,
-                                        },
-                                        768: {
-                                            slidesPerView: 1,
-                                            spaceBetween: 40,
-                                        },
-                                        1024: {
-                                            slidesPerView: 2,
-                                            spaceBetween: 50,
-                                        },
-                                    }}
-                                    modules={[Pagination, Autoplay]}
-                                    className="mySwiper"
-                                >
-
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>World Economic Forum, a global forum, aimed to centralize systems with Sales Cloud. </h4>
-                                            <p>Being a global discussion forum, they were using email attachments and spreadsheets to manage data for large programs. Managing data from different aspects becomes time-consuming using different solutions. Salesforce integrated different solutions, including Sales Cloud, into WEF. This implementation led them to track attendees and manage potential memberships.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Grammarly, an AI-based writing application, aimed to increase the conversion rate.</h4>
-                                            <p>Grammarly is a popular tool with over 30 million global users. They used to collect, filter, and process inbound leads manually, making the process hectic. The Einstein 1 Marketing of Sales Cloud utilized AI to connect sales with marketing and automated processes to increase the conversion rate by 30%.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>The Texas Rangers, an American-based baseball team, want to get a 360° view of operations.</h4>
-                                            <p>The Texas Rangers are a world-champion baseball team that wants to eliminate the manual ways of guest service while eliminating data silos from the system. With the Sales Cloud implementation, Texas Ranger can now connect diverse systems to get a unified business view with real-time data insights.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Pirelli, a premium tire company, aims to utilize data to enhance business efficiency.</h4>
-                                            <p>Pirelli is a renowned brand with a global presence of approx. 1.8 million orders per day using their dealer platform. They were facing issues establishing connections with dealers and customers to generate more sales. This lets the business implement a B2B2C consulting model with Sales Cloud to capture data insights and perform data-driven sales.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>John Lewis Partnership, a popular business in the UK, aimed to utilize data.</h4>
-                                            <p>Being a popular and largest employee-owned business in the UK with 34 shops and 329 supermarket stores, they have collected huge amounts of data in different departments but are unable to utilize it. Now, with Sales Cloud implementation, they are able to centralize data across departments to offer an exceptional customer experience.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Spotify, a streaming giant, wants to supercharge sales with Salesforce Sales Cloud.</h4>
-                                            <p>Spotify is a digital music platform with millions of global users. They want to capture customer data so that they can serve ads better. Also, they want to show more personalized content using data analytics to retain users for the long run. All such issues were resolved using the Salesforce Sales Cloud implementation.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                </Swiper>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
 
             <section>
                 <div className='container'>
@@ -392,52 +264,59 @@ const SalesforceOptimization = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="1">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <h3>How long does a custom implementation take?</h3>
+                                                <h3>1.	What is Salesforce optimization?</h3>
                                                 <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
                                                     {open === '1' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <p><strong>This is the first item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.</p>
+                                            <p>Salesforce optimization is the process of fine-tuning your CRM solution to ensure it operates at peak performance and delivers maximum value for your business. This can involve analyzing your current setup, identifying areas for improvement, and implementing strategic changes to:</p>
+                                            <ul>
+                                                <li>Streamline workflows and automate tasks</li>
+                                                <li>Improve data quality and accessibility</li>
+                                                <li>Enhance user adoption and experience</li>
+                                                <li>Increase efficiency and productivity</li>
+                                                <li>Align your CRM with evolving business needs</li>
+                                            </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="2">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                                <h3>What is Salesforce CRM optimization?</h3>
                                                 <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
                                                     {open === '2' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="2">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                            <p>Salesforce CRM optimization is a specific focus within overall Salesforce optimization. It involves optimizing the functionalities of your Sales Cloud, Service Cloud, or other CRM-related Salesforce products. This could include:</p>
+                                            <ul>
+                                                <li>Optimizing sales pipelines and forecasting processes</li>
+                                                <li>Enhancing lead nurturing and opportunity management</li>
+                                                <li>Streamlining customer service workflows and knowledge base management</li>
+                                                <li>Personalizing customer interactions and improving case resolution times</li>
+                                            </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="3">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                                <h3>What does a Salesforce optimizer do?</h3>
                                                 <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
                                                     {open === '3' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="3">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                          <p>A Salesforce optimizer, like those at CRMForce+, is a professional with deep expertise in Salesforce functionalities and best practices. They work with you to understand your business goals, analyze your current Salesforce usage, and recommend optimization strategies. This may involve:</p>
+                                          <ul>
+                                              <li>Conducting data analysis and identifying performance bottlenecks</li>
+                                              <li>Recommending customizations, automation rules, and configuration changes</li>
+                                              <li>Creating reports and dashboards for improved data visualization and decision-making</li>
+                                              <li>Providing ongoing support and guidance to ensure successful implementation of optimization strategies</li>
+                                          </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                 </Accordion>

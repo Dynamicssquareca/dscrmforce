@@ -1,13 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import ModelBox from '@/components/ModelBox';
 import Image from 'next/image';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem, } from 'reactstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
+
 
 const TrainingAndSupport = () => {
 
@@ -44,9 +40,9 @@ const TrainingAndSupport = () => {
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
                             <div className="hero-content">
-                                <h1>Manage Leads and Boosts Productivity with Salesforce <span>Sales Cloud</span></h1>
-                                <p>Salesforce Sales Cloud is an AI-enabled CRM solution that enables you to sell faster and smarter. It unifies customer data and automates tasks with a 360° business view.</p>
-                                <ModelBox headerText="Get a Free Demo" buttonText="Request a Free Consultatio" />
+                                <h1>Empower Your Team: Get Comprehensive Salesforce <span>Training & Support </span></h1>
+                                <p>Ensure users get the most out of the platform with training programs and ongoing support for maximum utilization of Salesforce. </p>
+                                <ModelBox headerText="Get a Free Demo" buttonText="Schedule a Free Demo! " />
                             </div>
                         </div>
                     </div>
@@ -63,9 +59,9 @@ const TrainingAndSupport = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="heading-style-two">
-                                <span>Features of Salesforce Sales Cloud</span>
-                                <h2>Most Trusted and Secure <br />Salesforce Implementation Services</h2>
-                                <p>At CRMFORCEPLUS, we are dedicated to revolutionizing businesses through innovative Salesforce Solutions implementations. As a newly established venture, we bring a fresh perspective to the realm of customer relationship management, leveraging cutting-edge technology to drive growth and success for our clients.</p>
+                                {/* <span>Features of Salesforce Sales Cloud</span> */}
+                                <h2>Unparalleled Training & Support: Maximize Your Salesforce Investment </h2>
+                                <p>Get the most out of your Salesforce investment with CRMForce Plus's comprehensive training and support services. We offer a range of programs designed to equip your users with the skills and knowledge to leverage Salesforce effectively. </p>
                             </div>
                         </div>
                     </div>
@@ -75,22 +71,22 @@ const TrainingAndSupport = () => {
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
-                                <h3>Unify Customer Data</h3>
-                                <p>Record and collect customer conversations and store them digitally in a unified database.</p>
+                                <h3>Tailored Training Programs </h3>
+                                <p>We create training programs customized to your specific needs and user roles, ensuring everyone gets the most out of Salesforce. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
-                                <h3>Scale with ease</h3>
-                                <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
+                                <h3>Experienced Trainers & Ongoing Support </h3>
+                                <p>Benefit from our team of certified Salesforce experts who provide high-quality training and ongoing support to address your evolving needs. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
                                 <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
-                                <h3>Generate Valuable Reports</h3>
-                                <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
+                                <h3>User Adoption & Proficiency Focus </h3>
+                                <p>Our focus is on driving user adoption and ensuring your team reaches its full potential with Salesforce. </p>
                             </div>
                         </div>
 
@@ -104,8 +100,8 @@ const TrainingAndSupport = () => {
                         <div className="col-lg-6">
                             <div className="heading-style-two">
                                 {/* <span>Sales Product</span> */}
-                                <h2>Salesforce Product Implementation Expertise</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
+                                <h2>Salesforce Training and Support </h2>
+                                <p>We equip your team with the knowledge and skills to master the platform, maximizing user adoption and driving success. </p>
                             </div>
                         </div>
                     </div>
@@ -113,26 +109,26 @@ const TrainingAndSupport = () => {
                     <div className="row d-flex align-items-stretch">
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales Engagement</h3>
-                                <p>Build customer engagement to close more sales with the minimum amount of effort.</p>
+                                <h3>Sales Cloud Training & Support Services </h3>
+                                <p>Empower your sales team with the best training and support to maximize lead generation and close more deals. </p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Buyer Engagement</h3>
-                                <p>Promote sales and marketing collaboration to capture more leads and close deals.</p>
+                                <h3>Service Cloud Training & Support Services </h3>
+                                <p>Deliver exceptional customer service with the best training and ongoing support for your Service Cloud solution. </p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill bg-gradiant">
-                                <h3>Sales AI</h3>
-                                <p>Leverage modern AI capabilities to support executives at each sales event.</p>
+                                <h3>Marketing Cloud Training & Support Services </h3>
+                                <p>Master the art of marketing automation with the best training and support for Marketing Cloud, driving personalized customer journeys. </p>
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
-                                <h3>Einstein Conversation Insights</h3>
-                                <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
+                                <h3>Commerce Cloud Training & Support Services </h3>
+                                <p>Elevate your online store with the best training and support for Commerce Cloud, ensuring a seamless buying experience. </p>
                             </div>
                         </div>
 
@@ -165,9 +161,9 @@ const TrainingAndSupport = () => {
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
                             <div className="heading-style-two">
-                                <h2>Benefits of Salesforce Implementation Partner</h2>
-                                <p>As a distinguished partner, Access Global Group excels in implementing the full suite of Salesforce products, consistently surpassing client expectations.</p>
-                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Get Started Today and See the Difference</a></div>
+                                <h2>Why Choose CRMForce+ for Salesforce Training & Support? </h2>
+                                <p>CRMForce+ goes beyond generic training modules. We offer a personalized approach, ensuring your team receives the knowledge and skills they need to thrive on the platform. </p>
+                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Schedule a Free Demo!</a></div>
                             </div>
                         </div>
                         <div className='col-lg-7'>
@@ -178,8 +174,8 @@ const TrainingAndSupport = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Tailored Fit</h4>
-                                            <p>Solutions designed specifically for your business needs</p>
+                                            <h4>Customized <br/>Training Programs </h4>
+                                            <p>We don't offer a one-size-fits-all approach. Get training programs tailored to your specific needs and user roles. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +185,8 @@ const TrainingAndSupport = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Improved Efficiency</h4>
-                                            <p>Streamlined processes and workflows</p>
+                                            <h4>Certified <br/>Salesforce Trainers </h4>
+                                            <p>Benefit from our team of certified professionals who deliver high-quality, in-depth Salesforce training.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -200,8 +196,8 @@ const TrainingAndSupport = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Scalability</h4>
-                                            <p>Flexible solutions that grow with your business.</p>
+                                            <h4>Focus on User <br/>Adoption & Proficiency </h4>
+                                            <p>Our goal is to drive user adoption and ensure your team becomes proficient in using Salesforce effectively.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -211,8 +207,8 @@ const TrainingAndSupport = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Enhanced User Experience</h4>
-                                            <p>User-friendly interfaces tailored to your team’s needs.</p>
+                                            <h4>Flexible <br/>Learning Options </h4>
+                                            <p>We offer a variety of learning options, including instructor-led training, online modules, and on-demand resources, to fit your team's preferences. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -222,8 +218,8 @@ const TrainingAndSupport = () => {
                                             <img src="/img/icons/plus-icons.png" alt="plus-icons" />
                                         </div>
                                         <div className='box-inner'>
-                                            <h4>Competitive Advantage</h4>
-                                            <p>Gain a competitive edge with bespoke solutions</p>
+                                            <h4>Ongoing Support & <br/>Continuous Improvement </h4>
+                                            <p>Our commitment extends beyond training. We provide ongoing support to address challenges and ensure your team stays up-to-date. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -242,9 +238,9 @@ const TrainingAndSupport = () => {
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
-                                <h3>Eliminate administrative pains and automate sales with Salesforce Sales Cloud</h3>
-                                <p>Power up your sales operations with a tailored Sales Cloud implementation. Contact a Salesforce expert today for a free consultation.</p>
-                                <ModelBox headerText="Schedule a Free Call" buttonText="Schedule a Free Call" />
+                                <h3>Invest in Your Team's Success</h3>
+                                <p>Get Started with CRMForce+ Training & Support Today! </p>
+                                <ModelBox headerText="Schedule a Free Call" buttonText="Contact Salesforce Experts Now!" />
                             </div>
                         </div>
                     </div>
@@ -252,127 +248,7 @@ const TrainingAndSupport = () => {
             </section>
 
 
-            <section>
-                <div className='container'>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-9">
-                            <div className="heading-style-one">
-                                <span>Case Stories</span>
-                                <h2>Sales Cloud has transformed the sales operations of different businesses to go all digital</h2>
-                                <p>Explore such businesses to see the effectiveness of Salesforce Sales Cloud with a tailored approach.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-lg-12'>
-                            <div className='slider-one'>
-                                <Swiper
-                                    spaceBetween={30}
-                                    autoplay={{
-                                        delay: 4000,
-                                        disableOnInteraction: true,
-                                    }}
-
-                                    pagination={{
-                                        clickable: true,
-                                    }}
-                                    breakpoints={{
-                                        640: {
-                                            slidesPerView: 1,
-                                            spaceBetween: 20,
-                                        },
-                                        768: {
-                                            slidesPerView: 1,
-                                            spaceBetween: 40,
-                                        },
-                                        1024: {
-                                            slidesPerView: 2,
-                                            spaceBetween: 50,
-                                        },
-                                    }}
-                                    modules={[Pagination, Autoplay]}
-                                    className="mySwiper"
-                                >
-
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>World Economic Forum, a global forum, aimed to centralize systems with Sales Cloud. </h4>
-                                            <p>Being a global discussion forum, they were using email attachments and spreadsheets to manage data for large programs. Managing data from different aspects becomes time-consuming using different solutions. Salesforce integrated different solutions, including Sales Cloud, into WEF. This implementation led them to track attendees and manage potential memberships.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Grammarly, an AI-based writing application, aimed to increase the conversion rate.</h4>
-                                            <p>Grammarly is a popular tool with over 30 million global users. They used to collect, filter, and process inbound leads manually, making the process hectic. The Einstein 1 Marketing of Sales Cloud utilized AI to connect sales with marketing and automated processes to increase the conversion rate by 30%.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>The Texas Rangers, an American-based baseball team, want to get a 360° view of operations.</h4>
-                                            <p>The Texas Rangers are a world-champion baseball team that wants to eliminate the manual ways of guest service while eliminating data silos from the system. With the Sales Cloud implementation, Texas Ranger can now connect diverse systems to get a unified business view with real-time data insights.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Pirelli, a premium tire company, aims to utilize data to enhance business efficiency.</h4>
-                                            <p>Pirelli is a renowned brand with a global presence of approx. 1.8 million orders per day using their dealer platform. They were facing issues establishing connections with dealers and customers to generate more sales. This lets the business implement a B2B2C consulting model with Sales Cloud to capture data insights and perform data-driven sales.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>John Lewis Partnership, a popular business in the UK, aimed to utilize data.</h4>
-                                            <p>Being a popular and largest employee-owned business in the UK with 34 shops and 329 supermarket stores, they have collected huge amounts of data in different departments but are unable to utilize it. Now, with Sales Cloud implementation, they are able to centralize data across departments to offer an exceptional customer experience.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className='slider-one-inner'>
-                                            <h4>Spotify, a streaming giant, wants to supercharge sales with Salesforce Sales Cloud.</h4>
-                                            <p>Spotify is a digital music platform with millions of global users. They want to capture customer data so that they can serve ads better. Also, they want to show more personalized content using data analytics to retain users for the long run. All such issues were resolved using the Salesforce Sales Cloud implementation.</p>
-                                            <ul>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                                <li><i className="bi bi-plus-lg"></i><span>30% increase in lead conversion</span></li>
-                                            </ul>
-                                            <a href=""><span>Learn More</span></a>
-
-                                        </div>
-                                    </SwiperSlide>
-                                </Swiper>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+          
 
 
             <section>
@@ -392,52 +268,61 @@ const TrainingAndSupport = () => {
                                     <AccordionItem>
                                         <AccordionHeader targetId="1">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                                <h3>How long does a custom implementation take?</h3>
+                                                <h3>What is the best way to learn Salesforce?</h3>
                                                 <span className={`icon ${open === '1' ? 'open' : 'closed'}`}>
                                                     {open === '1' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="1">
-                                            <p><strong>This is the first item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.</p>
+                                            <p>The best way to learn Salesforce depends on your learning style and specific needs. However, a combination of structured training and ongoing support is generally considered ideal. CRMForce+ offers a variety of learning options, including: </p>
+                                            <ul>
+                                                <li><strong>Instructor-led training: </strong> Learn directly from certified Salesforce experts through interactive workshops and courses tailored to your needs. </li>
+                                                <li><strong>Online modules:</strong> Access self-paced online modules that cover different Salesforce features and functionalities. </li>
+                                                <li><strong>On-demand resources:</strong> Benefit from a library of helpful articles, tutorials, and videos to answer specific questions and deepen your knowledge. </li>
+                                                <li><strong>Ongoing support:</strong> Our team is available to answer your questions, address challenges, and provide guidance as you navigate the platform. </li>
+                                            </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="2">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>What does Salesforce Support do?</h3>
                                                 <span className={`icon ${open === '2' ? 'open' : 'closed'}`}>
                                                     {open === '2' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="2">
-                                            <strong>This is the second item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                           <p>Salesforce Support offers a range of resources and services designed to help you get the most out of your CRM solution. This includes: </p>
+                                           <ul>
+                                            <li><strong>Answering user questions</strong></li>
+                                           </ul>
+                                           <p>Get help with specific features, troubleshooting technical issues, and finding solutions to your challenges. </p>
+                                           <ul>
+                                            <li><strong>Providing guidance and best practices</strong></li>
+                                           </ul>
+                                           <p>Benefit from the expertise of Salesforce professionals who can guide you on best practices for using the platform effectively. </p>
+                                           <ul><li><strong>Offering ongoing updates and resources</strong></li></ul>
+                                           <p>Stay informed about new features, functionality updates, and access valuable resources to enhance your Salesforce experience. </p>
                                         </AccordionBody>
                                     </AccordionItem>
                                     <AccordionItem>
                                         <AccordionHeader targetId="3">
                                             <div className="d-flex justify-content-between align-items-center w-100">
-                                            <h3>How long does a custom implementation take?</h3>
+                                            <h3>What is the support process in Salesforce?</h3>
                                                 <span className={`icon ${open === '3' ? 'open' : 'closed'}`}>
                                                     {open === '3' ? '-' : '+'}
                                                 </span>
                                             </div>
                                         </AccordionHeader>
                                         <AccordionBody accordionId="3">
-                                            <strong>This is the third item's accordion body.</strong>
-                                            You can modify any of this with custom CSS or overriding our default
-                                            variables. It's also worth noting that just about any HTML can go
-                                            within the <code>.accordion-body</code>, though the transition does
-                                            limit overflow.
+                                         <p>Salesforce offers various support options depending on your plan and needs. CRMForce+ can help you navigate the support process, including: </p>
+                                         <ul>
+                                            <li><strong>Contacting Salesforce Support:</strong> We can guide you on how to submit support tickets, access online knowledge bases, and connect with the appropriate Salesforce support team. </li>
+                                            <li><strong>Managing your support needs:</strong> We can help prioritize your issues, track resolution progress, and ensure your concerns are addressed effectively. </li>
+                                            <li><strong>Supplementing official support:</strong> While Salesforce offers valuable support, CRMForce+ provides an additional layer of personalized guidance and expertise to ensure your success. </li>
+                                         </ul>
                                         </AccordionBody>
                                     </AccordionItem>
                                 </Accordion>
