@@ -1286,7 +1286,7 @@ color:var(--primary)
 }
 .form-one .react-tel-input .form-control{
   width: 100%;
-  background: #f1f8fa;
+  background: #ffffff;
     padding: .375rem 3.4rem;
     border: none;
     height: 47px;
@@ -1345,6 +1345,12 @@ color:var(--primary)
   height: 50px;
 }
 
+
+.form-two .react-tel-input .form-control{
+  background: #f1f8fa;
+}
+
+
 .form-subscribe .btn-outline-secondary{
   padding: 0.768rem 1.3rem;
     background-color: var(--color-white);
@@ -1373,7 +1379,9 @@ color:var(--primary)
 .model-form .modal-body form .form-control{
   background-color:#f1f8fa
 }
-
+.text-light{
+  color: black !important;
+}
 
 
 
