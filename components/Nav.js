@@ -41,19 +41,19 @@ const Nav = () => {
               <li>
                 <a href="/services/salesforce-implementation/">
                   <p>Salesforce Implementation</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Experienced team, proven methodology, successful implementations</span>
                 </a>
                 <a href="/services/customization-and-integration/">
                   <p>Customization & Integration</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Deep Salesforce expertise, tailored solutions, flawless integrations</span>
                 </a>
                 <a href="/services/training-and-support/">
                   <p>Training & Support</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Expert training & ongoing support to maximize Salesforce adoption</span>
                 </a>
                 <a href="/services/salesforce-optimization/">
                   <p>Salesforce Optimization</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Optimize your Salesforce for maximum efficiency and ROI</span>
                 </a>
               </li>
 
@@ -64,23 +64,23 @@ const Nav = () => {
               <li>
                 <a href="/solutions/small-business/">
                   <p>Small Business</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Simple solutions to supercharge your small business</span>
                 </a>
                 <a href="/solutions/sales-cloude/">
                   <p>Sales Cloud</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>The #1 CRM for driving sales pipeline & revenue growth</span>
                 </a>
                 <a href="/solutions/service-cloud/">
                   <p>Service Cloud</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Deliver exceptional customer service & build stronger relationships</span>
                 </a>
                 <a href="/solutions/marketing-cloud/">
                   <p>Marketing Cloud</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Automate marketing campaigns & personalize customer journeys</span>
                 </a>
                 <a href="/solutions/commerce-cloud/">
                   <p>Commerce Cloud</p>
-                  <span>Join hands with the leading Salesforce implementation partner for</span>
+                  <span>Power your online store & deliver seamless omnichannel experiences</span>
                 </a>
               </li>
 
