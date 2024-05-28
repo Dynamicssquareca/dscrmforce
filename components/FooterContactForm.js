@@ -35,7 +35,7 @@ const router = useRouter();
             <div className='row'>
                 <div className='col-lg-6 align-self-center'>
                     <div className='form-left'>
-                        <span>Contact Us</span>
+                        <span>Contact US</span>
                         <h3 dangerouslySetInnerHTML={{ __html: getHeaderText() }}></h3>
                         <div className="cont-info">
                             <a href="tel:9876543210"><b>T:</b> 9876 543 210</a>
