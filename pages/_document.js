@@ -3,7 +3,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      <link rel="icon" type="image/png" href="/favicon.png" sizes="512x512" />
+       <meta name="robots" content="noindex, nofollow" />
+      <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
