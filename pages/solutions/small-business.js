@@ -41,7 +41,7 @@ const SmallBusiness = () => {
                     <div className='row'>
                         <div className="elementor-background-overlay">
                           
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
+                            <Image src="/img/banner/small-business-banner.png" className='bg-mid' alt="small-business-banner" width={932} height={278}  priority  />
                             <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority  />
                             <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298}  priority  />
                         </div>
@@ -201,28 +201,28 @@ const SmallBusiness = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/boost-sales-icons .png" alt="boost-sales-icons " width={65} height={65} />
                                 <h3>Boost Sales & Close More Deals</h3>
                                 <p>Streamline your sales process, automate tasks, and gain valuable insights to close deals faster.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/effortless-customer-icon.png" alt="effortless-customer-icon" width={65} height={65} />
                                 <h3>Effortless Customer Management</h3>
                                 <p>Centralize all your customer data, track interactions, and build stronger relationships effortlessly.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/unify-business-icon.png" alt="unify-business-icon" width={65} height={65} />
                                 <h3>Unify Your Business</h3>
                                 <p>Connect Salesforce with your existing tools to gain a complete view of your operations and work more efficiently.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/data-driven-icon.png" alt="data-driven-icon" width={65} height={65} />
                                 <h3>Data-Driven Decisions</h3>
                                 <p>Gain real-time insights into your business performance, identify trends, and make smarter decisions for growth.</p>
                             </div>
