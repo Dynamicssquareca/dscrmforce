@@ -31,7 +31,7 @@ const ModelBoxGetstatrd = ({ headerText, buttonText, buttonTextSpan, ...args }) 
                             </div>
                             <img src="/img/banner/hero-shape.png" alt="img" />
                         </div>
-                        <div className='model-right'>
+                        <div className='model-rigt'>
                             <FormCta onSubmit={handleSubmit} />
                         </div>
                     </div>
