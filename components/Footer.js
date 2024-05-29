@@ -32,7 +32,7 @@ if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/tha
                                 <img src="/crmforceplus-white.png" alt="crmforceplus-logo-white" />
                                     {/* <span>FlexStart</span> */}
                                 </a>
-                                <p>Sales Force Plus is UK's leading  Certified Partner that caters to the needs of orgnisations who can source next-gen Microsoft Business Apps from our highly skilled Microsoft consultants.</p>
+                                <p>CRMForce+ goes beyond CRM. Our certified experts unlock explosive growth for businesses with future-proof Salesforce solutions, crafting seamless customer experiences that drive results.</p>
                                 <div className="social-links mt-3">
                                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
