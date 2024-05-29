@@ -12,6 +12,7 @@ function ModelBox({ headerText, buttonText, buttonTextSpan, ...args }) {
     const handleSubmit = async () => {
       // Redirect to the thank you page after 5 seconds
       setTimeout(() => {
+        setModal(false);
         router.push('/thank-you');
       }, 3000);
     };

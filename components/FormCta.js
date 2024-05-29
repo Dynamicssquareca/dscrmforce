@@ -321,7 +321,7 @@ const FormCta = ({ onSubmit }) => {
       <button className='btn btn-prime btn-full' type="submit" disabled={submitted}>
         {submitted ? `Submitting (${redirectTimer})` : 'Request CallBack'}
       </button>
-      {submitted && <p>Your form has been submitted!</p>}
+      {/* {submitted && <p>Your form has been submitted!</p>} */}
     </form>
   );
 };

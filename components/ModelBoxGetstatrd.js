@@ -11,15 +11,15 @@ const ModelBoxGetstatrd = ({ headerText, buttonText, buttonTextSpan, ...args }) 
   
     const handleSubmit = async () => {
         setTimeout(() => {
+            setModal(false);
             router.push('/thank-you');
         }, 3000);
     };
 
-    console.log("ModelBoxGetstatrd rendered with props:", { headerText, buttonText, buttonTextSpan });
 
     return (
         <div className='custom-model'>
-            <a className="getstarted scrollto" onClick={toggle}>Get Started</a>
+            <a style={{cursor:'pointer'}} className="getstarted scrollto" onClick={toggle}>Get Started</a>
             <Modal className='model-form' isOpen={modal} toggle={toggle} {...args} centered>
                 <ModalHeader toggle={toggle}></ModalHeader>
                 <ModalBody>
