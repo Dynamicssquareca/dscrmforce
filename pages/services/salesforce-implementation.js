@@ -2,12 +2,8 @@ import React, { useRef, useState } from 'react';
 import ModelBox from '@/components/ModelBox';
 import Image from 'next/image';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem, } from 'reactstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import Head from 'next/head';
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
 
 const SalesforceImplementation = () => {
 

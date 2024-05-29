@@ -32,7 +32,7 @@ if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/tha
                                 <img src="/crmforceplus-white.png" alt="crmforceplus-logo-white" />
                                     {/* <span>FlexStart</span> */}
                                 </a>
-                                <p>Since 2011, we have been serving our global customers, enabling them to make more profits by implementing tech-driven cloud solutions.</p>
+                                <p>Sales Force Plus is UK's leading  Certified Partner that caters to the needs of orgnisations who can source next-gen Microsoft Business Apps from our highly skilled Microsoft consultants.</p>
                                 <div className="social-links mt-3">
                                     <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
                                     <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
@@ -71,7 +71,7 @@ if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/tha
                 </div>
                 <div className='bottom-footer'>
                 <div className="container">
-                        <div className="copyright">© Copyright 2024 crmforceplus, Inc. All rights reserved. Various trademarks held by their respective owners.</div>
+                        <div className="copyright">© Copyright 2024 Crmforceplus, Inc. All rights reserved. Various trademarks held by their respective owners.</div>
                     </div>
                 </div>
             </footer>

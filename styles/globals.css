@@ -253,8 +253,12 @@ p{
   padding-top:30px
 }
 
-
-
+.hero.hero-padd{
+  padding: 80px 0px 80px;
+}
+.bg-colo{
+  padding-top:60px
+}
 
 
 
@@ -577,8 +581,22 @@ to {
  
 }
 
-
-
+.heading-style-three h2{
+  font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.heading-style-three h3{
+  font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.heading-style-three h4{
+  font-size:18px;
+  font-weight: 600;
+    margin-bottom: 15px;
+}
+.heading-style-three p{}
 
 
 
@@ -1318,10 +1336,13 @@ color:var(--primary)
 }
 .contact-form-left .form-left .info-one span{
   display: block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: var(--primary);
     margin-bottom: 8px;
+}
+.contact-form-left .form-left .info-one p{
+  font-size:15px
 }
 .contact-form-left .form-left .info-one p a{
   color: var(--secnadry);

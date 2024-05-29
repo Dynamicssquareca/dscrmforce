@@ -1,7 +1,12 @@
+import Head from 'next/head';
 import React from 'react';
-
 const ThankYou = () => {
     return (
+        <>
+        <Head>
+            <title>Thank You | Crm Force Plus</title>
+        </Head>
+
         <section className="hero">
         <div id="hero"></div>
         <div className="container">
@@ -16,6 +21,7 @@ const ThankYou = () => {
             </div>
         </div>
     </section>
+    </>
     );
 }
 

@@ -14,7 +14,7 @@ const Form = ({ onSubmit }) => {
   const [redirectTimer, setRedirectTimer] = useState(3);
   const [timerId, setTimerId] = useState(null);
   const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('us');
+  const [defaultCountryCode, setDefaultCountryCode] = useState('gb');
   const [pageUrl, setPageUrl] = useState('');
 
   useEffect(() => {
@@ -42,7 +42,7 @@ const Form = ({ onSubmit }) => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-        setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
+        setDefaultCountryCode('gb'); // Fallback to 'us' if the API call fails
       });
   };
 

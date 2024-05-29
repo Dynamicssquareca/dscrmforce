@@ -27,6 +27,10 @@ const ContactUSForm = () => {
                             <p><a href='mailto:support@yourcompany.com'>sales@yourcompany.com.</a></p>
                         </div>
                         <div className='info-one'>
+                            <span>Contact Number</span>
+                            <p><a href='tel:+442035141057'>+44 203 5141057</a></p>
+                        </div>
+                        <div className='info-one'>
                             <span>Visit Us</span>
                             <p>123 Main Street,<br/>
                                 City, State,<br/>
