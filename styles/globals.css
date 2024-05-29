@@ -1429,6 +1429,7 @@ gap:30px;
   background: -webkit-linear-gradient(41deg, rgba(255,255,255,1) 25%, rgba(221,237,243,1) 100%);
   background: linear-gradient(41deg, rgba(255,255,255,1) 25%, rgba(221,237,243,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ddedf3",GradientType=1);
+  border-radius:10px
 }
 .d-flex-model .model-left img{
   position: absolute;

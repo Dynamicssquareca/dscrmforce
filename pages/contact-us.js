@@ -11,7 +11,8 @@ const ContactUs = () => {
                         <div className="col-lg-9">
                             <div className="hero-content">
                                 <h1>Get in Touch with Us</h1>
-                                <p>Got questions or issues? Our support team is here to assist you every step of the way.<br /> Reach out anytime—we're ready to help!</p>
+                                <p>Looking for Salesforce experts? We are just a call away to help you out in every possible way.<br/> Reach out anytime—we're ready to help!
+</p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +35,7 @@ const ContactUs = () => {
                         <div className="col-lg-9">
                             <div className="heading-style-one">
                                 <span>Why Choose  Us</span>
-                                <h2>We deliver innovative solutions tailored to your needs, backed by exceptional customer support</h2>
+                                <h2>Our customer-centric approach empowers you to attain great customer satisfaction with superior results</h2>
                             </div>
                         </div>
                     </div>
@@ -49,22 +50,22 @@ const ContactUs = () => {
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
                                 <img src="/img/icons/Group-2.png" alt="Exceptional Support" width={64} height={64} />
-                                <h3>Exceptional Support</h3>
-                                <p>Dedicated customer support team ready to assist you.</p>
+                                <h3>Proven Track Records</h3>
+                                <p>Helped businesses achieve great results.</p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
                                 <img src="/img/icons/Group-3.png" alt="Proven Results" width={64} height={64} />
-                                <h3>Proven Results</h3>
-                                <p>Thousands of satisfied users trust our reliable solutions</p>
+                                <h3>Certified Experts</h3>
+                                <p>Unlock Salesforce potential with professionals. </p>
                             </div>
                         </div>
                         <div className='col-lg-3'>
                             <div className='box-icon-box box-icon-box-center'>
                                 <img src="/img/icons/Group-4.png" alt="Expertise and Innovation" width={64} height={64} />
-                                <h3>Expertise and Innovation</h3>
-                                <p>Experience excellence with our innovative approach</p>
+                                <h3>Tailored Solutions</h3>
+                                <p>Acquire your personalized solution today!</p>
                             </div>
                         </div>
                     </div>
