@@ -41,7 +41,7 @@ const MarketingCloud = () => {
                     <div className='row'>
                         <div className="elementor-background-overlay">
                           
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
+                            <Image src="/img/banner/marketing-cloud-banner.png" className='bg-mid' alt="marketing-cloud-banner" width={932} height={278}  priority  />
                             <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority  />
                             <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298}  priority  />
                         </div>
@@ -104,7 +104,7 @@ const MarketingCloud = () => {
                         </div>
                         <div className='col-lg-3 align-self-center'>
                             <div className='right-service-img'>
-                                <Image src="/img/icons/cloude-key-icons.png" alt="cloude-key-icons" width={215} height={154} />
+                                <Image src="/img/icons/marketing-cloud-side-pic.png" alt="marketing-cloud-side-pic" width={301} height={166} />
                             </div>
                         </div>
                     </div>
@@ -212,28 +212,28 @@ const MarketingCloud = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
                                 <h3>Personalization at Scale</h3>
                                 <p>Deliver hyper-relevant experiences that resonate with every customer, driving engagement and conversions.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
                                 <h3>Automated Efficiency</h3>
                                 <p>Streamline workflows, free up your team's time, and focus on strategic initiatives.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={65} height={65} />
                                 <h3>Data-Driven Decisions</h3>
                                 <p>Gain actionable insights to optimize campaigns, maximize ROI, and measure success effectively.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={65} height={65} />
                                 <h3>Unified Customer View</h3>
                                 <p>Break down data silos and gain a complete understanding of your customers for smarter marketing.</p>
                             </div>
@@ -276,21 +276,21 @@ const MarketingCloud = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
                                 <h3>Deep Marketing Cloud Expertise</h3>
                                 <p>Our team of certified experts has extensive experience in configuring, customizing, and optimizing Marketing Cloud.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
                                 <h3>Proven Track Record</h3>
                                 <p>We have a successful track record of delivering high-impact implementations, ensuring maximizing your ROI. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={65} height={65} />
                                 <h3>Data Driven Approach</h3>
                                 <p>We leverage data insights to optimize your Marketing Cloud setup, ensuring your campaigns to deliver results.</p>
                             </div>
@@ -324,7 +324,7 @@ const MarketingCloud = () => {
                                         clickable: true,
                                     }}
                                     breakpoints={{
-                                        640: {
+                                        650: {
                                           slidesPerView: 1,
                                           spaceBetween: 20,
                                         },

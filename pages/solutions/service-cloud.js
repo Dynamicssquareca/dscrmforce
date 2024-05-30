@@ -41,7 +41,7 @@ const ServiceCloud = () => {
                     <div className='row'>
                         <div className="elementor-background-overlay">
 
-                            <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296} priority />
+                            <Image src="/img/banner/service-cloud-banner-new.png" className='bg-mid' alt="service-cloud-banner-new" width={932} height={278} priority />
                             <Image src="/img/icons/cloud-hero-bg.png" alt='cloud-hero-bg' className='bg-top' width={434} height={313} priority />
                             <Image src="/img/banner/solution-banner-bg-1.png" className='bg-back' alt="solution-banner-bg-1" width={1696} height={298} priority />
                         </div>
@@ -104,7 +104,7 @@ const ServiceCloud = () => {
                         </div>
                         <div className='col-lg-3 align-self-center'>
                             <div className='right-service-img'>
-                                <Image src="/img/icons/cloude-key-icons.png" alt="cloude-key-icons" width={215} height={154} />
+                                <Image src="/img/section/service-cloud-side.png" alt="service-cloud-side" width={301} height={166} />
                             </div>
                         </div>
                     </div>
@@ -295,28 +295,28 @@ const ServiceCloud = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/Effortless-Customer-icon-new.png" alt="Effortless-Customer-icon-new" width={65} height={65} />
                                 <h3>Effortless Customer Interactions</h3>
                                 <p>Offer omnichannel experience and provide self-service platform to empower customers with solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/Faster-Issue-Resolution-icon.png" alt="Faster-Issue-Resolution-icon" width={65} height={65} />
                                 <h3>Faster Issue Resolution</h3>
                                 <p>Streamline your services with automated workflows using information available in knowledge base.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Happier-Agents-icon.png" alt="Happier-Agents-icon" width={65} height={65} />
                                 <h3>Happier Agents, Happier Customers</h3>
                                 <p>Improve agent productivity while tracking customer satisfaction for enhanced experience. </p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Data-Driven-Decisions-icon.png" alt="Data-Driven-Decisions-icon" width={65} height={65} />
                                 <h3>Data-Driven Decisions for Better Service</h3>
                                 <p>Supercharge your service performance with valuable insights through comprehensive CRM features.</p>
                             </div>
@@ -330,7 +330,7 @@ const ServiceCloud = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/section/soluion-cta-pic.png" alt="soluion-cta-pic.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
@@ -358,21 +358,21 @@ const ServiceCloud = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
                                 <h3>Tailored Approach</h3>
                                 <p>We'll work closely with you to understand your requirements and configure Service Cloud to align with your business uniqueness.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/End-to-End-Support-icon.png" alt="End-to-End-Support-icon" width={65} height={65} />
                                 <h3>End-to-End Support </h3>
                                 <p>We will monitor your performance and provide data-driven recommendations for process optimization to ensure best-in-class support.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Clear-Communication-icon.png" alt="Clear-Communication-icon" width={65} height={65} />
                                 <h3>Clear Communication & Transparency</h3>
                                 <p>We will keep you informed about progress with a dedicated point of contact and ask questions and feedback from you.</p>
                             </div>
