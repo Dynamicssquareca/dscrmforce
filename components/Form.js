@@ -14,7 +14,7 @@ const Form = ({ onSubmit }) => {
   const [redirectTimer, setRedirectTimer] = useState(3);
   const [timerId, setTimerId] = useState(null);
   const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('gb');
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us');
   const [pageUrl, setPageUrl] = useState('');
 
   useEffect(() => {
@@ -27,7 +27,7 @@ const Form = ({ onSubmit }) => {
 
 
   const fetchCountryCodeByIP = () => {
-    fetch(``)
+    fetch(``)//https://api.ipdata.co?api-key=c87ef34a2d0cd830649eec9a8b2395698490a7baaf414bf95516a3b8
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch IP information');
@@ -42,7 +42,7 @@ const Form = ({ onSubmit }) => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-        setDefaultCountryCode('gb'); // Fallback to 'us' if the API call fails
+        setDefaultCountryCode('us'); // Fallback to 'us' if the API call fails
       });
   };
 
@@ -55,7 +55,7 @@ const Form = ({ onSubmit }) => {
     }
 
     // Send email using EmailJS
-    emailjs.send('service_lqazf46', 'template_e13glbp', {
+    emailjs.send('service_fg00l58', 'template_ce46els', {
       from_name: name,
       from_email: email,
       to_name: 'YOUR_EMAIL_ADDRESS', // Replace with your own email address
@@ -63,7 +63,7 @@ const Form = ({ onSubmit }) => {
       company_name: company,
       message: message,
       page_url: pageUrl
-    }, 'JMglIoOzliJzdMCd4')
+    }, 'QyvWavOKod6guRB-s')
       .then((response) => {
         console.log('Email sent successfully:', response);
       })

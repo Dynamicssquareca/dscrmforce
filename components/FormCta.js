@@ -26,7 +26,7 @@ const FormCta = ({ onSubmit }) => {
   }, []);
 
   const fetchCountryCodeByIP = () => {
-    axios.get('')//https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e
+    axios.get('')//https://api.ipdata.co?api-key=c87ef34a2d0cd830649eec9a8b2395698490a7baaf414bf95516a3b8
       .then(response => {
         const countryCode = response.data.country_code.toLowerCase(); // Convert to lowercase
         setDefaultCountryCode(countryCode);
@@ -37,7 +37,7 @@ const FormCta = ({ onSubmit }) => {
       });
   };
   // const fetchCountryCodeByIP = () => {
-  //   fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
+  //   fetch(`https://api.ipdata.co?api-key=c87ef34a2d0cd830649eec9a8b2395698490a7baaf414bf95516a3b8`)
   //     .then(response => {
   //       if (!response.ok) {
   //         throw new Error('Failed to fetch IP information');
@@ -64,15 +64,15 @@ const FormCta = ({ onSubmit }) => {
     }
 
     // Send email using EmailJS
-    emailjs.send('service_lqazf46', 'template_e13glbp', {
+    emailjs.send('service_fg00l58', 'template_ce46els', {
       from_name: name,
       from_email: email,
       to_name: 'YOUR_EMAIL_ADDRESS', // Replace with your own email address
       phone_number: phone,
       company_name: company,
       message: message,
-      page_url: pageUrl,
-    }, 'JMglIoOzliJzdMCd4')
+      page_url: pageUrl
+    }, 'QyvWavOKod6guRB-s')
       .then((response) => {
         console.log('Email sent successfully:', response);
       })

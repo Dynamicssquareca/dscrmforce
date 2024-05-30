@@ -41,9 +41,9 @@ export default function SubscribeForm() {
     }
 
     // EmailJS configuration
-    const serviceID = 'service_lqazf46';
-    const templateID = 'template_e13glbp';
-    const userID = 'JMglIoOzliJzdMCd4';
+    const serviceID = 'service_fg00l58';
+    const templateID = 'template_25hm17g';
+    const userID = 'QyvWavOKod6guRB-s';
     const templateParams = {
       from_email: email,
       page_url: pageUrl, // Include the current page URL

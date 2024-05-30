@@ -9,8 +9,8 @@ const CookieConsentBanner = () => {
       location="bottom"
       buttonText="Accept"
       cookieName="myCookieConsent"
-      style={{ background: "#2B373B" }}
-      buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+      style={{ background: "#ffffff",color:'#000',zIndex:'9999999999',boxShadow:'15px 0px 9px #00000017',fontSize:'15px',paddingLeft:"20px"}}
+      buttonStyle={{background:'var(--primary)', color: "#fff", fontSize: "13px",padding:'8px 15px',borderRadius:'5px' }}
       expires={150}
     >
        We use cookies on our website to give you the most relevant experience
