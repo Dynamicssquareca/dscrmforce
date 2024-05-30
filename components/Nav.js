@@ -18,7 +18,7 @@ const Nav = () => {
 
   const solutionsItems = [
     { label: 'Small Business', href: '/solutions/small-business/' },
-    { label: 'Sales Cloud', href: '/solutions/sales-cloude/' },
+    { label: 'Sales Cloud', href: '/solutions/sales-cloud/' },
     { label: 'Service Cloud', href: '/solutions/service-cloud/' },
     { label: 'Marketing Cloud', href: '/solutions/marketing-cloud/' },
     { label: 'Commerce Cloud', href: '/solutions/commerce-cloud/' },
@@ -67,7 +67,7 @@ const Nav = () => {
                   <p>Small Business</p>
                   <span>Simple solutions to supercharge your small business</span>
                 </a>
-                <a href="/solutions/sales-cloude/">
+                <a href="/solutions/sales-cloud/">
                   <p>Sales Cloud</p>
                   <span>The #1 CRM for driving sales pipeline & revenue growth</span>
                 </a>
