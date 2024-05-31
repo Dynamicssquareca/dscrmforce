@@ -25,7 +25,7 @@ const CookiePolicy = () => {
             <div className="col-md-12 heading-style-three">
               <h2>Our Cookie Policy</h2>
               <p>
-                Dynamics Square cookie policy page will explain all about why
+                Sales Force Plus cookie policy page will explain all about why
                 and how cookies are used. What is the actual need for cookies
                 and what sort of information does it contain? How to prevent
                 cookies from being stored and what happens when you allow or
@@ -141,8 +141,8 @@ const CookiePolicy = () => {
                 users aware of how cookies work and how we leverage cookies just
                 to improve our user experience. If you have queries, please
                 write to us at{" "}
-                <a href="mailto:info@dynamicssquare.co.uk">
-                  info@dynamicssquare.co.uk
+                <a href="mailto:info@crmforceplus.com">
+                  info@crmforceplus.com
                 </a>
                 .
               </p>

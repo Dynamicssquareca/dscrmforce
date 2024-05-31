@@ -23,8 +23,8 @@ const TermsOfUse = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-12 custom00004 heading-style-three">
-                    <h2>Terms of Use of dynamicssquare.co.uk</h2>
-                    <p>This website - <Link href="/"><strong>dynamicssquare.co.uk</strong></Link> is owned by MPG Business Information Systems Pvt. Ltd. that consists of information about products and services offered by Dynamics Square.</p>
+                    <h2>Terms of Use of crmforceplus.com</h2>
+                    <p>This website - <Link href="/"><strong>crmforceplus.com</strong></Link> is owned by MPG Business Information Systems Pvt. Ltd. that consists of information about products and services offered by Dynamics Square.</p>
                     <p>Our Terms of Service page is all about the information on our website that you access and make use of. The information that you use on our website is subject to the Terms of Service described herein. We suggest you go through this entire page before you start browsing the other pages of our website, but not limited to blogs, case studies, newsletters, texts, images, and videos as all such contents are owned by Dynamics Square and property of Dynamics Square.</p>
                     <p>This Terms of Service applies to everyone who uses our website in any term. Hence, when you start using our website, you are agreed to our terms of use. Therefore, we request you to read our Terms of Service carefully. If you think you are not agreed to our Terms of Service, you should immediately stop using our website.</p>
                     <h3>Use of Content & Restriction</h3>
@@ -40,7 +40,7 @@ const TermsOfUse = () => {
                     <h3>Governing Law</h3>
                     <p>Our Terms of Use is governed by UK Law (English Law). If any sort of claim or controversy comes ahead will belong to Dynamics Square's Terms of Service and will be governed by the applicable law in the UK. The UK court will have exclusive jurisdiction.</p>
                     <h3>Business Information </h3>
-                    <p>Dynamics Square is fully operated by the MPG Business Information Pvt. Ltd. We have our registered office at Kemp House, 152-160 City Road, London, ECV1V 2NX, UK. For digital communication, you can reach us out at <strong><Link href="mailto:info@dynamicssquare.co.uk">info@dynamicssquare.co.uk</Link></strong>, and for voice communication, call us on +44 207 193 2502.</p>
+                    <p>Dynamics Square is fully operated by the MPG Business Information Pvt. Ltd. We have our registered office at Kemp House, 152-160 City Road, London, ECV1V 2NX, UK. For digital communication, you can reach us out at <strong><Link href="mailto:info@crmforceplus.com">info@crmforceplus.com</Link></strong>, and for voice communication, call us on +44 207 193 2502.</p>
                     <p>Alternatively, contact us using any of the details listed in our <Link href="/contact-us/"><b>contact us</b></Link> page.</p>
                 </div>
             </div>

@@ -34,10 +34,10 @@ const PrivacyPolicy = () => {
                     <h3>Data Security</h3>
                     <p>We use security measures to protect and prevent your data from being misused, lost, or accessed by unauthorized sources. We do not share your data with any sources that may use it as a business source. If there is a need to share your data in case of a suspected data breach, we will notify you in advance.</p>
                     <h3>User Rights</h3>
-                    <p>Users can anytime unsubscribe from the notifications for newsletters, events/webinars, or from any of our incoming calls. You can either change your notification preference or can simply opt-out of any future notifications. You can also notify your concern or write to us at <Link href="mailto:info@dynamicssquare.co.uk">info@dynamicssquare.co.uk</Link></p>
+                    <p>Users can anytime unsubscribe from the notifications for newsletters, events/webinars, or from any of our incoming calls. You can either change your notification preference or can simply opt-out of any future notifications. You can also notify your concern or write to us at <Link href="mailto:info@crmforceplus.com">info@crmforceplus.com</Link></p>
                     <h3>Changes & Amendments</h3>
                     <p>Crm Force Plus has the right to make changes and amendments anytime whenever requires. We can modify or update the provisions made in our privacy policy. Hence, to remain updated with our latest privacy policy, you are required to visit our page at frequent intervals.</p>
-                    <p>We always welcome you to connect with us in any term. If you have any queries, questions, or suggestions, please write us at <Link href="mailto:info@dynamicssquare.co.uk">info@dynamicssquare.co.uk</Link></p>
+                    <p>We always welcome you to connect with us in any term. If you have any queries, questions, or suggestions, please write us at <Link href="mailto:info@crmforceplus.com">info@crmforceplus.com</Link></p>
                 </div>
             </div>
         </div>

@@ -43,21 +43,21 @@ if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/tha
                             <div className="col-lg-2 col-6 footer-links">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/">Home</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/about-us/">About us</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/contact-us/">Contact Us</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="terms-of-use">Terms of service</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/privacy-policy/">Privacy policy</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-2 col-6 footer-links">
-                                <h4>Business Apps</h4>
+                                <h4>Services</h4>
                                 <ul>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Solutions</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Industries</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Company</a></li>
-                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Resources</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/services/salesforce-implementation/">Salesforce Implementation</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/services/customization-and-integration/">Customization & Integration</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/services/training-and-support/">Training & Support</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/services/salesforce-optimization/">Salesforce Optimization</a></li>
+                                    <li><i className="bi bi-chevron-right"></i> <a href="/solutions/service-cloud/">Service Cloud</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-12 footer-contact text-center text-md-start">
