@@ -121,7 +121,7 @@ const AboutUs = () => {
                         <div className="col-lg-9">
                             <div className="heading-style-one">
                                 <span>Transformation with Us</span>
-                                <h2>Beyond Ordinary: The Microsoft Square Difference</h2>
+                                <h2>Beyond Ordinary: The CRMForce+ Difference</h2>
                                 <p>CRMForce Plus is the difference-maker that you have been searching for. We deliver a solution that perfectly aligns with your company's DNA, eliminates unique challenges, and boosts you towards your goal. With a customized Salesforce implementation strategy, you can go beyond your limits. Partner with us and experience Salesforce like never before.</p>
                             </div>
                         </div>
