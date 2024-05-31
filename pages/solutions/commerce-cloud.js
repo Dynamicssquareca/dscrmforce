@@ -27,7 +27,7 @@ const CommerceCloud = () => {
             <Head>
                 <title>Commerce Cloud | CRM Force Plus</title>
             </Head>
-            <div className='hero-banner-two'>
+            <div className='hero-banner-two hero-banner-two-pd-40'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -38,7 +38,7 @@ const CommerceCloud = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
+                    <div className='row desk-banner-hide'>
                         <div className="elementor-background-overlay">
 
                             <Image src="/img/banner/Commerce-Cloud-banner.png" className='bg-mid' alt="Commerce-Cloud-banner" width={932} height={278} priority />
@@ -49,6 +49,16 @@ const CommerceCloud = () => {
                 </div>
 
             </div>
+
+            <section className='mobile-banner-hide text-center'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                        <Image src="/img/banner/Commerce-Cloud-banner-mobile.png" className='bg-mid' alt="Commerce-Cloud-banner-mobile" width={628} height={407}  priority  />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className='bg-w'>
                 <div className='container'>
@@ -147,7 +157,7 @@ const CommerceCloud = () => {
                                 <p>Automate workflows, streamline fulfillment, and keep customers happy with efficient order handling.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className={`col-lg-3 d-flex m-d-none ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
                                 <h3>Web3 Commerce</h3>
                                 <p>Embrace the future - accept payments and unlock new opportunities with Web3 technologies like cryptocurrency.</p>

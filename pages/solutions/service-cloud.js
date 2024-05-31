@@ -27,7 +27,7 @@ const ServiceCloud = () => {
             <Head>
                 <title>Service Cloud | CRM Force Plus</title>
             </Head>
-            <div className='hero-banner-two'>
+            <div className='hero-banner-two hero-banner-two-pd-40'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -38,7 +38,7 @@ const ServiceCloud = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
+                    <div className='row desk-banner-hide'>
                         <div className="elementor-background-overlay">
 
                             <Image src="/img/banner/service-cloud-banner-new.png" className='bg-mid' alt="service-cloud-banner-new" width={932} height={278} priority />
@@ -49,6 +49,17 @@ const ServiceCloud = () => {
                 </div>
 
             </div>
+
+
+            <section className='mobile-banner-hide text-center'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                        <Image src="/img/banner/service-cloud-banner-mobile.png" className='bg-mid' alt="service-cloud-banner-mobile" width={628} height={407}  priority  />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className='bg-w'>
                 <div className='container'>
@@ -147,8 +158,8 @@ const ServiceCloud = () => {
                                 <p>Offer self-service tools to your customers so that they can find solutions on their own terms.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
+                        <div className={`col-lg-3 d-flex m-d-none ${!showAll ? '' : 'd-none'} animated`}>
+                            <div className="service-box-three flex-fill ">
                                 <h3>Contact Center</h3>
                                 <p>Unify your interactions to deliver seamless service across all communication channels.</p>
                             </div>

@@ -27,7 +27,7 @@ const MarketingCloud = () => {
         <Head>
             <title>Marketing Cloud | CRM Force Plus</title>
         </Head>
-            <div className='hero-banner-two'>
+            <div className='hero-banner-two hero-banner-two-pd-40'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -38,7 +38,7 @@ const MarketingCloud = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
+                    <div className='row desk-banner-hide'>
                         <div className="elementor-background-overlay">
                           
                             <Image src="/img/banner/marketing-cloud-banner.png" className='bg-mid' alt="marketing-cloud-banner" width={932} height={278}  priority  />
@@ -49,6 +49,16 @@ const MarketingCloud = () => {
                 </div>
 
             </div>
+
+            <section className='mobile-banner-hide text-center'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                        <Image src="/img/banner/marketing-cloud-banner-mobile.png" className='bg-mid' alt="marketing-cloud-banner-mobile" width={628} height={407}  priority  />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className='bg-w'>
                 <div className='container'>
@@ -147,7 +157,7 @@ const MarketingCloud = () => {
                                 <p>Empower your sales team with data-driven account-based marketing (ABM).</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className={`col-lg-3 d-flex m-d-none ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
                                 <h3>Marketing Cloud Intelligence</h3>
                                 <p>Gain a holistic view of your marketing performance with advanced analytics and reporting.</p>

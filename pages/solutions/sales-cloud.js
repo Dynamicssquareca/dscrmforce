@@ -27,7 +27,7 @@ const SalesCloude = () => {
           <Head>
             <title>Sales Cloude | CRM Force Plus</title>
         </Head>
-            <div className='hero-banner-two'>
+            <div className='hero-banner-two hero-banner-two-pd-40'>
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -38,7 +38,7 @@ const SalesCloude = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
+                    <div className='row desk-banner-hide'>
                         <div className="elementor-background-overlay">
                           
                             <Image src="/img/banner/solutions-banner-1.png" className='bg-mid' alt="solutions-banner-1" width={993} height={296}  priority  />
@@ -49,6 +49,16 @@ const SalesCloude = () => {
                 </div>
 
             </div>
+
+            <section className='mobile-banner-hide text-center'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-lg-12'>
+                        <Image src="/img/banner/sales-cloud-banner-mobile.png" className='bg-mid' alt="sales-cloud-banner-mobile" width={602} height={407}  priority  />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section className='bg-w'>
                 <div className='container'>
