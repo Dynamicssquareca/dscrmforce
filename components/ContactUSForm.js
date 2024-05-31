@@ -28,7 +28,7 @@ const ContactUSForm = () => {
                         </div>
                         <div className='info-one'>
                             <span>Contact Number</span>
-                            <p><a href='tel:+442035141057'>+44 203 5141057</a></p>
+                            <p><a href='tel:+12134389925'>+1 213 438 9925</a></p>
                         </div>
                         <div className='info-one'>
                             <span>Visit Us</span>

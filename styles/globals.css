@@ -201,7 +201,6 @@ p{
 
 
 
-
 /*custom padding and margin*/
 .pd-r-30{
   padding-right: 30px;
@@ -770,7 +769,7 @@ padding: 15px;
 .service-box-two .service-box-two-inner div:first-child{
   text-align:right
 }
-.service-box-two .service-box-two-inner img{}
+.service-box-two .service-box-two-inner img{mix-blend-mode: multiply;}
 .service-box-two  .box-content{
   padding: 20px 15px;
     height: 290px;

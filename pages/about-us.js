@@ -79,7 +79,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/cardiology.png" width={64} height={64} alt="cardiology" /></div>
+                                            <div><Image src="/img/icons/Accountability-icon.png" width={64} height={64} alt="Accountability-icon" /></div>
                                             <div className="box-content">
                                                 <span>Accountability</span>
                                                 <p>We take ownership so that you can totally rely on us while keeping you updated about each activity.</p>
@@ -90,7 +90,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/school-icon.png" width={64} height={64} alt="school-icon" /></div>
+                                            <div><Image src="/img/icons/Integrity-icon.png" width={64} height={64} alt="Integrity-icon" /></div>
                                             <div className="box-content">
                                                 <span>Integrity</span>
                                                 <p>We ensure complete transparency while dealing with any Salesforce issues to give you the best value.</p>
@@ -101,7 +101,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/ramen_dining-icon.png" width={64} height={64} alt="ramen_dining-icon" /></div>
+                                            <div><Image src="/img/icons/Adaptability-icon.png" width={64} height={64} alt="Adaptability-icon" /></div>
                                             <div className="box-content">
                                                 <span>Adaptability</span>
                                                 <p>We align with the latest changes in software as well as business requirements to align with growing needs.</p>

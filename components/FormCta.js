@@ -252,6 +252,7 @@ const FormCta = ({ onSubmit }) => {
               }
             }
           }}
+          countryCodeEditable={false}
         />
         {/* <label htmlFor="name">Phone Number</label> */}
         {errors.phone && <div className="text-danger">{errors.phone}</div>}

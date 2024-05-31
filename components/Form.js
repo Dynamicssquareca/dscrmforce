@@ -243,6 +243,7 @@ const Form = ({ onSubmit }) => {
               }
             }
           }}
+          countryCodeEditable={false}
         />
 
         {/* <label htmlFor="name">Phone Number</label> */}

@@ -43,7 +43,7 @@ const handleFormSubmit = async () => {
                         <span>Contact Us</span>
                         <h3 dangerouslySetInnerHTML={{ __html: getHeaderText() }}></h3>
                         <div className="cont-info">
-                            <a href="tel:+442035141057"><b>T:</b> +44 203 5141057</a>
+                            <a href="tel:+12134389925"><b>T:</b> +1 213 438 9925</a>
                             <a href="mailto:info@crmforceplus.com"><b>E:</b> info@crmforceplus.com</a>
                         </div>
                     </div>
