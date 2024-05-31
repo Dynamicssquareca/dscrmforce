@@ -155,7 +155,7 @@ const Form = ({ onSubmit }) => {
     // Remove non-digit characters
     const cleanedPhoneNumber = phone.replace(/\D/g, '');
     // Check if the resulting string contains only digits and has a length between 10 and 13 characters
-    return /^\d{10,15}$/.test(cleanedPhoneNumber);
+    return /^\d{10,18}$/.test(cleanedPhoneNumber);
   };
 
   useEffect(() => {

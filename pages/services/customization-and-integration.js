@@ -55,12 +55,12 @@ const CustomizationAndIntegration = () => {
                 </div>
                 <div className='container-fluid'>
                     <div className="elementor-background-default">
-                        <Image src="/img/banner/services-banner.png" className='bg-defult' alt="services-banner" width={1920} height={314} priority />
+                        <Image src="/img/banner/customization-and-integration-banner.png" className='bg-defult' alt="customization-and-integration-banner" width={1920} height={314} priority />
                     </div>
                 </div>
             </div>
 
-            <section className='bg-w'>
+            <section className='bg-wss'>
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-6">
@@ -76,21 +76,21 @@ const CustomizationAndIntegration = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                            <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
                                 <h3>Deep Salesforce Expertise</h3>
                                 <p>Our certified consultants understand the intricacies of Salesforce, ensuring optimal customization and integration solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                            <img src="/img/icons/Custom-Fit-Approach-icon.png" alt="Custom-Fit-Approach-icon" width={65} height={65} />
                                 <h3>Custom-Fit Approach</h3>
                                 <p>We don't believe in one-size-fits-all. We work closely with you to understand your unique needs and craft a customized solution.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Seamless-Integrations-icon.png" alt="Seamless-Integrations-icon" width={65} height={65} />
                                 <h3>Seamless Integrations</h3>
                                 <p>Eliminate data silos and streamline workflows by integrating Salesforce with your existing CRM, marketing automation, or ERP systems.</p>
                             </div>
@@ -143,24 +143,7 @@ const CustomizationAndIntegration = () => {
                 </div>
             </section>
 
-            <section>
-                <div className='container'>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-9">
-                            <div className="heading-style-one">
-                                <span>Our Process</span>
-                                <h2>How we Work</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='pic-box-one'>
-                            <img src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' />
-                            <img src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' />
-                        </div>
-                    </div>
-                </div>
-            </section>
+         
 
             <section className='bg-grey p-top-60'>
                 <div className='container'>
@@ -240,7 +223,7 @@ const CustomizationAndIntegration = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/icons/custmization-integration-cta.png" alt="custmization-integration-cta.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
@@ -279,7 +262,7 @@ const CustomizationAndIntegration = () => {
                                         clickable: true,
                                     }}
                                     breakpoints={{
-                                        640: {
+                                        650: {
                                             slidesPerView: 1,
                                             spaceBetween: 20,
                                         },

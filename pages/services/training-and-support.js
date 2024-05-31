@@ -49,12 +49,12 @@ const TrainingAndSupport = () => {
                 </div>
                 <div className='container-fluid'>
                     <div className="elementor-background-default">
-                        <Image src="/img/banner/services-banner.png" className='bg-defult' alt="services-banner" width={1920} height={314} priority />
+                        <Image src="/img/banner/Training-Support-banner.png" className='bg-defult' alt="Training-Support-banner" width={1920} height={314} priority />
                     </div>
                 </div>
             </div>
 
-            <section className='bg-w'>
+            <section className='bg-wss'>
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-6">
@@ -70,21 +70,21 @@ const TrainingAndSupport = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/Tailored-Training-Programs-icon.png" alt="Tailored-Training-Programs-icon" width={65} height={65} />
                                 <h3>Tailored Training Programs </h3>
                                 <p>We create training programs customized to your specific needs and user roles, ensuring everyone gets the most out of Salesforce. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/Experienced-Trainers-Ongoing-icon.png" alt="Experienced-Trainers-Ongoing-icon" width={65} height={65} />
                                 <h3>Experienced Trainers & Ongoing Support </h3>
                                 <p>Benefit from our team of certified Salesforce experts who provide high-quality training and ongoing support to address your evolving needs. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/User-Adoption-icon.png" alt="User-Adoption-icon" width={65} height={65} />
                                 <h3>User Adoption & Proficiency Focus </h3>
                                 <p>Our focus is on driving user adoption and ensuring your team reaches its full potential with Salesforce. </p>
                             </div>
@@ -137,7 +137,7 @@ const TrainingAndSupport = () => {
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <div className='container'>
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -154,7 +154,7 @@ const TrainingAndSupport = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className='bg-grey p-top-60'>
                 <div className='container'>
@@ -234,7 +234,7 @@ const TrainingAndSupport = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/icons/Training-Support-cta.png" alt="Training-Support-cta.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>

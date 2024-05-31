@@ -104,7 +104,7 @@ const SmallBusiness = () => {
                         </div>
                         <div className='col-lg-3 align-self-center'>
                             <div className='right-service-img'>
-                                <Image src="/img/icons/cloude-key-icons.png" alt="cloude-key-icons" width={215} height={154} />
+                                <Image src="/img/icons/samll-business-side-pic.png" alt="samll-business-side-pic" width={215} height={166} />
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@ const SmallBusiness = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/icons/samll-business-side-pic-cta.png" alt="samll-business-side-pic-cta.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>

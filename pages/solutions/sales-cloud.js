@@ -147,7 +147,7 @@ const SalesCloude = () => {
                                 <p>Utilize data-driven actionable insights to reduce the time to convert a lead.</p>
                             </div>
                         </div>
-                        <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
+                        <div className={`col-lg-3 d-flex m-d-none ${!showAll ? '' : 'd-none'} animated`}>
                             <div className="service-box-three flex-fill">
                                 <h3>Revenue Intelligence</h3>
                                 <p>Categories lead on the basis of revenue through built-in analytics and insights.</p>
@@ -166,7 +166,7 @@ const SalesCloude = () => {
                             </div>
                         </div>
                         <div className={`col-lg-3 d-flex ${!showAll ? '' : 'd-none'} animated`}>
-                            <div className="service-box-three flex-fill">
+                            <div className="service-box-three flex-fill bg-gradiant">
                                 <h3>Sales Analytics</h3>
                                 <p>Get sales insights to simplify the sales pipeline and optimize different sales operations.</p>
                             </div>
@@ -271,28 +271,28 @@ const SalesCloude = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/Unify-Customer-Data-icon.png" alt="Unify-Customer-Data-icon" width={65} height={65} />
                                 <h3>Unify Customer Data</h3>
                                 <p>Record and collect customer conversations and store them digitally in a unified database.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/Scale-with-ease-icon.png" alt="Scale-with-ease-icon" width={65} height={65} />
                                 <h3>Scale with ease</h3>
                                 <p>With business growth, scale your Salesforce Sales cloud CRM system without any hassle.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Generate-Valuable-Reports-icon.png" alt="Generate-Valuable-Reports-icon" width={65} height={65} />
                                 <h3>Generate Valuable Reports</h3>
                                 <p>Collect and analyze your data to make productive reports without relying on another solution.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Access-Automation-icon.png" alt="Access-Automation-icon" width={65} height={65} />
                                 <h3>Access Automation</h3>
                                 <p>Leverage automation to eliminate system redundancies and automate different processes.</p>
                             </div>
@@ -306,7 +306,7 @@ const SalesCloude = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/icons/sales-cloud-cta.png" alt="sales-cloud-cta.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>
@@ -335,21 +335,21 @@ const SalesCloude = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
                                 <h3>Seamless Implementation</h3>
                                 <p>Join hands with reliable Salesforce-certified experts for an efficient, productive, and successful implementation.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
                                 <h3>Proven Expertise</h3>
                                 <p>With years of experience and expertise in Salesforce, we are available to simplify and optimize sales processes.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={65} height={65} />
                                 <h3>Tailored Approach</h3>
                                 <p>Align the Sales Cloud with the uniqueness of your business to accept sheer growth and sustainability.</p>
                             </div>
@@ -383,7 +383,7 @@ const SalesCloude = () => {
                                         clickable: true,
                                     }}
                                     breakpoints={{
-                                        640: {
+                                        650: {
                                           slidesPerView: 1,
                                           spaceBetween: 20,
                                         },

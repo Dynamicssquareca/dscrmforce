@@ -54,7 +54,7 @@ const SalesforceOptimization = () => {
                 </div>
             </div>
 
-            <section className='bg-w'>
+            <section className='bg-wss'>
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-6">
@@ -70,21 +70,21 @@ const SalesforceOptimization = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <img src="/img/icons/Depth-Analysis-icon-png.png" alt="Depth-Analysis-icon-png" width={65} height={65} />
                                 <h3>In-Depth Analysis & Performance Review</h3>
                                 <p>We conduct a comprehensive analysis of your Salesforce usage, data health, and user adoption to identify optimization opportunities.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <img src="/img/icons/Enhanced-User-Experience-icon.png" alt="Enhanced-User-Experience-icon" width={65} height={65} />
                                 <h3>Enhanced User Experience & Increased Adoption</h3>
                                 <p>Our optimization strategies prioritize user experience, leading to increased adoption and user satisfaction.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <img src="/img/icons/Continuous-Improvement-icon.png" alt="Continuous-Improvement-icon" width={65} height={65} />
                                 <h3>Continuous Improvement & Long-Term Success</h3>
                                 <p>We don't stop at optimization. We provide ongoing monitoring and recommendations to ensure your Salesforce continues to evolve with your business.</p>
                             </div>
@@ -137,7 +137,7 @@ const SalesforceOptimization = () => {
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <div className='container'>
                     <div className="row justify-content-center">
                         <div className="col-lg-9">
@@ -154,7 +154,7 @@ const SalesforceOptimization = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className='bg-grey p-top-60'>
                 <div className='container'>
@@ -234,7 +234,7 @@ const SalesforceOptimization = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-5 align-self-center'>
-                            <Image src="/img/icons/cta-icon.png" alt="cta-icon.png" width={346} height={247} priority />
+                            <Image src="/img/icons/salesforce-optimization-cta.png" alt="salesforce-optimization-cta.png" width={346} height={247} priority />
                         </div>
                         <div className='col-lg-7 align-self-center'>
                             <div className='cta-content'>

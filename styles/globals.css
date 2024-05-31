@@ -1952,7 +1952,7 @@ margin-top:30px
   padding-right: 0px;
   margin-bottom: 20px;
 }
-.bg-w {
+.bg-wss {
   padding-top: 40px;
 }
 .hero-banner-two.height-auto .elementor-background-default img {
@@ -1976,6 +1976,9 @@ margin-top:30px
 }
 .header {
   padding: 15px 0 !important;
+}
+.m-d-none{
+  display:none !important
 }
 }
 @media (max-width: 768px){

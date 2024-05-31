@@ -54,7 +54,7 @@ const SalesforceImplementation = () => {
                 </div>
             </div>
 
-            <section className='bg-w'>
+            <section className='bg-wss'>
                 <div className='container'>
                     <div className="row">
                         <div className="col-lg-6">
