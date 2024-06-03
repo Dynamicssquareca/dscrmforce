@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import FooterContactForm from './FooterContactForm';
 import FormSubscribe from './FormSubscribe';
 import ScrollToTopButton from './ScrollToTopButton';
+import Image from 'next/image';
+Image
 
 const Footer = () => {
     const router = useRouter();
@@ -29,7 +31,7 @@ if (pathname === '/contact-us' || pathname === '/about-us' || pathname === '/tha
                         <div className='row'>
                             <div className="col-lg-4 col-md-12 footer-info">
                                 <a href="/" className="logo d-flex align-items-center">
-                                <img src="/crmforceplus-white.png" alt="crmforceplus-logo-white" />
+                                <Image src="/crmforceplus-white.png" alt="crmforceplus-logo-white" width={200} height={30}  />
                                     {/* <span>FlexStart</span> */}
                                 </a>
                                 <p>CRMForce+ goes beyond CRM. Our certified experts unlock explosive growth for businesses with future-proof Salesforce solutions, crafting seamless customer experiences that drive results.</p>

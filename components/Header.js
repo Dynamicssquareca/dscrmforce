@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Nav from './Nav';
+import Image from 'next/image';
 
 const Header = () => {
     const [isFixed, setIsFixed] = useState(false);
@@ -27,7 +28,7 @@ const Header = () => {
             <header id="header" className={`header ${isFixed ? 'fixed header-scrolled' : ''}`}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
                     <a href="/" className="logo d-flex align-items-center">
-                        <img src="/crmforceplus-logo.png" alt="crmforceplus-logo" />
+                        <Image src="/crmforceplus-logo.png" alt="crmforceplus-logo" width={200} height={30} />
                     </a>
                     <Nav />
                 </div>
