@@ -195,7 +195,11 @@ p{
   width: 100%;
                                       
 }
-
+.custom-model .getstarted{
+  border:none;
+  font-size: 14px;
+    font-weight: 600;
+}
 
 
 

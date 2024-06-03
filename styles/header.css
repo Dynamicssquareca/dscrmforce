@@ -136,8 +136,8 @@
   
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
-    color: #fff;
-    background: #5969f3;
+    background-color: var(--primary-hover);
+    color: var(--color-white);
   }
   
   .navbar .dropdown ul {

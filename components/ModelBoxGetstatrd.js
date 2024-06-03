@@ -19,7 +19,7 @@ const ModelBoxGetstatrd = ({ headerText, buttonText, buttonTextSpan, ...args }) 
 
     return (
         <div className='custom-model'>
-            <a style={{cursor:'pointer'}} className="getstarted scrollto" onClick={toggle}>Get Started</a>
+            <Button className="getstarted scrollto" onClick={toggle}>Get Started</Button>
             <Modal className='model-form' isOpen={modal} toggle={toggle} {...args} centered>
                 <ModalHeader toggle={toggle}></ModalHeader>
                 <ModalBody>
