@@ -54,7 +54,7 @@ const SalesCloude = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>
-                        <Image src="/img/banner/sales-cloud-banner-mobile.png" className='bg-mid' alt="sales-cloud-banner-mobile" width={602} height={407}  priority  />
+                        <Image src="/img/banner/sales-cloud-banner-mobile.png" className='bg-mid' alt="sales-cloud-banner-mobile" width={602} height={407} layout="responsive"  priority  />
                         </div>
                     </div>
                 </div>
