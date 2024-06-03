@@ -211,28 +211,28 @@ const SmallBusiness = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/boost-sales-icons .png" alt="boost-sales-icons " width={65} height={65} />
+                                <Image src="/img/icons/boost-sales-icons .png" alt="boost-sales-icons " width={65} height={65} />
                                 <h3>Boost Sales & Close More Deals</h3>
                                 <p>Streamline your sales process, automate tasks, and gain valuable insights to close deals faster.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/effortless-customer-icon.png" alt="effortless-customer-icon" width={65} height={65} />
+                                <Image src="/img/icons/effortless-customer-icon.png" alt="effortless-customer-icon" width={65} height={65} />
                                 <h3>Effortless Customer Management</h3>
                                 <p>Centralize all your customer data, track interactions, and build stronger relationships effortlessly.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/unify-business-icon.png" alt="unify-business-icon" width={65} height={65} />
+                                <Image src="/img/icons/unify-business-icon.png" alt="unify-business-icon" width={65} height={65} />
                                 <h3>Unify Your Business</h3>
                                 <p>Connect Salesforce with your existing tools to gain a complete view of your operations and work more efficiently.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/data-driven-icon.png" alt="data-driven-icon" width={65} height={65} />
+                                <Image src="/img/icons/data-driven-icon.png" alt="data-driven-icon" width={65} height={65} />
                                 <h3>Data-Driven Decisions</h3>
                                 <p>Gain real-time insights into your business performance, identify trends, and make smarter decisions for growth.</p>
                             </div>
@@ -275,21 +275,21 @@ const SmallBusiness = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <Image src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
                                 <h3>Expert Guidance & Implementation</h3>
                                 <p>Our team of certified Salesforce consultants will guide you through every step of the implementation process, ensuring successful transition.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <Image src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
                                 <h3>Customized Solutions for Your Needs</h3>
                                 <p>We'll work with you to understand your unique business goals and tailor Salesforce to meet them perfectly.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <Image src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
                                 <h3>Measurable Results & ROI</h3>
                                 <p>We'll track your progress and ensure you see a clear return on investment from your Salesforce implementation.</p>
                             </div>

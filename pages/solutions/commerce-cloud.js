@@ -281,28 +281,28 @@ const CommerceCloud = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Omnichannel-Excellence-icon.png" alt="Omnichannel-Excellence-icon" width={65} height={65} />
+                                <Image src="/img/icons/Omnichannel-Excellence-icon.png" alt="Omnichannel-Excellence-icon" width={65} height={65} />
                                 <h3>Omnichannel Excellence</h3>
                                 <p>Provide a seamless shopping experience across all channels, from mobile apps to physical stores.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Scalability-Agility-icon.png" alt="Scalability-Agility-icon" width={65} height={65} />
+                                <Image src="/img/icons/Scalability-Agility-icon.png" alt="Scalability-Agility-icon" width={65} height={65} />
                                 <h3>Scalability & Agility</h3>
                                 <p>Empower your business to grow and adapt with a platform that scales effortlessly to meet your needs.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Data-Driven-Insights-icon.png" alt="Data-Driven-Insights-icon" width={65} height={65} />
+                                <Image src="/img/icons/Data-Driven-Insights-icon.png" alt="Data-Driven-Insights-icon" width={65} height={65} />
                                 <h3>Data-Driven Insights</h3>
                                 <p>Gain valuable customer data and analytics to optimize marketing campaigns and product offerings.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Reduced -total-icon.png" alt="Reduced -total-icon" width={65} height={65} />
+                                <Image src="/img/icons/Reduced -total-icon.png" alt="Reduced -total-icon" width={65} height={65} />
                                 <h3>Reduced Total Cost of Ownership</h3>
                                 <p>Streamline operations, minimize development efforts, and enjoy the cost-efficiencies of a cloud-based platform.</p>
                             </div>
@@ -345,21 +345,21 @@ const CommerceCloud = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Deep-Expertise-icon.png" alt="Deep-Expertise-icon" width={65} height={65} />
+                                <Image src="/img/icons/Deep-Expertise-icon.png" alt="Deep-Expertise-icon" width={65} height={65} />
                                 <h3>Deep Expertise & Proven Results</h3>
                                 <p>Benefit from our team of certified Commerce Cloud professionals with a track record of successful implementations.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Streamlined-Implementation-Process-icon.png" alt="Streamlined-Implementation-Process-icon" width={65} height={65} />
+                                <Image src="/img/icons/Streamlined-Implementation-Process-icon.png" alt="Streamlined-Implementation-Process-icon" width={65} height={65} />
                                 <h3>Streamlined Implementation Process</h3>
                                 <p>Experience a smooth and efficient implementation journey, tailored to your specific business needs.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Ongoing-Support-Optimization-icon.png" alt="Ongoing-Support-Optimization-icon" width={65} height={65} />
+                                <Image src="/img/icons/Ongoing-Support-Optimization-icon.png" alt="Ongoing-Support-Optimization-icon" width={65} height={65} />
                                 <h3>Ongoing Support & Optimization</h3>
                                 <p>Gain access to our ongoing support services and continuous optimization strategies to ensure full potential of the solution.</p>
                             </div>

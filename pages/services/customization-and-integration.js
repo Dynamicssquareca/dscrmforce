@@ -76,21 +76,21 @@ const CustomizationAndIntegration = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                            <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
+                            <Image src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={65} height={65} />
                                 <h3>Deep Salesforce Expertise</h3>
                                 <p>Our certified consultants understand the intricacies of Salesforce, ensuring optimal customization and integration solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                            <img src="/img/icons/Custom-Fit-Approach-icon.png" alt="Custom-Fit-Approach-icon" width={65} height={65} />
+                            <Image src="/img/icons/Custom-Fit-Approach-icon.png" alt="Custom-Fit-Approach-icon" width={65} height={65} />
                                 <h3>Custom-Fit Approach</h3>
                                 <p>We don't believe in one-size-fits-all. We work closely with you to understand your unique needs and craft a customized solution.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Seamless-Integrations-icon.png" alt="Seamless-Integrations-icon" width={65} height={65} />
+                                <Image src="/img/icons/Seamless-Integrations-icon.png" alt="Seamless-Integrations-icon" width={65} height={65} />
                                 <h3>Seamless Integrations</h3>
                                 <p>Eliminate data silos and streamline workflows by integrating Salesforce with your existing CRM, marketing automation, or ERP systems.</p>
                             </div>
@@ -160,7 +160,7 @@ const CustomizationAndIntegration = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Deep Salesforce <br/>Expertise </h4>
@@ -171,7 +171,7 @@ const CustomizationAndIntegration = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Custom-Tailored <br/>Solutions</h4>
@@ -182,7 +182,7 @@ const CustomizationAndIntegration = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Seamless <br/>Integrations</h4>
@@ -193,7 +193,7 @@ const CustomizationAndIntegration = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Strategic <br/>Approach</h4>
@@ -204,7 +204,7 @@ const CustomizationAndIntegration = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                        <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Proven <br/>Track Record</h4>

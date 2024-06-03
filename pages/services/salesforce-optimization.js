@@ -70,21 +70,21 @@ const SalesforceOptimization = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Depth-Analysis-icon-png.png" alt="Depth-Analysis-icon-png" width={65} height={65} />
+                                <Image src="/img/icons/Depth-Analysis-icon-png.png" alt="Depth-Analysis-icon-png" width={65} height={65} />
                                 <h3>In-Depth Analysis & Performance Review</h3>
                                 <p>We conduct a comprehensive analysis of your Salesforce usage, data health, and user adoption to identify optimization opportunities.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Enhanced-User-Experience-icon.png" alt="Enhanced-User-Experience-icon" width={65} height={65} />
+                                <Image src="/img/icons/Enhanced-User-Experience-icon.png" alt="Enhanced-User-Experience-icon" width={65} height={65} />
                                 <h3>Enhanced User Experience & Increased Adoption</h3>
                                 <p>Our optimization strategies prioritize user experience, leading to increased adoption and user satisfaction.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Continuous-Improvement-icon.png" alt="Continuous-Improvement-icon" width={65} height={65} />
+                                <Image src="/img/icons/Continuous-Improvement-icon.png" alt="Continuous-Improvement-icon" width={65} height={65} />
                                 <h3>Continuous Improvement & Long-Term Success</h3>
                                 <p>We don't stop at optimization. We provide ongoing monitoring and recommendations to ensure your Salesforce continues to evolve with your business.</p>
                             </div>
@@ -149,8 +149,8 @@ const SalesforceOptimization = () => {
                     </div>
                     <div className='row'>
                         <div className='pic-box-one'>
-                            <img src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' />
-                            <img src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' />
+                            <Image src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' />
+                            <Image src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' />
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ const SalesforceOptimization = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>In-Depth <br />Analysis</h4>
@@ -182,7 +182,7 @@ const SalesforceOptimization = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Data-Driven <br />Customization</h4>
@@ -193,7 +193,7 @@ const SalesforceOptimization = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Focus on <br />User Experience</h4>
@@ -204,7 +204,7 @@ const SalesforceOptimization = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Measurable Results <br />& Improved ROI</h4>
@@ -215,7 +215,7 @@ const SalesforceOptimization = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Long-Term <br />Partnership</h4>

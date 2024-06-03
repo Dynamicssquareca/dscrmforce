@@ -70,21 +70,21 @@ const TrainingAndSupport = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Tailored-Training-Programs-icon.png" alt="Tailored-Training-Programs-icon" width={65} height={65} />
+                                <Image src="/img/icons/Tailored-Training-Programs-icon.png" alt="Tailored-Training-Programs-icon" width={65} height={65} />
                                 <h3>Tailored Training Programs </h3>
                                 <p>We create training programs customized to your specific needs and user roles, ensuring everyone gets the most out of Salesforce. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Experienced-Trainers-Ongoing-icon.png" alt="Experienced-Trainers-Ongoing-icon" width={65} height={65} />
+                                <Image src="/img/icons/Experienced-Trainers-Ongoing-icon.png" alt="Experienced-Trainers-Ongoing-icon" width={65} height={65} />
                                 <h3>Experienced Trainers & Ongoing Support </h3>
                                 <p>Benefit from our team of certified Salesforce experts who provide high-quality training and ongoing support to address your evolving needs. </p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/User-Adoption-icon.png" alt="User-Adoption-icon" width={65} height={65} />
+                                <Image src="/img/icons/User-Adoption-icon.png" alt="User-Adoption-icon" width={65} height={65} />
                                 <h3>User Adoption & Proficiency Focus </h3>
                                 <p>Our focus is on driving user adoption and ensuring your team reaches its full potential with Salesforce. </p>
                             </div>
@@ -171,7 +171,7 @@ const TrainingAndSupport = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Customized <br/>Training Programs </h4>
@@ -182,7 +182,7 @@ const TrainingAndSupport = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Certified <br/>Salesforce Trainers </h4>
@@ -193,7 +193,7 @@ const TrainingAndSupport = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Focus on User <br/>Adoption & Proficiency </h4>
@@ -204,7 +204,7 @@ const TrainingAndSupport = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Flexible <br/>Learning Options </h4>
@@ -215,7 +215,7 @@ const TrainingAndSupport = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                           <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Ongoing Support & <br/>Continuous Improvement </h4>

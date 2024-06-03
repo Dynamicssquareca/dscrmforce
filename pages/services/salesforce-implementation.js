@@ -70,21 +70,21 @@ const SalesforceImplementation = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
+                                <Image src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={64} height={64} />
                                 <h3>Proven Methodology</h3>
                                 <p>We follow a structured approach for a smooth and efficient implementation process to guaranteed project success.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
+                                <Image src="/img/icons/proven-expertise-icon.png" alt="proven-expertise-icon" width={64} height={64} />
                                 <h3>Certified Experts</h3>
                                 <p>Join hands with Salesforce certified experts to get benefit from the knowledge and expertise they are possessing.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
+                                <Image src="/img/icons/tailored-approach-icon.png" alt="tailored-approach-icon" width={64} height={64} />
                                 <h3>Long-Term Support</h3>
                                 <p>Our commitment extends beyond Salesforce implementation with ongoing support to ensure continuous success.</p>
                             </div>
@@ -149,8 +149,8 @@ const SalesforceImplementation = () => {
                     </div>
                     <div className='row'>
                         <div className='pic-box-one'>
-                            <img src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' />
-                            <img src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' />
+                            <Image src="/img/banner/process-work-bg.png" alt="process-work-bg" className='desk' width={1309} height={307} />
+                            <Image src="/img/banner/process-work-bg-mob.png" alt="process-work-bg-mob" className='mob' width={211} height={436} />
                         </div>
                     </div>
                 </div>
@@ -171,7 +171,7 @@ const SalesforceImplementation = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Cost-Effective  <br/>Solutions</h4>
@@ -182,7 +182,7 @@ const SalesforceImplementation = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Customized to <br/> Your Needs</h4>
@@ -193,7 +193,7 @@ const SalesforceImplementation = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Streamlined <br/>Implementation Process</h4>
@@ -204,7 +204,7 @@ const SalesforceImplementation = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Ongoing  <br/>Support & Training</h4>
@@ -215,7 +215,7 @@ const SalesforceImplementation = () => {
                                 <div className='col-lg-6 d-flex'>
                                     <div className='service-box-four flex-fill'>
                                         <div className='icons-flot'>
-                                            <img src="/img/icons/plus-icons.png" alt="plus-icons" />
+                                            <Image src="/img/icons/plus-icons.png" alt="plus-icons" width={24} height={24} />
                                         </div>
                                         <div className='box-inner'>
                                             <h4>Measurable  <br/>Results & ROI</h4>

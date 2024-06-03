@@ -306,28 +306,28 @@ const ServiceCloud = () => {
                     >
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Effortless-Customer-icon-new.png" alt="Effortless-Customer-icon-new" width={65} height={65} />
+                                <Image src="/img/icons/Effortless-Customer-icon-new.png" alt="Effortless-Customer-icon-new" width={65} height={65} />
                                 <h3>Effortless Customer Interactions</h3>
                                 <p>Offer omnichannel experience and provide self-service platform to empower customers with solutions.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Faster-Issue-Resolution-icon.png" alt="Faster-Issue-Resolution-icon" width={65} height={65} />
+                                <Image src="/img/icons/Faster-Issue-Resolution-icon.png" alt="Faster-Issue-Resolution-icon" width={65} height={65} />
                                 <h3>Faster Issue Resolution</h3>
                                 <p>Streamline your services with automated workflows using information available in knowledge base.</p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Happier-Agents-icon.png" alt="Happier-Agents-icon" width={65} height={65} />
+                                <Image src="/img/icons/Happier-Agents-icon.png" alt="Happier-Agents-icon" width={65} height={65} />
                                 <h3>Happier Agents, Happier Customers</h3>
                                 <p>Improve agent productivity while tracking customer satisfaction for enhanced experience. </p>
                             </div>
                         </div>
                         <div className="col-lg-3">
                             <div className='box-icon-box border-side-remove'>
-                                <img src="/img/icons/Data-Driven-Decisions-icon.png" alt="Data-Driven-Decisions-icon" width={65} height={65} />
+                                <Image src="/img/icons/Data-Driven-Decisions-icon.png" alt="Data-Driven-Decisions-icon" width={65} height={65} />
                                 <h3>Data-Driven Decisions for Better Service</h3>
                                 <p>Supercharge your service performance with valuable insights through comprehensive CRM features.</p>
                             </div>
@@ -369,21 +369,21 @@ const ServiceCloud = () => {
                     >
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
+                                <Image src="/img/icons/seamless-implementation-icon.png" alt="seamless-implementation-icon" width={65} height={65} />
                                 <h3>Tailored Approach</h3>
                                 <p>We'll work closely with you to understand your requirements and configure Service Cloud to align with your business uniqueness.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/End-to-End-Support-icon.png" alt="End-to-End-Support-icon" width={65} height={65} />
+                                <Image src="/img/icons/End-to-End-Support-icon.png" alt="End-to-End-Support-icon" width={65} height={65} />
                                 <h3>End-to-End Support </h3>
                                 <p>We will monitor your performance and provide data-driven recommendations for process optimization to ensure best-in-class support.</p>
                             </div>
                         </div>
                         <div className="col-lg-4">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/Clear-Communication-icon.png" alt="Clear-Communication-icon" width={65} height={65} />
+                                <Image src="/img/icons/Clear-Communication-icon.png" alt="Clear-Communication-icon" width={65} height={65} />
                                 <h3>Clear Communication & Transparency</h3>
                                 <p>We will keep you informed about progress with a dedicated point of contact and ask questions and feedback from you.</p>
                             </div>

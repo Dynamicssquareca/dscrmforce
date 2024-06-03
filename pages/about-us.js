@@ -13,14 +13,14 @@ const AboutUs = () => {
                         <div className="col-lg-10">
                             <div className="hero-ui-one">
                                 <div className="absolut-img-one">
-                                    <img src="/img/icons/cloud-hero-big.png" alt="cloud-hero-big" />
+                                    <Image src="/img/icons/cloud-hero-big.png" alt="cloud-hero-big" width={462} height={431} priority />
                                 </div>
                                 <h1>Drive Digital Transformation Through Intelligent CRM Solutions</h1>
                                 <p>Your Trusted Salesforce Partner: 10+ Years of Expertise in CRM Market <br />
                                     Navigate Success with Powerful Tech & Proven Guidance.
                                 </p>
                                 <div className="absolut-img-two">
-                                    <img src="/img/icons/cloud-hero-small.png" alt="cloud-hero-small" />
+                                    <Image src="/img/icons/cloud-hero-small.png" alt="cloud-hero-small" width={115} height={104} />
                                 </div>
                             </div>
                         </div>
@@ -41,21 +41,21 @@ const AboutUs = () => {
                         <div className="col-lg-1"></div>
                         <div className="col-lg-5 align-self-center">
                             <div className="text-center">
-                                <img src="/img/icons/crmfoecrplus-icon.png" alt="crmfoecrplus-icon" />
+                                <Image src="/img/icons/crmfoecrplus-icon.png" alt="crmfoecrplus-icon" width={372} height={269} />
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-6">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/mission-icon.png" alt="mission-icon" width={64} height={64} />
+                                <Image src="/img/icons/mission-icon.png" alt="mission-icon" width={65} height={65} />
                                 <h3>Our Mission</h3>
                                 <p>Our mission at CRMFORCEPLUS is to empower businesses of all sizes to harness the full potential of Salesforce solutions. We strive to provide tailored, scalable, and efficient CRM solutions that streamline processes, enhance customer engagement, and maximize ROI.</p>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className='box-icon-box'>
-                                <img src="/img/icons/vision-icon.png" alt="vision-icon" width={64} height={64} />
+                                <Image src="/img/icons/vision-icon.png" alt="vision-icon" width={65} height={65} />
                                 <h3>Our Vision</h3>
                                 <p>We have a united mission: to empower businesses to achieve remarkable growth and success using Salesforce. This is something you can achieve by partnering with us and utilizing the years of knowledge and technical expertise of our Salesforce consultants.</p>
                             </div>
@@ -79,7 +79,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/Accountability-icon.png" width={64} height={64} alt="Accountability-icon" /></div>
+                                            <div><Image src="/img/icons/Accountability-icon.png" width={65} height={65} alt="Accountability-icon" /></div>
                                             <div className="box-content">
                                                 <span>Accountability</span>
                                                 <p>We take ownership so that you can totally rely on us while keeping you updated about each activity.</p>
@@ -90,7 +90,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/Integrity-icon.png" width={64} height={64} alt="Integrity-icon" /></div>
+                                            <div><Image src="/img/icons/Integrity-icon.png" width={65} height={65} alt="Integrity-icon" /></div>
                                             <div className="box-content">
                                                 <span>Integrity</span>
                                                 <p>We ensure complete transparency while dealing with any Salesforce issues to give you the best value.</p>
@@ -101,7 +101,7 @@ const AboutUs = () => {
                                 <div className="col-lg-4">
                                     <div className="service-box-two">
                                         <div className="service-box-two-inner">
-                                            <div><Image src="/img/icons/Adaptability-icon.png" width={64} height={64} alt="Adaptability-icon" /></div>
+                                            <div><Image src="/img/icons/Adaptability-icon.png" width={65} height={65} alt="Adaptability-icon" /></div>
                                             <div className="box-content">
                                                 <span>Adaptability</span>
                                                 <p>We align with the latest changes in software as well as business requirements to align with growing needs.</p>
@@ -130,7 +130,7 @@ const AboutUs = () => {
                 </div>
                 <div className="img-about-bg">
                     <div className="pic-bottom">
-                        <img src="/img/banner/bottom-bg.png" alt="bottom-bg" /></div>
+                        <Image src="/img/banner/bottom-bg.png" alt="bottom-bg" width={1920} height={525} /></div>
                 </div>
             </section>
 
@@ -146,21 +146,21 @@ const AboutUs = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="pd-l-r-80">
-                                <img src="/img/section/about-teampic.png" alt="about-teampic" />
+                                <Image src="/img/section/about-teampic.png" alt="about-teampic" width={466} height={527} />
                                 {/* <div className="col-lg-5">
                                     <div className="user-box-card m-t-20">
                                         <div className="center-image">
-                                            <img src="/img/icons/certtifed-icons.png" alt="certtifed-icons" width={144} height={144} />
+                                            <Image src="/img/icons/certtifed-icons.png" alt="certtifed-icons" width={144} height={144} />
                                         </div>
                                         <div className="user-box-card-info">
-                                            <img src="/img/icons/avtar-1.png" alt="avtar-1" width={64} height={64} />
+                                            <Image src="/img/icons/avtar-1.png" alt="avtar-1" width={65} height={65} />
                                             <div className="user-card-in">
                                                 <p>Our Team</p>
                                                 <span>Designation</span>
                                             </div>
                                         </div> 
                                         <div className="user-box-card-info">
-                                            <img src="/img/icons/avtar-2.png" alt="avtar-2" width={64} height={64} />
+                                            <Image src="/img/icons/avtar-2.png" alt="avtar-2" width={65} height={65} />
                                             <div className="user-card-in">
                                                 <p>Our Team</p>
                                                 <span>Designation</span>
@@ -172,14 +172,14 @@ const AboutUs = () => {
                                 <div className="col-lg-5">
                                     <div className="user-box-card">
                                         <div className="user-box-card-info">
-                                            <img src="/img/icons/avtar-3.png" alt="avtar-3" width={64} height={64} />
+                                            <Image src="/img/icons/avtar-3.png" alt="avtar-3" width={65} height={65} />
                                             <div className="user-card-in">
                                                 <p>Our Team</p>
                                                 <span>Designation</span>
                                             </div>
                                         </div>
                                         <div className="user-box-card-info">
-                                            <img src="/img/icons/avtar-4.png" alt="avtar-4" width={64} height={64} />
+                                            <Image src="/img/icons/avtar-4.png" alt="avtar-4" width={65} height={65} />
                                             <div className="user-card-in">
                                                 <p>Our Team</p>
                                                 <span>Designation</span>
@@ -209,7 +209,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="bg-center-two">
-                    <img src="/img/banner/hero-shape.png" alt="hero-shape" />
+                    <Image src="/img/banner/hero-shape.png" alt="hero-shape" width={1919} height={625} />
                 </div>
             </section>
 
