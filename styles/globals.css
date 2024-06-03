@@ -1993,7 +1993,9 @@ margin-top:30px
   display:none
 }
 .mobile-banner-hide{
-  display:block
+  display:block;
+  background: linear-gradient(41deg, rgba(255, 255, 255, 1) 25%, rgb(244 251 253) 100%);
+  margin: -30px 0px 30px;
 }
 .hero-banner-two.height-auto{
   margin-bottom:0px
