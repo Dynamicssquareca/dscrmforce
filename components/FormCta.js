@@ -177,7 +177,7 @@ const FormCta = ({ onSubmit }) => {
   }, [redirectTimer]);
 
   return (
-    <form className="form-one" onSubmit={handleSubmit}>
+    <form className="form-one" onSubmit={handleSubmit} autoComplete="off">
       <div className="form-group">
         <input
           type="text"
@@ -185,6 +185,7 @@ const FormCta = ({ onSubmit }) => {
           name="name"
           placeholder=""
           value={name}
+          autoComplete="new-password"
           onChange={(e) => {
             setName(e.target.value);
             if (errors.name) {
@@ -208,6 +209,7 @@ const FormCta = ({ onSubmit }) => {
           name="email"
           placeholder=""
           value={email}
+          autoComplete="new-password"
           onChange={(e) => {
             setEmail(e.target.value);
             if (errors.email) {
@@ -230,6 +232,7 @@ const FormCta = ({ onSubmit }) => {
         <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
+          autoComplete="new-password"
           onChange={(value) => {
             setPhone(value);
             if (errors.phone) {
@@ -260,6 +263,7 @@ const FormCta = ({ onSubmit }) => {
       <div className="form-group">
         <input
           type="text"
+          autoComplete="new-password"
           className="form-control"
           name="companyname"
           placeholder=""
@@ -284,6 +288,7 @@ const FormCta = ({ onSubmit }) => {
         <textarea
           className="form-control"
           name="message"
+          autoComplete="new-password"
           placeholder=""
           rows="3"
           value={message}

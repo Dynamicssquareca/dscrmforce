@@ -168,7 +168,7 @@ const Form = ({ onSubmit }) => {
   }, [redirectTimer]);
 
   return (
-    <form className="form-one" onSubmit={handleSubmit}>
+    <form className="form-one" onSubmit={handleSubmit} autoComplete="off">
       <div className="form-group">
         <input
           type="text"
@@ -176,6 +176,7 @@ const Form = ({ onSubmit }) => {
           name="name"
           placeholder=""
           value={name}
+          autoComplete="new-password"
           onChange={(e) => {
             setName(e.target.value);
             if (errors.name) {
@@ -199,6 +200,7 @@ const Form = ({ onSubmit }) => {
           name="email"
           placeholder=""
           value={email}
+          autoComplete="new-password"
           onChange={(e) => {
             setEmail(e.target.value);
             if (errors.email) {
@@ -221,6 +223,7 @@ const Form = ({ onSubmit }) => {
         <PhoneInput
           country={defaultCountryCode} // Set default country code
           value={phone}
+          autoComplete="new-password"
           onChange={(value) => {
             setPhone(value);
             if (errors.phone) {
@@ -256,6 +259,7 @@ const Form = ({ onSubmit }) => {
           name="companyname"
           placeholder=""
           value={company}
+          autoComplete="new-password"
           onChange={(e) => {
             setCompany(e.target.value);
             if (errors.company) {
