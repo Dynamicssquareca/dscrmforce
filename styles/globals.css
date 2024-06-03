@@ -185,6 +185,7 @@ p{
   color:var(--color-white);
   padding:.6rem 1.5rem;
   box-shadow: 2px 3px 4px 0px rgb(0 0 0 / 35%);
+  border:none
 }
 .btn-prime:hover{
   background-color:var(--primary-hover);

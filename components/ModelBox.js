@@ -19,9 +19,9 @@ function ModelBox({ headerText, buttonText, buttonTextSpan, ...args }) {
 
   return (
     <div className='custom-model'>
-       <a className='btn btn-prime' onClick={toggle}>
+       <Button className='btn btn-prime' onClick={toggle}>
        {buttonText}
-      </a>
+      </Button>
       <Modal className='model-form'  isOpen={modal} toggle={toggle} {...args} centered 	
 >
         <ModalHeader toggle={toggle}></ModalHeader>
