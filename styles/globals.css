@@ -229,9 +229,9 @@ p{
 }
 
 .bg-w{
-  margin-top: -60px;
-  background: #fff;
-  padding-top: 80px;
+  margin-top: -160px;
+    background: #fff;
+    padding-top: 100px;
 }
 
 .p-top-60{
@@ -370,7 +370,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
   z-index:2
 }
 .hero-banner-two.height-auto{
-  padding-bottom: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 60px;
 }
 .hero-banner-two.height-auto .elementor-background-default{
   padding-top: 0px;
@@ -1993,6 +1994,13 @@ margin-top:30px
 }
 .mobile-banner-hide{
   display:block
+}
+.hero-banner-two.height-auto{
+  margin-bottom:0px
+}
+.bg-w {
+  margin-top: 0;
+  padding-top: 0;
 }
 }
 @media (max-width: 768px){
