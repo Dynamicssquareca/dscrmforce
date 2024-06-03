@@ -1877,8 +1877,14 @@ color:var(--primary)
   }
   .service-box-one .service-box-contant span{
     opacity:1;
-    visibility:visible
+    visibility:visible;
+    left: 15px;
   }
+  .service-box-one:hover .service-box-contant span {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(20px);
+}
   section {
     padding-bottom: 30px;
 }
