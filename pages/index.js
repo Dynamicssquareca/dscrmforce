@@ -250,7 +250,7 @@ export default function Home() {
                             <i className="bi bi-check-lg"></i>
                             <p>Simplify sales pipeline and forecast sales</p>
                           </div>
-                          <a href="/" className='btn btn-full btn-prime'>Get Started</a>
+                          <a href="/solutions/sales-cloud/" className='btn btn-full btn-prime'>Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -282,7 +282,7 @@ export default function Home() {
                             <i className="bi bi-check-lg"></i>
                             <p>Provide positive experiences throughout the sales journey</p>
                           </div>
-                          <a href="/" className='btn btn-full btn-prime'>Get Started</a>
+                          <a href="/solutions/service-cloud/" className='btn btn-full btn-prime'>Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -314,7 +314,7 @@ export default function Home() {
                             <i className="bi bi-check-lg"></i>
                             <p>Increase marketing ROI and customer engagement</p>
                           </div>
-                          <a href="/" className='btn btn-full btn-prime'>Get Started</a>
+                          <a href="/solutions/marketing-cloud/" className='btn btn-full btn-prime'>Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -346,7 +346,7 @@ export default function Home() {
                             <i className="bi bi-check-lg"></i>
                             <p>Connect your Sales, Service, and Marketing modules</p>
                           </div>
-                          <a href="/" className='btn btn-full btn-prime'>Get Started</a>
+                          <a href="/solutions/commerce-cloud/" className='btn btn-full btn-prime'>Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -560,7 +560,7 @@ export default function Home() {
                 <h3>Power any business of any size with Salesforce</h3>
                 <p>Get a perfectly tailored solution for any industry, regardless of specific needs, to support its growth in every way and make a bigger impact.</p>
                 <h4>We specialize in major industries; some are listed here.</h4>
-                <a href="/" className='btn btn-prime'>Explore more Indsutries</a>
+                <a href="/contact-us/" className='btn btn-prime'>Explore more Indsutries</a>
               </div>
             </div>
             <div className='col-lg-6'>

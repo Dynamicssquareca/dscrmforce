@@ -1096,7 +1096,10 @@ color:var(--primary)
 }
 
 .colo-design-one{
-
+  cursor: auto;
+}
+.colo-design-one a{
+cursor:pointer
 }
 .colo-design-one .colo-design-left{
   padding-right:30px
