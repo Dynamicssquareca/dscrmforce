@@ -44,13 +44,13 @@ const Index = () => {
             {/* <ServiceBox jsonDataUrl="datanew/ne.json" /> */}
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="/services/salesforce-implementation/">
+                <a href="/solutions/small-business/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-1.png" alt="Salesforce Implementation" width={36} height={36} />
                     </figure>
                     <div className="service-box-title">
-                      <h3>Salesforce Implementation</h3>
+                      <h3>Small Business</h3>
                     </div>
                   </div>
                   <div className="service-box-contant">
@@ -62,13 +62,13 @@ const Index = () => {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="/services/customization-and-integration/">
+                <a href="/solutions/sales-cloud/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-2.png" alt="Salesforce Implementation" width={36} height={36} />
                     </figure>
                     <div className="service-box-title">
-                      <h3>Customization & Integration</h3>
+                      <h3>Sales Cloud</h3>
                     </div>
                   </div>
                   <div className="service-box-contant">
@@ -80,13 +80,13 @@ const Index = () => {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="/services/training-and-support/">
+                <a href="/solutions/service-cloud/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-3.png" alt="Salesforce Implementation" width={36} height={36} />
                     </figure>
                     <div className="service-box-title">
-                      <h3>Training & Support</h3>
+                      <h3>Service Cloud</h3>
                     </div>
                   </div>
                   <div className="service-box-contant">
@@ -98,13 +98,31 @@ const Index = () => {
             </div>
             <div className="col-lg-3 d-flex">
               <div className="service-box-one flex-fill">
-                <a href="/services/salesforce-optimization/">
+                <a href="/solutions/marketing-cloud/">
                   <div className="service-box-head">
                     <figure>
                       <img src="/img/icons/icons-4.png" alt="Salesforce Implementation" width={36} height={36} />
                     </figure>
                     <div className="service-box-title">
-                      <h3>Salesforce Optimization</h3>
+                      <h3>Marketing Cloud</h3>
+                    </div>
+                  </div>
+                  <div className="service-box-contant">
+                    <p>Optimize and enhance Salesforce performance to meet business requirements based on changing demands with the reliable Salesforce consulting partner.</p>
+                    <span>Get Started <i className="bi bi-arrow-right-circle-fill"></i></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-3 d-flex" style={{marginTop:'20px'}}>
+              <div className="service-box-one flex-fill">
+                <a href="/solutions/commerce-cloud/">
+                  <div className="service-box-head">
+                    <figure>
+                      <img src="/img/icons/icons-4.png" alt="Salesforce Implementation" width={36} height={36} />
+                    </figure>
+                    <div className="service-box-title">
+                      <h3>Commerce Cloud</h3>
                     </div>
                   </div>
                   <div className="service-box-contant">
