@@ -163,7 +163,7 @@ const TrainingAndSupport = () => {
                             <div className="heading-style-two">
                                 <h2>Why Choose CRMForce+ for Salesforce Training & Support? </h2>
                                 <p>CRMForce+ goes beyond generic training modules. We offer a personalized approach, ensuring your team receives the knowledge and skills they need to thrive on the platform. </p>
-                                <div className='p-t-15'><a className="btn btn-prime" href='#'>Schedule a Free Demo!</a></div>
+                                <div className='p-t-15'><a className="btn btn-prime" href='/contact-us/'>Schedule a Free Demo!</a></div>
                             </div>
                         </div>
                         <div className='col-lg-7'>
