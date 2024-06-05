@@ -54,7 +54,7 @@ const SmallBusiness = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>
-                        <Image src="/img/banner/small-business-banner-mobile.png" className='bg-mid' alt="small-business-banner-mobile" width={628} height={407}  priority sizes="(max-width: 768px) 100vw, 628px"  />
+                        <Image src="/img/banner/small-business-banner-mobile.png" className='bg-mid' alt="small-business-banner-mobile" width={628} height={407}  priority  />
                         </div>
                     </div>
                 </div>
