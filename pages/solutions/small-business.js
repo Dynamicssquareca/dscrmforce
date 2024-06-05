@@ -26,6 +26,7 @@ const SmallBusiness = () => {
         <>
         <Head>
             <title>Small Business | CRM Force Plus</title>
+            <link rel="preload" href="/img/banner/small-business-banner-mobile.png" as="image" />
         </Head>
             <div className='hero-banner-two hero-banner-two-pd-40'>
                 <div className="container">
