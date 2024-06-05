@@ -55,7 +55,8 @@ const SmallBusiness = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-lg-12'>
-                        <Image src="/img/banner/small-business-banner-mobile.png" className='bg-mid' alt="small-business-banner-mobile" width={628} height={407}  priority  />
+                        <Image src="/img/banner/small-business-banner-mobile.png" className='bg-mid' alt="small-business-banner-mobile" width={628} height={407}  priority fetchpriority="high"
+          decoding="async"  />
                         </div>
                     </div>
                 </div>
