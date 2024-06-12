@@ -203,6 +203,7 @@
   }
   .navbar .dropdown.dropdown-mega ul li a{
     color: inherit !important;
+    margin-right:0px
   }
   .navbar .dropdown.dropdown-mega ul li a:hover{
     background-color:#4a749a;
