@@ -11,15 +11,15 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
         <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-XYZ`}
+            src={`https://www.googletagmanager.com/gtag/js?id=G-LFT71NHJVD`}
           />
           <script
             dangerouslySetInnerHTML={{
               __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-XYZ');
+               window.dataLayer = window.dataLayer || [];   
+               function gtag(){dataLayer.push(arguments);}   
+               gtag('js', new Date());   
+               gtag('config', 'G-LFT71NHJVD');
               `,
             }}
           />
