@@ -9,6 +9,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+        <meta name="google-site-verification" content="J8xzmmeS4pzBcnDF5T9BLZwDkk42vgXo8GFXUZglJLg" />
         <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-LFT71NHJVD`}
